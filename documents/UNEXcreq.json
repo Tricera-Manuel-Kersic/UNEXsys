@@ -2,14 +2,14 @@
   "id": "UNEXcreq",
   "guid": "e477adf8-225b-41fe-8754-7645f5c7a941",
   "name": "UNEX Customer Requirements Doc",
-  "lastId": 189,
+  "lastId": 190,
   "createdOn": "2025-09-29T14:05:03.246Z",
   "createdBy": {
     "name": "Manuel Kersic",
     "email": "manuel.kersic@tricera.energy",
     "company": "TRICERA energy GmbH"
   },
-  "lastChangedOn": "2025-09-29T14:28:51.670Z",
+  "lastChangedOn": "2025-09-29T15:00:59.697Z",
   "lastChangedBy": {
     "name": "Manuel Kersic",
     "email": "manuel.kersic@tricera.energy",
@@ -24,9 +24,6 @@
     {
       "id": "3",
       "guid": "27e8131d-f156-41bc-b26c-9fd86036af54",
-      "reqType": [
-
-      ],
       "attachments": [
         "UNEXcreq-3_1_image001.png"
       ],
@@ -41,6 +38,19 @@
             "name": "Manuel Kersic"
           },
           "changedOn": "2025-09-29T14:20:41.847Z"
+        },
+        {
+          "attributesChanged": {
+            "reqType": [
+
+            ]
+          },
+          "changedBy": {
+            "company": "TRICERA energy GmbH",
+            "email": "manuel.kersic@tricera.energy",
+            "name": "Manuel Kersic"
+          },
+          "changedOn": "2025-09-29T14:35:09.643Z"
         }
       ]
     },
@@ -162,7 +172,30 @@
           "id": "22",
           "guid": "86ae03cd-1ea7-4ea5-a1a3-f298694df988",
           "text": "<p>Mine tunnels and other openings are narrow which must be considered both in designing manoeuvrability of the robot but also in hauling robot itself and support equipment inside the mine.</p>",
+          "tbd_tbr": "1",
           "type": "1",
+          "discussion": [
+            {
+              "guid": "048a222c-3157-42cd-9c21-a84f9e7f3d4d",
+              "comment": "<p>Need to find out the pH level for the Idrija mine, based on the water SO4 contents.</p>",
+              "date": "2025-09-29T14:49:01.158Z",
+              "author": {
+                "name": "Manuel Kersic",
+                "email": "manuel.kersic@tricera.energy",
+                "company": "TRICERA energy GmbH"
+              }
+            },
+            {
+              "guid": "df12a672-a75e-426b-8b5a-323f803ffd94",
+              "comment": "<p>Need to specify the acidity level that the robot must stand</p>",
+              "date": "2025-09-29T14:49:29.322Z",
+              "author": {
+                "name": "Manuel Kersic",
+                "email": "manuel.kersic@tricera.energy",
+                "company": "TRICERA energy GmbH"
+              }
+            }
+          ],
           "history": [
             {
               "attributesChanged": {
@@ -196,6 +229,37 @@
                 "name": "Manuel Kersic"
               },
               "changedOn": "2025-09-29T14:28:05.936Z"
+            },
+            {
+              "attributesChanged": {
+                "tbd_tbr": null
+              },
+              "changedBy": {
+                "company": "TRICERA energy GmbH",
+                "email": "manuel.kersic@tricera.energy",
+                "name": "Manuel Kersic"
+              },
+              "changedOn": "2025-09-29T14:48:43.348Z"
+            },
+            {
+              "changedBy": {
+                "company": "TRICERA energy GmbH",
+                "email": "manuel.kersic@tricera.energy",
+                "name": "Manuel Kersic"
+              },
+              "changedOn": "2025-09-29T14:49:01.158Z",
+              "commentGuid": "048a222c-3157-42cd-9c21-a84f9e7f3d4d",
+              "updatedComment": null
+            },
+            {
+              "changedBy": {
+                "company": "TRICERA energy GmbH",
+                "email": "manuel.kersic@tricera.energy",
+                "name": "Manuel Kersic"
+              },
+              "changedOn": "2025-09-29T14:49:29.322Z",
+              "commentGuid": "df12a672-a75e-426b-8b5a-323f803ffd94",
+              "updatedComment": null
             }
           ]
         },
@@ -245,6 +309,13 @@
           "guid": "7c0da6e5-0ae2-446b-a151-901ea02377a5",
           "text": "<p>The water quality variations are high. Water might also be acidic; hence the external equipment of the robot must be made of acid resistant materials.</p>",
           "type": "1",
+          "links": {
+            "reference": [
+              "UNEXcreq-80",
+              "UNEXcreq-123",
+              "UNEXcreq-165"
+            ]
+          },
           "history": [
             {
               "attributesChanged": {
@@ -278,6 +349,22 @@
                 "name": "Manuel Kersic"
               },
               "changedOn": "2025-09-29T14:28:05.936Z"
+            },
+            {
+              "addedLink": {
+                "target": [
+                  "UNEXcreq-80",
+                  "UNEXcreq-123",
+                  "UNEXcreq-165"
+                ],
+                "type": "reference"
+              },
+              "changedBy": {
+                "company": "TRICERA energy GmbH",
+                "email": "manuel.kersic@tricera.energy",
+                "name": "Manuel Kersic"
+              },
+              "changedOn": "2025-09-29T14:42:33.937Z"
             }
           ]
         },
@@ -327,6 +414,13 @@
           "guid": "403a50bf-4388-4e53-abba-8dda4e47d72e",
           "text": "<p>Local water flow velocity can be high.</p>",
           "type": "1",
+          "links": {
+            "reference": [
+              "UNEXcreq-86",
+              "UNEXcreq-172",
+              "UNEXcreq-190"
+            ]
+          },
           "history": [
             {
               "attributesChanged": {
@@ -360,6 +454,22 @@
                 "name": "Manuel Kersic"
               },
               "changedOn": "2025-09-29T14:28:05.936Z"
+            },
+            {
+              "addedLink": {
+                "target": [
+                  "UNEXcreq-86",
+                  "UNEXcreq-172",
+                  "UNEXcreq-190"
+                ],
+                "type": "reference"
+              },
+              "changedBy": {
+                "company": "TRICERA energy GmbH",
+                "email": "manuel.kersic@tricera.energy",
+                "name": "Manuel Kersic"
+              },
+              "changedOn": "2025-09-29T14:58:37.822Z"
             }
           ]
         },
@@ -730,6 +840,13 @@
           "guid": "f8c5b3b4-bb83-4316-a873-9e5667a7b4f4",
           "text": "<p>Maximum diameter 600 mm to be able to navigate through narrow channels.</p>",
           "type": "1",
+          "links": {
+            "reference": [
+              "UNEXcreq-79",
+              "UNEXcreq-134",
+              "UNEXcreq-164"
+            ]
+          },
           "history": [
             {
               "attributesChanged": {
@@ -741,6 +858,22 @@
                 "name": "Manuel Kersic"
               },
               "changedOn": "2025-09-29T14:28:51.670Z"
+            },
+            {
+              "addedLink": {
+                "target": [
+                  "UNEXcreq-79",
+                  "UNEXcreq-134",
+                  "UNEXcreq-164"
+                ],
+                "type": "reference"
+              },
+              "changedBy": {
+                "company": "TRICERA energy GmbH",
+                "email": "manuel.kersic@tricera.energy",
+                "name": "Manuel Kersic"
+              },
+              "changedOn": "2025-09-29T15:00:59.697Z"
             }
           ]
         },
@@ -969,6 +1102,30 @@
                 "name": "Manuel Kersic"
               },
               "changedOn": "2025-09-29T14:28:51.670Z"
+            },
+            {
+              "attributesChanged": {
+                "reqType": null
+              },
+              "changedBy": {
+                "company": "TRICERA energy GmbH",
+                "email": "manuel.kersic@tricera.energy",
+                "name": "Manuel Kersic"
+              },
+              "changedOn": "2025-09-29T14:34:02.931Z"
+            },
+            {
+              "attributesChanged": {
+                "reqType": [
+
+                ]
+              },
+              "changedBy": {
+                "company": "TRICERA energy GmbH",
+                "email": "manuel.kersic@tricera.energy",
+                "name": "Manuel Kersic"
+              },
+              "changedOn": "2025-09-29T14:35:09.643Z"
             }
           ]
         },
@@ -1257,17 +1414,59 @@
                 {
                   "id": "68",
                   "guid": "5d03228b-8a10-4681-872d-4dee5d17d8c1",
-                  "text": "<p><span>Exploited ores: Formerly chalcopyrite (Cu)&nbsp;</span></p>"
+                  "text": "<p><span>Exploited ores: Formerly chalcopyrite (Cu)&nbsp;</span></p>",
+                  "pcReq": true,
+                  "history": [
+                    {
+                      "attributesChanged": {
+                        "pcReq": null
+                      },
+                      "changedBy": {
+                        "company": "TRICERA energy GmbH",
+                        "email": "manuel.kersic@tricera.energy",
+                        "name": "Manuel Kersic"
+                      },
+                      "changedOn": "2025-09-29T14:36:53.132Z"
+                    }
+                  ]
                 },
                 {
                   "id": "69",
                   "guid": "ed124759-eb33-4f6d-b61c-8d6f8a1b6bc7",
-                  "text": "<p><span>Mineral deposit type: Formerly Cu + some Pb &amp; Zn</span></p>"
+                  "text": "<p><span>Mineral deposit type: Formerly Cu + some Pb &amp; Zn</span></p>",
+                  "pcReq": true,
+                  "history": [
+                    {
+                      "attributesChanged": {
+                        "pcReq": null
+                      },
+                      "changedBy": {
+                        "company": "TRICERA energy GmbH",
+                        "email": "manuel.kersic@tricera.energy",
+                        "name": "Manuel Kersic"
+                      },
+                      "changedOn": "2025-09-29T14:36:53.132Z"
+                    }
+                  ]
                 },
                 {
                   "id": "70",
                   "guid": "a57ddb7b-5996-4391-9a11-1e0718dc399a",
-                  "text": "<p><span>Host rocks: Limestone.&nbsp;</span></p>"
+                  "text": "<p><span>Host rocks: Limestone.&nbsp;</span></p>",
+                  "pcReq": true,
+                  "history": [
+                    {
+                      "attributesChanged": {
+                        "pcReq": null
+                      },
+                      "changedBy": {
+                        "company": "TRICERA energy GmbH",
+                        "email": "manuel.kersic@tricera.energy",
+                        "name": "Manuel Kersic"
+                      },
+                      "changedOn": "2025-09-29T14:36:53.132Z"
+                    }
+                  ]
                 },
                 {
                   "id": "71",
@@ -1307,22 +1506,78 @@
                 {
                   "id": "78",
                   "guid": "863e0678-92ef-47b2-8171-c26b719f3260",
-                  "text": "<p><span>Water depth below the surface: ~300m&nbsp;</span></p>"
+                  "text": "<p><span>Water depth below the surface: ~300m&nbsp;</span></p>",
+                  "pcReq": true,
+                  "history": [
+                    {
+                      "attributesChanged": {
+                        "pcReq": null
+                      },
+                      "changedBy": {
+                        "company": "TRICERA energy GmbH",
+                        "email": "manuel.kersic@tricera.energy",
+                        "name": "Manuel Kersic"
+                      },
+                      "changedOn": "2025-09-29T14:36:53.132Z"
+                    }
+                  ]
                 },
                 {
                   "id": "79",
                   "guid": "1a64d506-f440-481c-b4d5-0680dcde79f2",
-                  "text": "<p><span>Minimum diameter of tunnels: Entry &gt;0.6m</span></p>"
+                  "text": "<p><span>Minimum diameter of tunnels: Entry &gt;0.6m</span></p>",
+                  "pcReq": true,
+                  "history": [
+                    {
+                      "attributesChanged": {
+                        "pcReq": null
+                      },
+                      "changedBy": {
+                        "company": "TRICERA energy GmbH",
+                        "email": "manuel.kersic@tricera.energy",
+                        "name": "Manuel Kersic"
+                      },
+                      "changedOn": "2025-09-29T14:36:53.132Z"
+                    }
+                  ]
                 },
                 {
                   "id": "80",
                   "guid": "2e4aff65-ec41-4461-aa4e-88316c04dd66",
-                  "text": "<p><span>Water quality in the mine:&nbsp;</span><span style=\"color:#595959;\">Close to ph7 – clean.</span><span>&nbsp;</span></p>"
+                  "text": "<p><span>Water quality in the mine:&nbsp;</span><span style=\"color:#595959;\">Close to ph7 – clean.</span><span>&nbsp;</span></p>",
+                  "pcReq": true,
+                  "history": [
+                    {
+                      "attributesChanged": {
+                        "pcReq": null
+                      },
+                      "changedBy": {
+                        "company": "TRICERA energy GmbH",
+                        "email": "manuel.kersic@tricera.energy",
+                        "name": "Manuel Kersic"
+                      },
+                      "changedOn": "2025-09-29T14:36:53.132Z"
+                    }
+                  ]
                 },
                 {
                   "id": "81",
                   "guid": "03c85f55-8d89-42f4-83ad-42606a0872a1",
-                  "text": "<p><span>Maximum original continuous shaft length: ~300m</span></p>"
+                  "text": "<p><span>Maximum original continuous shaft length: ~300m</span></p>",
+                  "pcReq": true,
+                  "history": [
+                    {
+                      "attributesChanged": {
+                        "pcReq": null
+                      },
+                      "changedBy": {
+                        "company": "TRICERA energy GmbH",
+                        "email": "manuel.kersic@tricera.energy",
+                        "name": "Manuel Kersic"
+                      },
+                      "changedOn": "2025-09-29T14:36:53.132Z"
+                    }
+                  ]
                 },
                 {
                   "id": "82",
@@ -1332,22 +1587,78 @@
                 {
                   "id": "83",
                   "guid": "51c918b7-68a4-44b2-a4a3-e6d74183b4c4",
-                  "text": "<p><span>Maximum known continuous shaft length accessible for testing: ~300m</span></p>"
+                  "text": "<p><span>Maximum known continuous shaft length accessible for testing: ~300m</span></p>",
+                  "pcReq": true,
+                  "history": [
+                    {
+                      "attributesChanged": {
+                        "pcReq": null
+                      },
+                      "changedBy": {
+                        "company": "TRICERA energy GmbH",
+                        "email": "manuel.kersic@tricera.energy",
+                        "name": "Manuel Kersic"
+                      },
+                      "changedOn": "2025-09-29T14:36:53.132Z"
+                    }
+                  ]
                 },
                 {
                   "id": "84",
                   "guid": "b8dcdc4f-5395-4b21-a4d9-09dc900c3db5",
-                  "text": "<p><span>Water temperature range in the mine:&nbsp; 10<sup>o</sup>&nbsp; ± 5<sup>o</sup>C estimated&nbsp;</span></p>"
+                  "text": "<p><span>Water temperature range in the mine:&nbsp; 10<sup>o</sup>&nbsp; ± 5<sup>o</sup>C estimated&nbsp;</span></p>",
+                  "pcReq": true,
+                  "history": [
+                    {
+                      "attributesChanged": {
+                        "pcReq": null
+                      },
+                      "changedBy": {
+                        "company": "TRICERA energy GmbH",
+                        "email": "manuel.kersic@tricera.energy",
+                        "name": "Manuel Kersic"
+                      },
+                      "changedOn": "2025-09-29T14:36:53.132Z"
+                    }
+                  ]
                 },
                 {
                   "id": "85",
                   "guid": "92c9f5a0-d153-44fc-8b53-21fa00e68106",
-                  "text": "<p><span>Maximum original continuous gallery length:&nbsp; ~500m.</span></p>"
+                  "text": "<p><span>Maximum original continuous gallery length:&nbsp; ~500m.</span></p>",
+                  "pcReq": true,
+                  "history": [
+                    {
+                      "attributesChanged": {
+                        "pcReq": null
+                      },
+                      "changedBy": {
+                        "company": "TRICERA energy GmbH",
+                        "email": "manuel.kersic@tricera.energy",
+                        "name": "Manuel Kersic"
+                      },
+                      "changedOn": "2025-09-29T14:36:53.132Z"
+                    }
+                  ]
                 },
                 {
                   "id": "86",
                   "guid": "6e72d0cb-11dd-4c45-a6b5-cf3d2686cd6b",
-                  "text": "<p><span>Maximum known water flow velocity in galleries: Negligible&nbsp;</span></p>"
+                  "text": "<p><span>Maximum known water flow velocity in galleries: Negligible&nbsp;</span></p>",
+                  "pcReq": true,
+                  "history": [
+                    {
+                      "attributesChanged": {
+                        "pcReq": null
+                      },
+                      "changedBy": {
+                        "company": "TRICERA energy GmbH",
+                        "email": "manuel.kersic@tricera.energy",
+                        "name": "Manuel Kersic"
+                      },
+                      "changedOn": "2025-09-29T14:36:53.132Z"
+                    }
+                  ]
                 },
                 {
                   "id": "87",
@@ -1357,7 +1668,21 @@
                 {
                   "id": "88",
                   "guid": "631cccd5-e7b3-42af-8939-afff2d4a8e47",
-                  "text": "<p><span>Presence of gases inside non-flooded galleries:&nbsp;</span><span style=\"color:#595959;\">None – Some prohibited areas O<sub>2</sub> deficient.</span><span>&nbsp;</span></p>"
+                  "text": "<p><span>Presence of gases inside non-flooded galleries:&nbsp;</span><span style=\"color:#595959;\">None – Some prohibited areas O<sub>2</sub> deficient.</span><span>&nbsp;</span></p>",
+                  "pcReq": true,
+                  "history": [
+                    {
+                      "attributesChanged": {
+                        "pcReq": null
+                      },
+                      "changedBy": {
+                        "company": "TRICERA energy GmbH",
+                        "email": "manuel.kersic@tricera.energy",
+                        "name": "Manuel Kersic"
+                      },
+                      "changedOn": "2025-09-29T14:36:53.132Z"
+                    }
+                  ]
                 },
                 {
                   "id": "89",
@@ -1372,17 +1697,59 @@
                 {
                   "id": "91",
                   "guid": "32aa1fac-3d39-401a-9b99-437810449d6a",
-                  "text": "<p><span>Type of obstacles in the galleries and shafts: Uneven floors with some water up to 0.3m deep.</span></p>"
+                  "text": "<p><span>Type of obstacles in the galleries and shafts: Uneven floors with some water up to 0.3m deep.</span></p>",
+                  "pcReq": true,
+                  "history": [
+                    {
+                      "attributesChanged": {
+                        "pcReq": null
+                      },
+                      "changedBy": {
+                        "company": "TRICERA energy GmbH",
+                        "email": "manuel.kersic@tricera.energy",
+                        "name": "Manuel Kersic"
+                      },
+                      "changedOn": "2025-09-29T14:36:53.132Z"
+                    }
+                  ]
                 },
                 {
                   "id": "92",
                   "guid": "5d462a3c-cbe0-4a33-a02c-dc7f7af4aa71",
-                  "text": "<p><span>Possibility of soft obstacles in shafts and galleries which might not be detected by sensors:&nbsp;</span><span style=\"color:#595959;\">Some wooden structures &amp; wood/iron ladders&nbsp;</span><span>&nbsp;</span></p>"
+                  "text": "<p><span>Possibility of soft obstacles in shafts and galleries which might not be detected by sensors:&nbsp;</span><span style=\"color:#595959;\">Some wooden structures &amp; wood/iron ladders&nbsp;</span><span>&nbsp;</span></p>",
+                  "pcReq": true,
+                  "history": [
+                    {
+                      "attributesChanged": {
+                        "pcReq": null
+                      },
+                      "changedBy": {
+                        "company": "TRICERA energy GmbH",
+                        "email": "manuel.kersic@tricera.energy",
+                        "name": "Manuel Kersic"
+                      },
+                      "changedOn": "2025-09-29T14:36:53.132Z"
+                    }
+                  ]
                 },
                 {
                   "id": "93",
                   "guid": "fc7d93f0-0193-4101-8f4d-5d79f2de9801",
-                  "text": "<p><span>How hard it is to get from surface to water level? Walk of 300m. Entry level is main drainage level and entry with steep 1m slope.</span></p>"
+                  "text": "<p><span>How hard it is to get from surface to water level? Walk of 300m. Entry level is main drainage level and entry with steep 1m slope.</span></p>",
+                  "pcReq": true,
+                  "history": [
+                    {
+                      "attributesChanged": {
+                        "pcReq": null
+                      },
+                      "changedBy": {
+                        "company": "TRICERA energy GmbH",
+                        "email": "manuel.kersic@tricera.energy",
+                        "name": "Manuel Kersic"
+                      },
+                      "changedOn": "2025-09-29T14:36:53.132Z"
+                    }
+                  ]
                 },
                 {
                   "id": "94",
@@ -1593,17 +1960,59 @@
                 {
                   "id": "110",
                   "guid": "0c32a6c0-2c1e-417c-a14c-5baca4d33502",
-                  "text": "<p><span>Exploited ores: cinnabar ore, native mercury&nbsp;</span></p>"
+                  "text": "<p><span>Exploited ores: cinnabar ore, native mercury&nbsp;</span></p>",
+                  "pcReq": true,
+                  "history": [
+                    {
+                      "attributesChanged": {
+                        "pcReq": null
+                      },
+                      "changedBy": {
+                        "company": "TRICERA energy GmbH",
+                        "email": "manuel.kersic@tricera.energy",
+                        "name": "Manuel Kersic"
+                      },
+                      "changedOn": "2025-09-29T14:37:34.765Z"
+                    }
+                  ]
                 },
                 {
                   "id": "111",
                   "guid": "95c97865-797b-43da-a988-4baa63da8e41",
-                  "text": "<p><span>Mineral deposit type: epithermal</span></p>"
+                  "text": "<p><span>Mineral deposit type: epithermal</span></p>",
+                  "pcReq": true,
+                  "history": [
+                    {
+                      "attributesChanged": {
+                        "pcReq": null
+                      },
+                      "changedBy": {
+                        "company": "TRICERA energy GmbH",
+                        "email": "manuel.kersic@tricera.energy",
+                        "name": "Manuel Kersic"
+                      },
+                      "changedOn": "2025-09-29T14:37:34.765Z"
+                    }
+                  ]
                 },
                 {
                   "id": "112",
                   "guid": "3f66f3cb-d80e-4de6-8a62-972832753057",
-                  "text": "<p><span>Host rocks: different types of sedimentary rocks (sandstones, claystone, carbonates, tuff...)&nbsp;</span></p>"
+                  "text": "<p><span>Host rocks: different types of sedimentary rocks (sandstones, claystone, carbonates, tuff...)&nbsp;</span></p>",
+                  "pcReq": true,
+                  "history": [
+                    {
+                      "attributesChanged": {
+                        "pcReq": null
+                      },
+                      "changedBy": {
+                        "company": "TRICERA energy GmbH",
+                        "email": "manuel.kersic@tricera.energy",
+                        "name": "Manuel Kersic"
+                      },
+                      "changedOn": "2025-09-29T14:37:34.765Z"
+                    }
+                  ]
                 },
                 {
                   "id": "113",
@@ -1650,27 +2059,97 @@
                 {
                   "id": "121",
                   "guid": "8cfafd05-2ff6-42f8-8783-751ebe70b3b9",
-                  "text": "<p><span>Water depth below the surface: 206 m&nbsp;</span></p>"
+                  "text": "<p><span>Water depth below the surface: 206 m&nbsp;</span></p>",
+                  "pcReq": true,
+                  "history": [
+                    {
+                      "attributesChanged": {
+                        "pcReq": null
+                      },
+                      "changedBy": {
+                        "company": "TRICERA energy GmbH",
+                        "email": "manuel.kersic@tricera.energy",
+                        "name": "Manuel Kersic"
+                      },
+                      "changedOn": "2025-09-29T14:37:44.680Z"
+                    }
+                  ]
                 },
                 {
                   "id": "122",
                   "guid": "0424ada5-9e6b-47d3-bb1e-020bf2d416a1",
-                  "text": "<p><span>Minimum diameter of tunnels: cca 2 m, but debris or collapsed rocks can reduce it</span></p>"
+                  "text": "<p><span>Minimum diameter of tunnels: cca 2 m, but debris or collapsed rocks can reduce it</span></p>",
+                  "pcReq": true,
+                  "history": [
+                    {
+                      "attributesChanged": {
+                        "pcReq": null
+                      },
+                      "changedBy": {
+                        "company": "TRICERA energy GmbH",
+                        "email": "manuel.kersic@tricera.energy",
+                        "name": "Manuel Kersic"
+                      },
+                      "changedOn": "2025-09-29T14:37:44.680Z"
+                    }
+                  ]
                 },
                 {
                   "id": "123",
                   "guid": "fd28e6d4-39c9-49e8-b348-c1058a192a28",
-                  "text": "<p><span>Water quality in the mine: Fe (7.2 mg/l), SO4 (4300 mg/l), Hg (90 ng/l)&nbsp;</span></p>"
+                  "text": "<p><span>Water quality in the mine: Fe (7.2 mg/l), SO4 (4300 mg/l), Hg (90 ng/l)&nbsp;</span></p>",
+                  "pcReq": true,
+                  "history": [
+                    {
+                      "attributesChanged": {
+                        "pcReq": null
+                      },
+                      "changedBy": {
+                        "company": "TRICERA energy GmbH",
+                        "email": "manuel.kersic@tricera.energy",
+                        "name": "Manuel Kersic"
+                      },
+                      "changedOn": "2025-09-29T14:37:44.680Z"
+                    }
+                  ]
                 },
                 {
                   "id": "124",
                   "guid": "645cb21f-c0e9-45d7-922c-3d81c444e534",
-                  "text": "<p><span>Maximum original continuous shaft length: 271 m</span></p>"
+                  "text": "<p><span>Maximum original continuous shaft length: 271 m</span></p>",
+                  "pcReq": true,
+                  "history": [
+                    {
+                      "attributesChanged": {
+                        "pcReq": null
+                      },
+                      "changedBy": {
+                        "company": "TRICERA energy GmbH",
+                        "email": "manuel.kersic@tricera.energy",
+                        "name": "Manuel Kersic"
+                      },
+                      "changedOn": "2025-09-29T14:37:44.680Z"
+                    }
+                  ]
                 },
                 {
                   "id": "125",
                   "guid": "3d20ecaa-8ea2-46d9-a338-ac6238428ca7",
-                  "text": "<p><span>Known water temperature in the mine: 17 deg. C&nbsp;</span></p>"
+                  "text": "<p><span>Known water temperature in the mine: 17 deg. C&nbsp;</span></p>",
+                  "pcReq": true,
+                  "history": [
+                    {
+                      "attributesChanged": {
+                        "pcReq": null
+                      },
+                      "changedBy": {
+                        "company": "TRICERA energy GmbH",
+                        "email": "manuel.kersic@tricera.energy",
+                        "name": "Manuel Kersic"
+                      },
+                      "changedOn": "2025-09-29T14:37:44.680Z"
+                    }
+                  ]
                 },
                 {
                   "id": "126",
@@ -1680,22 +2159,118 @@
                 {
                   "id": "127",
                   "guid": "b96a13ea-a535-478f-9ae6-a708af319050",
-                  "text": "<p><span>Water temperature range in the mine: no fluctuations&nbsp;</span></p>"
+                  "text": "<p><span>Water temperature range in the mine: no fluctuations&nbsp;</span></p>",
+                  "pcReq": true,
+                  "history": [
+                    {
+                      "attributesChanged": {
+                        "pcReq": null
+                      },
+                      "changedBy": {
+                        "company": "TRICERA energy GmbH",
+                        "email": "manuel.kersic@tricera.energy",
+                        "name": "Manuel Kersic"
+                      },
+                      "changedOn": "2025-09-29T14:37:55.277Z"
+                    }
+                  ]
                 },
                 {
                   "id": "128",
                   "guid": "96094793-d6d6-41a8-9de3-d5d4f5d8f206",
-                  "text": "<p><span>Maximum original continuous gallery length: not relevant for testing (collapsed)&nbsp;</span>, <span>Maximum known water flow velocity in galleries: Unknown (probably negligent).&nbsp;</span></p>"
+                  "text": "<p><span>Maximum original continuous gallery length: not relevant for testing (collapsed)&nbsp;</span>,</p>",
+                  "pcReq": true,
+                  "history": [
+                    {
+                      "attributesChanged": {
+                        "pcReq": null
+                      },
+                      "changedBy": {
+                        "company": "TRICERA energy GmbH",
+                        "email": "manuel.kersic@tricera.energy",
+                        "name": "Manuel Kersic"
+                      },
+                      "changedOn": "2025-09-29T14:37:55.277Z"
+                    },
+                    {
+                      "attributesChanged": {
+                        "text": "<p><span>Maximum original continuous gallery length: not relevant for testing (collapsed)&nbsp;</span>, <span>Maximum known water flow velocity in galleries: Unknown (probably negligent).&nbsp;</span></p>"
+                      },
+                      "changedBy": {
+                        "company": "TRICERA energy GmbH",
+                        "email": "manuel.kersic@tricera.energy",
+                        "name": "Manuel Kersic"
+                      },
+                      "changedOn": "2025-09-29T14:54:24.361Z"
+                    }
+                  ]
+                },
+                {
+                  "id": "190",
+                  "guid": "48ba2064-65fe-4754-8b79-62f64999ff06",
+                  "text": "<p>Maximum known water flow velocity in galleries: Unknown (probably negligent).&nbsp;</p>",
+                  "history": [
+                    {
+                      "affectedNodeId": "108",
+                      "changedBy": {
+                        "company": "TRICERA energy GmbH",
+                        "email": "manuel.kersic@tricera.energy",
+                        "name": "Manuel Kersic"
+                      },
+                      "changedOn": "2025-09-29T14:54:13.515Z",
+                      "docId": "UNEXcreq",
+                      "structureAction": "Create"
+                    },
+                    {
+                      "attributesChanged": {
+                        "text": null
+                      },
+                      "changedBy": {
+                        "company": "TRICERA energy GmbH",
+                        "email": "manuel.kersic@tricera.energy",
+                        "name": "Manuel Kersic"
+                      },
+                      "changedOn": "2025-09-29T14:54:44.945Z"
+                    }
+                  ]
                 },
                 {
                   "id": "129",
                   "guid": "cdb5cb34-c17c-4052-815f-ea86d2208ebd",
-                  "text": "<p><span>Maximum known and continuous gallery length accessible for testing: not relevant for testing (collapsed)</span></p>"
+                  "text": "<p><span>Maximum known and continuous gallery length accessible for testing: not relevant for testing (collapsed)</span></p>",
+                  "pcReq": true,
+                  "history": [
+                    {
+                      "attributesChanged": {
+                        "pcReq": null
+                      },
+                      "changedBy": {
+                        "company": "TRICERA energy GmbH",
+                        "email": "manuel.kersic@tricera.energy",
+                        "name": "Manuel Kersic"
+                      },
+                      "changedOn": "2025-09-29T14:37:55.277Z"
+                    }
+                  ]
                 },
                 {
                   "id": "130",
                   "guid": "57892797-5671-4281-8c60-3a381f44c09d",
-                  "text": "<p><span>Presence of gases inside non-flooded galleries: Radon, CO2, mercury vapors.&nbsp;</span></p>"
+                  "text": "<p><span>Presence of gases inside non-flooded galleries: Radon, CO2, mercury vapors.&nbsp;</span></p>",
+                  "pcReq": true,
+                  "history": [
+                    {
+                      "attributesChanged": {
+                        "pcReq": null
+                      },
+                      "changedBy": {
+                        "company": "TRICERA energy GmbH",
+                        "email": "manuel.kersic@tricera.energy",
+                        "name": "Manuel Kersic"
+                      },
+                      "changedOn": "2025-09-29T14:37:55.277Z"
+                    }
+                  ]
                 },
                 {
                   "id": "131",
@@ -1710,22 +2285,78 @@
                 {
                   "id": "133",
                   "guid": "a411c5d4-2207-496a-9a12-68f38d89595e",
-                  "text": "<p><span>Type of obstacles in the galleries and shafts: Eventual wood&nbsp; and iron structures and mine galleries collapses.&nbsp;</span></p>"
+                  "text": "<p><span>Type of obstacles in the galleries and shafts: Eventual wood&nbsp; and iron structures and mine galleries collapses.&nbsp;</span></p>",
+                  "pcReq": true,
+                  "history": [
+                    {
+                      "attributesChanged": {
+                        "pcReq": null
+                      },
+                      "changedBy": {
+                        "company": "TRICERA energy GmbH",
+                        "email": "manuel.kersic@tricera.energy",
+                        "name": "Manuel Kersic"
+                      },
+                      "changedOn": "2025-09-29T14:38:01.738Z"
+                    }
+                  ]
                 },
                 {
                   "id": "134",
                   "guid": "e2911e5c-8ed1-43c5-8104-62d92c4b9a8a",
-                  "text": "<p><span>Narrow access passage (0.5 m), platforms (steel bars)</span></p>"
+                  "text": "<p><span>Narrow access passage (0.5 m), platforms (steel bars)</span></p>",
+                  "pcReq": true,
+                  "history": [
+                    {
+                      "attributesChanged": {
+                        "pcReq": null
+                      },
+                      "changedBy": {
+                        "company": "TRICERA energy GmbH",
+                        "email": "manuel.kersic@tricera.energy",
+                        "name": "Manuel Kersic"
+                      },
+                      "changedOn": "2025-09-29T14:38:01.738Z"
+                    }
+                  ]
                 },
                 {
                   "id": "135",
                   "guid": "862b8790-4635-40b9-b21a-f3504deeb7ce",
-                  "text": "<p><span>Possibility of soft obstacles in shafts and galleries which might not be detected by sensors: Eventual wood residues steel bars (platforms) in the shaft&nbsp;</span></p>"
+                  "text": "<p><span>Possibility of soft obstacles in shafts and galleries which might not be detected by sensors: Eventual wood residues steel bars (platforms) in the shaft&nbsp;</span></p>",
+                  "pcReq": true,
+                  "history": [
+                    {
+                      "attributesChanged": {
+                        "pcReq": null
+                      },
+                      "changedBy": {
+                        "company": "TRICERA energy GmbH",
+                        "email": "manuel.kersic@tricera.energy",
+                        "name": "Manuel Kersic"
+                      },
+                      "changedOn": "2025-09-29T14:38:01.738Z"
+                    }
+                  ]
                 },
                 {
                   "id": "136",
                   "guid": "c78819fa-66b0-4307-8cd9-647b73909446",
-                  "text": "<p><span>Can the water level be reached from surface without special techniques?&nbsp;</span> <span>No. Elevator will be used to reach level III, after that descent by foot on stairs for the next 85 m.</span></p>"
+                  "text": "<p><span>Can the water level be reached from surface without special techniques?&nbsp;</span> <span>No. Elevator will be used to reach level III, after that descent by foot on stairs for the next 85 m.</span></p>",
+                  "pcReq": true,
+                  "history": [
+                    {
+                      "attributesChanged": {
+                        "pcReq": null
+                      },
+                      "changedBy": {
+                        "company": "TRICERA energy GmbH",
+                        "email": "manuel.kersic@tricera.energy",
+                        "name": "Manuel Kersic"
+                      },
+                      "changedOn": "2025-09-29T14:38:01.738Z"
+                    }
+                  ]
                 },
                 {
                   "id": "137",
@@ -1942,12 +2573,40 @@
                 {
                   "id": "153",
                   "guid": "1a7eca3f-f43f-4c59-80f5-cea608dfcd7b",
-                  "text": "<p><span>Type of mining exploitation: underground&nbsp;</span>&amp;<span>Exploited ores: radium, uranium&nbsp;</span></p>"
+                  "text": "<p><span>Type of mining exploitation: underground&nbsp;</span>&amp;<span>Exploited ores: radium, uranium&nbsp;</span></p>",
+                  "pcReq": true,
+                  "history": [
+                    {
+                      "attributesChanged": {
+                        "pcReq": null
+                      },
+                      "changedBy": {
+                        "company": "TRICERA energy GmbH",
+                        "email": "manuel.kersic@tricera.energy",
+                        "name": "Manuel Kersic"
+                      },
+                      "changedOn": "2025-09-29T14:38:24.797Z"
+                    }
+                  ]
                 },
                 {
                   "id": "154",
                   "guid": "8ed7321a-7984-435d-b0b3-ebffc3fd5643",
-                  "text": "<p><span>Mineral deposit type: Quartz veins in shear zone&nbsp;</span>&amp;<span>Host rocks: Coarse grained granite.&nbsp;</span></p>"
+                  "text": "<p><span>Mineral deposit type: Quartz veins in shear zone&nbsp;</span>&amp;<span>Host rocks: Coarse grained granite.&nbsp;</span></p>",
+                  "pcReq": true,
+                  "history": [
+                    {
+                      "attributesChanged": {
+                        "pcReq": null
+                      },
+                      "changedBy": {
+                        "company": "TRICERA energy GmbH",
+                        "email": "manuel.kersic@tricera.energy",
+                        "name": "Manuel Kersic"
+                      },
+                      "changedOn": "2025-09-29T14:38:24.797Z"
+                    }
+                  ]
                 },
                 {
                   "id": "155",
@@ -1979,7 +2638,21 @@
                 {
                   "id": "160",
                   "guid": "360be653-fedf-441a-9a87-0be4afae56a6",
-                  "text": "<p><span>Maximum depth of the mine:580 m</span></p>"
+                  "text": "<p><span>Maximum depth of the mine:580 m</span></p>",
+                  "pcReq": true,
+                  "history": [
+                    {
+                      "attributesChanged": {
+                        "pcReq": null
+                      },
+                      "changedBy": {
+                        "company": "TRICERA energy GmbH",
+                        "email": "manuel.kersic@tricera.energy",
+                        "name": "Manuel Kersic"
+                      },
+                      "changedOn": "2025-09-29T14:38:31.306Z"
+                    }
+                  ]
                 },
                 {
                   "id": "161",
@@ -2004,17 +2677,59 @@
                 {
                   "id": "165",
                   "guid": "4147419c-e138-41c4-a1ca-57495b55b120",
-                  "text": "<p><span>Water quality in the mine:&nbsp; Average of last 3 years: pH 6,43; conductivity 705 µs/cm; 37 mg/l SO<sub>4</sub>; 1,6 mg/l Fe; 4,0 mg/l Mn; 16 mg/l Tss; 0,046 bq/l Ra226; 15,77 ppb U;&nbsp;</span></p>"
+                  "text": "<p><span>Water quality in the mine:&nbsp; Average of last 3 years: pH 6,43; conductivity 705 µs/cm; 37 mg/l SO<sub>4</sub>; 1,6 mg/l Fe; 4,0 mg/l Mn; 16 mg/l Tss; 0,046 bq/l Ra226; 15,77 ppb U;&nbsp;</span></p>",
+                  "pcReq": true,
+                  "history": [
+                    {
+                      "attributesChanged": {
+                        "pcReq": null
+                      },
+                      "changedBy": {
+                        "company": "TRICERA energy GmbH",
+                        "email": "manuel.kersic@tricera.energy",
+                        "name": "Manuel Kersic"
+                      },
+                      "changedOn": "2025-09-29T14:38:39.180Z"
+                    }
+                  ]
                 },
                 {
                   "id": "166",
                   "guid": "3c192df7-4ef2-44f0-a7ad-8db4f202453d",
-                  "text": "<p><span>Maximum original continuous shaft length: 400 m</span></p>"
+                  "text": "<p><span>Maximum original continuous shaft length: 400 m</span></p>",
+                  "pcReq": true,
+                  "history": [
+                    {
+                      "attributesChanged": {
+                        "pcReq": null
+                      },
+                      "changedBy": {
+                        "company": "TRICERA energy GmbH",
+                        "email": "manuel.kersic@tricera.energy",
+                        "name": "Manuel Kersic"
+                      },
+                      "changedOn": "2025-09-29T14:38:39.180Z"
+                    }
+                  ]
                 },
                 {
                   "id": "167",
                   "guid": "d2ee79e0-eaa4-44a8-8f40-e240c3e4408a",
-                  "text": "<p><span>Known water temperature in the mine:&nbsp;&nbsp;</span></p>"
+                  "text": "<p><span>Known water temperature in the mine:&nbsp;&nbsp;</span></p>",
+                  "pcReq": true,
+                  "history": [
+                    {
+                      "attributesChanged": {
+                        "pcReq": null
+                      },
+                      "changedBy": {
+                        "company": "TRICERA energy GmbH",
+                        "email": "manuel.kersic@tricera.energy",
+                        "name": "Manuel Kersic"
+                      },
+                      "changedOn": "2025-09-29T14:38:39.180Z"
+                    }
+                  ]
                 },
                 {
                   "id": "168",
@@ -2034,22 +2749,78 @@
                 {
                   "id": "171",
                   "guid": "974cf0f4-d0e8-4f24-b3ae-368974826d97",
-                  "text": "<p><span>Maximum original continuous gallery length: 1600 m</span></p>"
+                  "text": "<p><span>Maximum original continuous gallery length: 1600 m</span></p>",
+                  "pcReq": true,
+                  "history": [
+                    {
+                      "attributesChanged": {
+                        "pcReq": null
+                      },
+                      "changedBy": {
+                        "company": "TRICERA energy GmbH",
+                        "email": "manuel.kersic@tricera.energy",
+                        "name": "Manuel Kersic"
+                      },
+                      "changedOn": "2025-09-29T14:38:46.691Z"
+                    }
+                  ]
                 },
                 {
                   "id": "172",
                   "guid": "79d0f722-cae1-4c50-a4e6-3d205905d2dd",
-                  "text": "<p><span>Maximum known water flow velocity in galleries: Unknown (probably negligent).&nbsp;</span></p>"
+                  "text": "<p><span>Maximum known water flow velocity in galleries: Unknown (probably negligent).&nbsp;</span></p>",
+                  "pcReq": true,
+                  "history": [
+                    {
+                      "attributesChanged": {
+                        "pcReq": null
+                      },
+                      "changedBy": {
+                        "company": "TRICERA energy GmbH",
+                        "email": "manuel.kersic@tricera.energy",
+                        "name": "Manuel Kersic"
+                      },
+                      "changedOn": "2025-09-29T14:38:46.691Z"
+                    }
+                  ]
                 },
                 {
                   "id": "173",
                   "guid": "72c629c4-6a6f-4dac-86c5-d1cb9e6325a8",
-                  "text": "<p><span>Maximum known and continuous gallery length accessible for testing: unknown</span></p>"
+                  "text": "<p><span>Maximum known and continuous gallery length accessible for testing: unknown</span></p>",
+                  "pcReq": true,
+                  "history": [
+                    {
+                      "attributesChanged": {
+                        "pcReq": null
+                      },
+                      "changedBy": {
+                        "company": "TRICERA energy GmbH",
+                        "email": "manuel.kersic@tricera.energy",
+                        "name": "Manuel Kersic"
+                      },
+                      "changedOn": "2025-09-29T14:38:46.691Z"
+                    }
+                  ]
                 },
                 {
                   "id": "174",
                   "guid": "635ba0d1-0e7a-477e-a19a-b49f58ed4f4d",
-                  "text": "<p><span>Presence of gases inside non-flooded galleries: Radon and eventually sulfidic.&nbsp;</span></p>"
+                  "text": "<p><span>Presence of gases inside non-flooded galleries: Radon and eventually sulfidic.&nbsp;</span></p>",
+                  "pcReq": true,
+                  "history": [
+                    {
+                      "attributesChanged": {
+                        "pcReq": null
+                      },
+                      "changedBy": {
+                        "company": "TRICERA energy GmbH",
+                        "email": "manuel.kersic@tricera.energy",
+                        "name": "Manuel Kersic"
+                      },
+                      "changedOn": "2025-09-29T14:38:46.691Z"
+                    }
+                  ]
                 },
                 {
                   "id": "175",
@@ -2064,17 +2835,59 @@
                 {
                   "id": "177",
                   "guid": "6386c17a-99e7-41f1-a5ff-db79b4b26fd2",
-                  "text": "<p><span>Type of obstacles in the galleries and shafts: Eventual wood structures and mine galleries collapses</span></p>"
+                  "text": "<p><span>Type of obstacles in the galleries and shafts: Eventual wood structures and mine galleries collapses</span></p>",
+                  "pcReq": true,
+                  "history": [
+                    {
+                      "attributesChanged": {
+                        "pcReq": null
+                      },
+                      "changedBy": {
+                        "company": "TRICERA energy GmbH",
+                        "email": "manuel.kersic@tricera.energy",
+                        "name": "Manuel Kersic"
+                      },
+                      "changedOn": "2025-09-29T14:38:51.069Z"
+                    }
+                  ]
                 },
                 {
                   "id": "178",
                   "guid": "63f49e99-1bbc-4e46-8a66-24c61d132af1",
-                  "text": "<p><span>Possibility of soft obstacles in shafts and galleries which might not be detected by sensors: Eventual wood residues.&nbsp;</span></p>"
+                  "text": "<p><span>Possibility of soft obstacles in shafts and galleries which might not be detected by sensors: Eventual wood residues.&nbsp;</span></p>",
+                  "pcReq": true,
+                  "history": [
+                    {
+                      "attributesChanged": {
+                        "pcReq": null
+                      },
+                      "changedBy": {
+                        "company": "TRICERA energy GmbH",
+                        "email": "manuel.kersic@tricera.energy",
+                        "name": "Manuel Kersic"
+                      },
+                      "changedOn": "2025-09-29T14:38:51.069Z"
+                    }
+                  ]
                 },
                 {
                   "id": "179",
                   "guid": "5ea77c98-a96e-463d-9bb4-8ecb9b62c1bb",
-                  "text": "<p><span>Can the water level be reached from surface without special techniques? Easy from the main (vertical) shaft using an electrical hoist</span></p>"
+                  "text": "<p><span>Can the water level be reached from surface without special techniques? Easy from the main (vertical) shaft using an electrical hoist</span></p>",
+                  "pcReq": true,
+                  "history": [
+                    {
+                      "attributesChanged": {
+                        "pcReq": null
+                      },
+                      "changedBy": {
+                        "company": "TRICERA energy GmbH",
+                        "email": "manuel.kersic@tricera.energy",
+                        "name": "Manuel Kersic"
+                      },
+                      "changedOn": "2025-09-29T14:38:51.069Z"
+                    }
+                  ]
                 },
                 {
                   "id": "180",
@@ -2160,6 +2973,10 @@
       "help": true,
       "name": "Instructions",
       "type": "xhtml"
+    },
+    "pcReq": {
+      "name": "Preliminary Requirement",
+      "type": "bool"
     },
     "priority": {
       "name": "Priority",
