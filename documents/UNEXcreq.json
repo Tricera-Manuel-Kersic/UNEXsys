@@ -1,0 +1,297 @@
+{
+  "id": "UNEXcreq",
+  "guid": "e477adf8-225b-41fe-8754-7645f5c7a941",
+  "name": "UNEX Customer Requirements Doc",
+  "lastId": 1,
+  "createdOn": "2025-09-29T14:05:03.246Z",
+  "createdBy": {
+    "name": "Manuel Kersic",
+    "email": "manuel.kersic@tricera.energy",
+    "company": "TRICERA energy GmbH"
+  },
+  "lastChangedOn": "2025-09-29T14:05:03.246Z",
+  "lastChangedBy": {
+    "name": "Manuel Kersic",
+    "email": "manuel.kersic@tricera.energy",
+    "company": "TRICERA energy GmbH"
+  },
+  "data": [
+    {
+      "id": "1",
+      "guid": "4a44c921-5c3a-4f4e-9f83-92bfa81d8525"
+    }
+  ],
+  "attributes": {
+    "assignedTo": {
+      "name": "Assigned To",
+      "type": "string"
+    },
+    "compliance": {
+      "name": "Compliance",
+      "type": "enum",
+      "values": [
+        {
+          "default": false,
+          "key": "1",
+          "label": "Comply"
+        },
+        {
+          "default": false,
+          "key": "2",
+          "label": "Partial Comply"
+        },
+        {
+          "default": false,
+          "key": "3",
+          "label": "Non-Compliant"
+        }
+      ]
+    },
+    "deadline": {
+      "name": "Deadline",
+      "type": "date"
+    },
+    "difficulty": {
+      "name": "Difficulty",
+      "type": "enum",
+      "values": [
+        {
+          "default": false,
+          "key": "1",
+          "label": "Easy"
+        },
+        {
+          "default": false,
+          "key": "2",
+          "label": "Nominal"
+        },
+        {
+          "default": false,
+          "key": "3",
+          "label": "Difficult"
+        }
+      ]
+    },
+    "instructions": {
+      "help": true,
+      "name": "Instructions",
+      "type": "xhtml"
+    },
+    "priority": {
+      "name": "Priority",
+      "type": "enum",
+      "values": [
+        {
+          "default": false,
+          "key": "1",
+          "label": "Low"
+        },
+        {
+          "default": false,
+          "key": "2",
+          "label": "Medium"
+        },
+        {
+          "default": false,
+          "key": "3",
+          "label": "High"
+        }
+      ]
+    },
+    "rationale": {
+      "name": "Rationale",
+      "type": "xhtml"
+    },
+    "reqType": {
+      "multiValued": true,
+      "name": "Requirement Type",
+      "type": "enum",
+      "values": [
+        {
+          "default": false,
+          "key": "1",
+          "label": "Functional Requirement"
+        },
+        {
+          "default": false,
+          "key": "2",
+          "label": "Non Functional Requirement"
+        },
+        {
+          "default": false,
+          "key": "3",
+          "label": "Interface Requirement"
+        },
+        {
+          "default": false,
+          "key": "4",
+          "label": "Safety Requirement"
+        },
+        {
+          "default": false,
+          "key": "5",
+          "label": "Security Requirement"
+        },
+        {
+          "default": false,
+          "key": "6",
+          "label": "Quality Requirement"
+        },
+        {
+          "default": false,
+          "key": "7",
+          "label": "Regulatory Requirement"
+        }
+      ]
+    },
+    "status": {
+      "name": "Status",
+      "type": "enum",
+      "values": [
+        {
+          "default": false,
+          "key": "1",
+          "label": "Draft"
+        },
+        {
+          "default": false,
+          "key": "2",
+          "label": "Ready"
+        },
+        {
+          "default": false,
+          "key": "3",
+          "label": "Reviewed"
+        },
+        {
+          "default": false,
+          "key": "4",
+          "label": "Approved"
+        },
+        {
+          "default": false,
+          "key": "5",
+          "label": "Released"
+        }
+      ]
+    },
+    "tbd_tbr": {
+      "name": "TBD/TBR",
+      "type": "enum",
+      "values": [
+        {
+          "default": false,
+          "key": "1",
+          "label": "TBD"
+        },
+        {
+          "default": false,
+          "key": "2",
+          "label": "TBR"
+        }
+      ]
+    },
+    "type": {
+      "name": "Type",
+      "type": "enum",
+      "values": [
+        {
+          "default": false,
+          "key": "1",
+          "label": "Requirement"
+        },
+        {
+          "default": false,
+          "key": "2",
+          "label": "Figure Caption"
+        },
+        {
+          "default": false,
+          "key": "3",
+          "label": "Section"
+        },
+        {
+          "default": false,
+          "key": "4",
+          "label": "Information"
+        }
+      ]
+    },
+    "verMethod": {
+      "multiValued": true,
+      "name": "Verification Method",
+      "type": "enum",
+      "values": [
+        {
+          "default": false,
+          "key": "1",
+          "label": "Analysis"
+        },
+        {
+          "default": false,
+          "key": "2",
+          "label": "Inspection"
+        },
+        {
+          "default": false,
+          "key": "3",
+          "label": "Demonstration"
+        },
+        {
+          "default": false,
+          "key": "4",
+          "label": "Test"
+        },
+        {
+          "default": false,
+          "key": "5",
+          "label": "Special Qualification Method"
+        }
+      ]
+    }
+  },
+  "templateColumns": {
+  },
+  "views": {
+    "Primary": {
+      "columns": [
+        {
+          "columnId": "id",
+          "width": 65
+        },
+        {
+          "columnId": "description",
+          "width": 500
+        }
+      ],
+      "default": true
+    },
+    "Requirements Prioritization": {
+      "columns": [
+        {
+          "columnId": "id",
+          "width": 65
+        },
+        {
+          "columnId": "description",
+          "width": 500
+        }
+      ]
+    },
+    "Work Remaining": {
+      "columns": [
+        {
+          "columnId": "id",
+          "width": 65
+        },
+        {
+          "columnId": "description",
+          "width": 500
+        }
+      ]
+    }
+  },
+  "metadata": {
+    "format": "2.20"
+  }
+}

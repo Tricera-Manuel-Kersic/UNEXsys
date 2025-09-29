@@ -2,7 +2,8 @@
   "id": "UNEXsys",
   "description": "UNEX system project",
   "documents": [
-    "INF.json"
+    "INF.json",
+    "UNEXcreq.json"
   ],
   "traceability": {
     "derivation": {
