@@ -1,0 +1,48 @@
+{
+  "id": "UNEXsys",
+  "description": "UNEX system project",
+  "documents": [
+    "INF.json"
+  ],
+  "traceability": {
+    "derivation": {
+      "name": "Derivation",
+      "source": "Is derived from",
+      "target": "Derives"
+    },
+    "implementation": {
+      "name": "Implementation",
+      "source": "Implements",
+      "target": "Is implemented by"
+    },
+    "mitigation": {
+      "name": "Mitigation",
+      "source": "Mitigates",
+      "target": "Is mitigated by"
+    },
+    "reference": {
+      "name": "Reference",
+      "source": "References",
+      "target": "Is referenced by"
+    },
+    "satisfaction": {
+      "name": "Satisfaction",
+      "source": "Satisfies",
+      "target": "Is satisfied by"
+    },
+    "usage": {
+      "name": "Usage",
+      "source": "Uses",
+      "target": "Is used by"
+    },
+    "verification": {
+      "name": "Verification",
+      "source": "Verifies",
+      "target": "Is verified by"
+    }
+  },
+  "metadata": {
+    "format": "2.20",
+    "saveHistory": true
+  }
+}
