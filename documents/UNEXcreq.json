@@ -2,14 +2,14 @@
   "id": "UNEXcreq",
   "guid": "e477adf8-225b-41fe-8754-7645f5c7a941",
   "name": "UNEX Customer Requirements Doc",
-  "lastId": 1,
+  "lastId": 189,
   "createdOn": "2025-09-29T14:05:03.246Z",
   "createdBy": {
     "name": "Manuel Kersic",
     "email": "manuel.kersic@tricera.energy",
     "company": "TRICERA energy GmbH"
   },
-  "lastChangedOn": "2025-09-29T14:05:03.246Z",
+  "lastChangedOn": "2025-09-29T14:15:05.085Z",
   "lastChangedBy": {
     "name": "Manuel Kersic",
     "email": "manuel.kersic@tricera.energy",
@@ -17,8 +17,1334 @@
   },
   "data": [
     {
-      "id": "1",
-      "guid": "4a44c921-5c3a-4f4e-9f83-92bfa81d8525"
+      "id": "2",
+      "guid": "a1a4de6e-a689-48b3-8ccf-54d7581bb1d9",
+      "text": "<p><span>&nbsp;Ref. Ares(2016)2518193 - 31/05/2016</span></p>"
+    },
+    {
+      "id": "3",
+      "guid": "27e8131d-f156-41bc-b26c-9fd86036af54",
+      "attachments": [
+        "UNEXcreq-3_1_image001.png"
+      ]
+    },
+    {
+      "id": "4",
+      "guid": "5d61aa22-152e-497d-915b-beb6beee2294",
+      "text": "<p><strong>Summary:</strong></p><p>Constraints and requirements for UX1 design are set by needs of two stakeholder groups: Internal stakeholders and external stakeholders. This requirement specification document is based on requirements and constraints derived from needs of these two stakeholder groups. Specification identifies and states key requirements set by needs of potential stakeholders and operation environments and mission types in their interest. This report does not aim to providing design specifications or exact technical requirements, but a basis for generating them.</p>",
+      "history": [
+        {
+          "attributesChanged": {
+            "text": "<p>Summary:</p>"
+          },
+          "changedBy": {
+            "company": "TRICERA energy GmbH",
+            "email": "manuel.kersic@tricera.energy",
+            "name": "Manuel Kersic"
+          },
+          "changedOn": "2025-09-29T14:08:07.048Z"
+        },
+        {
+          "attributesChanged": {
+            "text": "<p><strong>Summary:</strong></p>"
+          },
+          "changedBy": {
+            "company": "TRICERA energy GmbH",
+            "email": "manuel.kersic@tricera.energy",
+            "name": "Manuel Kersic"
+          },
+          "changedOn": "2025-09-29T14:09:17.714Z"
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "guid": "dd38b751-40e4-4e1d-b3bf-3a966ae6ddbe",
+      "text": "<p><strong>Authors:</strong></p><p>Jussi Aaltonen</p><p>Soheil Zavari</p><p>Arttu Heininen</p><p>Jouko Laitinen</p><p>Tuomas Salomaa</p>",
+      "history": [
+        {
+          "attributesChanged": {
+            "text": "<p>Authors:</p>"
+          },
+          "changedBy": {
+            "company": "TRICERA energy GmbH",
+            "email": "manuel.kersic@tricera.energy",
+            "name": "Manuel Kersic"
+          },
+          "changedOn": "2025-09-29T14:08:11.319Z"
+        },
+        {
+          "attributesChanged": {
+            "text": "<p><strong>Authors:</strong></p>"
+          },
+          "changedBy": {
+            "company": "TRICERA energy GmbH",
+            "email": "manuel.kersic@tricera.energy",
+            "name": "Manuel Kersic"
+          },
+          "changedOn": "2025-09-29T14:08:41.385Z"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "guid": "a270d8aa-3f18-412b-ab96-75f41df267d0",
+      "text": "<p><span>This project has received funding from the European Union’s Horizon 2020research and innovation programme under grant agreement No 690008.</span><span>&nbsp;</span></p>"
+    },
+    {
+      "id": "13",
+      "guid": "3f170484-d8ec-4438-b955-5161e192af29",
+      "text": "<p>Disclaimer: This report reflects only the author’s view. The European Commission is not responsible for any use that may be made of the information it contains.</p>"
+    },
+    {
+      "id": "14",
+      "guid": "fb2daeb6-ec50-45e9-b377-8386668a325c",
+      "text": "<p><span>Acronyms and Abbreviations:&nbsp;&nbsp;</span></p><table style=\"width:259.2pt;\"><tbody><tr><td style=\"width:106.3pt;\"><p><span>SONAR&nbsp;</span></p></td><td style=\"width:152.9pt;\"><p style=\"text-align:justify;\"><span>Sound navigation and ranging&nbsp;</span></p></td></tr><tr><td style=\"width:106.3pt;\"><p><span>LIDAR&nbsp;</span></p></td><td style=\"width:152.9pt;\"><p><span>light detection and ranging&nbsp;</span></p></td></tr><tr><td style=\"width:106.3pt;\"><p><span>INS&nbsp;</span></p></td><td style=\"width:152.9pt;\"><p><span>Inertia navigation system&nbsp;</span></p></td></tr><tr><td style=\"width:106.3pt;\"><p><span>DVL&nbsp;</span></p></td><td style=\"width:152.9pt;\"><p><span>Doppler velocity log&nbsp;</span></p></td></tr></tbody></table>"
+    },
+    {
+      "id": "15",
+      "guid": "fdd8bfa5-749a-4bc3-af80-9d3e3657e666",
+      "heading": "Introduction",
+      "children": [
+        {
+          "id": "16",
+          "guid": "9edbef97-421e-4fd0-bd13-2ab810dea060",
+          "text": "<p>Constraints and requirements for UX1 design are set by needs of two stakeholder groups: Internal stakeholders, i.e. UNEXMIN project partners providing a test site, and external stakeholders, i.e. potential end-users, operators and their potential clientele. The first group has provided their insight in preliminary specifications presented in research plan and meeds of the latter group has been studied by questionnaire distributed among potential external stakeholders. This requirement specification document is based on requirements and constraints derived from needs of these two stakeholder groups.</p>"
+        },
+        {
+          "id": "17",
+          "guid": "fe8402a7-e3ae-4cb5-9e5e-fd3ddd50b8e6",
+          "heading": "Description of UX1 and its mission",
+          "children": [
+            {
+              "id": "18",
+              "guid": "657666e8-bae5-45d3-917f-1f8b9a5dd396",
+              "text": "<p>There are number of abandoned old flooded mines in Europe, with inadequate information of their current status. Exploring and surveying such mines is both infeasible and hazardous for humans. UX1 is an autonomous robotic platform for survey and exploration of such mines. UX1 is to autonomously explore and survey such mines in order to provide high resolution data and information from these inaccessible environments. This data should provide mapping and morphological information of the mine along with geological information as required by the end users.</p>"
+            }
+          ]
+        },
+        {
+          "id": "19",
+          "guid": "afa181c5-471d-48f0-9e37-94ba354ae650",
+          "heading": "Scope of this report",
+          "children": [
+            {
+              "id": "20",
+              "guid": "a0542dba-3def-4174-a5d8-309df3158910",
+              "text": "<p>This report identifies and states key requirements set by needs of potential stakeholders and operation environments and mission types in their interest. This report does not aim to providing design specifications or exact technical requirements, but a basis for generating them.</p>"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "guid": "be183bd2-a002-4292-91d6-fb69380c87e7",
+      "heading": "Environmental constraints and considerations",
+      "children": [
+        {
+          "id": "22",
+          "guid": "86ae03cd-1ea7-4ea5-a1a3-f298694df988",
+          "text": "<p>Mine tunnels and other openings are narrow which must be considered both in designing manoeuvrability of the robot but also in hauling robot itself and support equipment inside the mine.</p>"
+        },
+        {
+          "id": "23",
+          "guid": "13ed099a-40c0-4032-af00-f7d0d32a9c8b",
+          "text": "<p>Water inside the mine is not always transparent and any contact with the underwater walls result in increased turbidity of water due to silt.</p>"
+        },
+        {
+          "id": "24",
+          "guid": "7c0da6e5-0ae2-446b-a151-901ea02377a5",
+          "text": "<p>The water quality variations are high. Water might also be acidic; hence the external equipment of the robot must be made of acid resistant materials.</p>"
+        },
+        {
+          "id": "25",
+          "guid": "ad0ed3ec-275a-465a-8905-6b5289df5acd",
+          "text": "<p>Water temperature variation: +4… 40°C.</p>"
+        },
+        {
+          "id": "26",
+          "guid": "403a50bf-4388-4e53-abba-8dda4e47d72e",
+          "text": "<p>Local water flow velocity can be high.</p>"
+        },
+        {
+          "id": "27",
+          "guid": "51a1ec5c-b899-41ae-ba61-264ff56c359b",
+          "text": "<p>Maximum depth: 500 m.</p>"
+        },
+        {
+          "id": "28",
+          "guid": "73a655ee-7663-4bce-baf0-ca1d60f4ace3",
+          "text": "<p>The walls and cavities of mines can be unstable; therefore the robot operation must be contactless and be able to reverse out of dead ends channels.</p>"
+        },
+        {
+          "id": "29",
+          "guid": "7bca9dc3-4ae4-4e05-ba32-159ba83a8fca",
+          "text": "<p><span>Mine tunnels are predominantly vertical shafts or mainly horizontal galleries (although with the possibility of having slight inclination in some places).&nbsp;&nbsp;</span></p>"
+        },
+        {
+          "id": "30",
+          "guid": "6be0aa67-27a0-48b9-81d9-895f5874fdca",
+          "text": "<p><span>Horizontal galleries can vary in dimensions. For smaller galleries (older mines) the height is usually larger than the width. Tunnels in general have height and width not bigger than 5m.&nbsp;</span></p>"
+        },
+        {
+          "id": "31",
+          "guid": "dcf5eb7b-940f-4f7b-b984-9e1cb24a8e3e",
+          "text": "<p><span>There is also a possibility of having at some locations wider underground spaces (either in galleries or at junctions). In these locations the width can exceed over 10m.&nbsp;</span></p>"
+        },
+        {
+          "id": "32",
+          "guid": "5779eb89-140e-49bd-b89f-c9a8f811d6e9",
+          "text": "<p><span>Maximum Manhattan distance from any point of the mine to entrance at water surface is under 2.5 km.&nbsp;</span></p>"
+        },
+        {
+          "id": "33",
+          "guid": "050930c2-0e2e-4a2c-b94e-15d2f5c00284",
+          "text": "<p>Chapter 4 gives detailed information on last three test sites of UNEXMIN-project. These sites have in large extent defined preliminary requirements.</p>"
+        }
+      ]
+    },
+    {
+      "id": "34",
+      "guid": "ca9591b3-2a65-45a2-b4e9-2fa6d4d4e439",
+      "heading": "Requirements for robot characteristics",
+      "children": [
+        {
+          "id": "35",
+          "guid": "18539513-036e-4d2b-9250-1a112165e6ab",
+          "text": "<p>Revolution shape if possible without external protuberances (such as spherical or cylindrical shape) allowing manoeuvrability in tight spaces.</p>"
+        },
+        {
+          "id": "36",
+          "guid": "f81a36c6-0abe-4068-b253-1237407e327f",
+          "text": "<p>The robot body should be streamlined to reduce drag and reduce probability of getting stuck.</p>"
+        },
+        {
+          "id": "37",
+          "guid": "f8c5b3b4-bb83-4316-a873-9e5667a7b4f4",
+          "text": "<p>Maximum diameter 600 mm to be able to navigate through narrow channels.</p>"
+        },
+        {
+          "id": "38",
+          "guid": "c9e86cc7-ae8e-4564-830f-a6625c745228",
+          "text": "<p>Modular design (can be adapted to different missions or scenarios).</p>"
+        },
+        {
+          "id": "39",
+          "guid": "c6357da9-05f3-4803-87b6-c9ee525b0544",
+          "text": "<p>Easy transportation, hauling and deployment</p>"
+        },
+        {
+          "id": "40",
+          "guid": "d8b5ac46-806f-43c2-8e2d-4d239f2095b1",
+          "text": "<p>The robot must possess high manoeuvrability while driving through constrained spots.</p>"
+        },
+        {
+          "id": "41",
+          "guid": "866c7bd1-78f2-4e5c-b964-83f0e87063d8",
+          "text": "<p>The power unit should be capable of supporting the robot for 5 hours of driving autonomously.</p>"
+        },
+        {
+          "id": "42",
+          "guid": "fa772ed5-a228-495c-a053-5b19d31d39af",
+          "text": "<p>Distance covered with single charge 1 – 5 km.</p>"
+        },
+        {
+          "id": "43",
+          "guid": "e9c17043-73e0-4dd6-8186-2d942a8a3d57",
+          "text": "<p>The propulsion unit must provide enough thrust in order to drive the robot with 0.5 m/s velocity under 50 bar pressure.</p>"
+        },
+        {
+          "id": "44",
+          "guid": "d6112d28-c8a8-491b-b68b-39c828f51847",
+          "text": "<p>The vision system should be able to map the wall surfaces 360 degrees perpendicular to the motion direction and be capable of navigating in turbid water (have complementary sensors for range information).&nbsp;</p>"
+        },
+        {
+          "id": "45",
+          "guid": "f5e422f4-6b69-4d06-9697-e839a021cdef",
+          "text": "<p>The vision system should be able to map the wall surfaces 360 degree and take images also in turbid water.</p>"
+        },
+        {
+          "id": "46",
+          "guid": "275dc345-d266-47c3-8522-40e58bd597e0",
+          "text": "<p>Due to the lack of absolute positioning systems, robot navigation must be environment based (based on perception). Varying water turbidity and extreme environment conditions require multiple navigation sensor systems providing information to be fused. These can include, multibeam sonar, sector scan sonar, vision based systems with structured light and INS coupled with DVL with fluid current measurement capability.</p>"
+        },
+        {
+          "id": "47",
+          "guid": "95b1d2ce-1c61-4ca0-8e48-7c290a17490c",
+          "text": "<p>The robot must be capable of constant communication with a base station during the mission while the robot is up to 500 meters underwater.&nbsp;</p>"
+        },
+        {
+          "id": "48",
+          "guid": "b37d3fff-a678-40a0-924d-53b62f1d5581",
+          "text": "<p>The robot controller unit must provide autonomous operation, power monitoring, and fault detection for safety purposes.</p>"
+        },
+        {
+          "id": "49",
+          "guid": "3afbabaa-bb2f-48f5-8914-a95b84dd146c",
+          "text": "<p>The robot should be equipped with certain sensors in order to analyse walls and water. These sensors can include for example:</p><ul><li>Hyperspectral / LIBS for mineral and geochemistry mapping.•Gamma ray for lithology mapping</li><li>Video and Camera (stereo).</li><li>Thermal sensor</li><li>Pressure sensor.</li><li>pH and Eh</li><li>Fiber optic sensors for water quality</li></ul>"
+        },
+        {
+          "id": "50",
+          "guid": "c8057ed3-ded2-42d0-94dd-4ef0a026537f",
+          "text": "<p>Robot must have a water sampling system</p>"
+        },
+        {
+          "id": "51",
+          "guid": "5f158e20-7d1a-4061-9e7c-0f0e55f20c44",
+          "text": "<p>The robot batteries can be loaded or charged while the robot is in water.&nbsp;</p>"
+        },
+        {
+          "id": "52",
+          "guid": "b433c290-b23e-418d-90cc-1035ff7fa7b8",
+          "text": "<p>The robot must have the key functionalities:</p><ul><li>Create an online map of the environment for navigation purposes</li><li>Record time stamped and synchronous mapping and application sensor data for mission post-processing</li><li>Use previous information about the map: both historical information from the mine or from previous surveys, incrementally.</li><li>The robot's perception system should be able to perceive thin obstacles such as ropes or cables.</li><li>Be able to move lateral and vertical to avoid obstacles</li><li>Has specific survey manoeuvres to move close (parallel and at a known distance) of mine walls; to move in tunnels and galleries avoiding obstacles; to do scanning motion to map tunnels and galleries with multibeam; to reverse direction or move back in closed small tunnels.</li></ul>"
+        },
+        {
+          "id": "53",
+          "guid": "8db282ca-fba0-4d0f-8f25-c022e581cddf",
+          "text": "<p>The mission design system should allow the operator to specify the type of mission and the parametrization of the robot exploration methods.</p>"
+        },
+        {
+          "id": "54",
+          "guid": "060b5d7e-a075-4771-98f0-f903ac8993a4",
+          "text": "<p>The robot system should have a wireless communication for easy setup and parametrization.</p>"
+        }
+      ]
+    },
+    {
+      "id": "55",
+      "guid": "126d532e-7c4b-4d34-8428-5c787c9ea472",
+      "heading": "Test site characteristics",
+      "children": [
+        {
+          "id": "56",
+          "guid": "2ace7b1f-db56-4f00-b9a8-8a4324a3a4d1",
+          "heading": "Ecton",
+          "children": [
+            {
+              "id": "57",
+              "guid": "ffb91f92-f83c-423f-b073-30158510d468",
+              "heading": "SITE LOCATION",
+              "children": [
+                {
+                  "id": "58",
+                  "guid": "75f1b6c6-40b2-408e-a494-f67a1fb72b64",
+                  "heading": "REGIONAL",
+                  "children": [
+                    {
+                      "id": "59",
+                      "guid": "340ea204-d915-4f8d-a113-cf592b4bcc41",
+                      "attachments": [
+                        "UNEXcreq-59_1_image002.jpg"
+                      ]
+                    },
+                    {
+                      "id": "184",
+                      "guid": "71e018a6-c219-4efa-982f-9df0bc2114d4",
+                      "text": "<p>Acton Regional Map</p>",
+                      "type": "2",
+                      "history": [
+                        {
+                          "affectedNodeId": "58",
+                          "changedBy": {
+                            "company": "TRICERA energy GmbH",
+                            "email": "manuel.kersic@tricera.energy",
+                            "name": "Manuel Kersic"
+                          },
+                          "changedOn": "2025-09-29T14:11:06.502Z",
+                          "docId": "UNEXcreq",
+                          "structureAction": "Create"
+                        },
+                        {
+                          "attributesChanged": {
+                            "text": null
+                          },
+                          "changedBy": {
+                            "company": "TRICERA energy GmbH",
+                            "email": "manuel.kersic@tricera.energy",
+                            "name": "Manuel Kersic"
+                          },
+                          "changedOn": "2025-09-29T14:11:47.563Z"
+                        },
+                        {
+                          "attributesChanged": {
+                            "type": null
+                          },
+                          "changedBy": {
+                            "company": "TRICERA energy GmbH",
+                            "email": "manuel.kersic@tricera.energy",
+                            "name": "Manuel Kersic"
+                          },
+                          "changedOn": "2025-09-29T14:12:48.751Z"
+                        }
+                      ]
+                    },
+                    {
+                      "id": "60",
+                      "guid": "a2d08649-3949-4c95-8b52-dbda1b1f30c2",
+                      "text": "<table style=\"width:186.0pt;\"><tbody><tr><td style=\"width:83.5pt;\"><p><span>Country:&nbsp;&nbsp;</span></p></td><td style=\"width:102.5pt;\"><p style=\"text-align:center;\"><span>United Kingdom&nbsp;</span></p></td></tr><tr><td style=\"width:83.5pt;\"><p><span>NUTS2:&nbsp;&nbsp;</span></p></td><td style=\"width:102.5pt;\"><p style=\"text-align:center;\"><span>Staffordshire&nbsp;</span></p></td></tr><tr><td style=\"width:83.5pt;\"><p><span>NUTS3:&nbsp;&nbsp;</span></p></td><td style=\"width:102.5pt;\"><p style=\"text-align:center;\"><span>Staffordshire Moorlands&nbsp;</span></p></td></tr><tr><td style=\"width:83.5pt;\"><p><span>Municipality:&nbsp;&nbsp;</span></p></td><td style=\"width:102.5pt;\"><p style=\"text-align:center;\"><span>Ecton&nbsp;</span></p></td></tr><tr><td style=\"width:83.5pt;\"><p><span>Geographic coordinates (ETRS89)&nbsp;</span></p></td><td style=\"width:102.5pt;\"><p style=\"text-align:center;\"><u><span>Main access point for</span></u><span>&nbsp;<u>mining site</u>.&nbsp;</span></p><p style=\"text-align:center;\"><span>&nbsp;</span></p><p><span>Long: 1.842603 W&nbsp;</span></p><p><span>Lat: 53.130520 N&nbsp;</span></p></td></tr><tr><td style=\"width:83.5pt;\"><p><span>Remarks:&nbsp;&nbsp;</span></p></td><td style=\"width:102.5pt;\"><p style=\"text-align:center;\"><span>&nbsp;</span></p></td></tr></tbody></table>",
+                      "history": [
+                        {
+                          "attributesChanged": {
+                            "text": "<p><span>Regional Map</span></p><table style=\"width:186.0pt;\"><tbody><tr><td style=\"width:83.5pt;\"><p><span>Country:&nbsp;&nbsp;</span></p></td><td style=\"width:102.5pt;\"><p style=\"text-align:center;\"><span>United Kingdom&nbsp;</span></p></td></tr><tr><td style=\"width:83.5pt;\"><p><span>NUTS2:&nbsp;&nbsp;</span></p></td><td style=\"width:102.5pt;\"><p style=\"text-align:center;\"><span>Staffordshire&nbsp;</span></p></td></tr><tr><td style=\"width:83.5pt;\"><p><span>NUTS3:&nbsp;&nbsp;</span></p></td><td style=\"width:102.5pt;\"><p style=\"text-align:center;\"><span>Staffordshire Moorlands&nbsp;</span></p></td></tr><tr><td style=\"width:83.5pt;\"><p><span>Municipality:&nbsp;&nbsp;</span></p></td><td style=\"width:102.5pt;\"><p style=\"text-align:center;\"><span>Ecton&nbsp;</span></p></td></tr><tr><td style=\"width:83.5pt;\"><p><span>Geographic coordinates (ETRS89)&nbsp;</span></p></td><td style=\"width:102.5pt;\"><p style=\"text-align:center;\"><u><span>Main access point for</span></u><span>&nbsp;<u>mining site</u>.&nbsp;</span></p><p style=\"text-align:center;\"><span>&nbsp;</span></p><p><span>Long: 1.842603 W&nbsp;</span></p><p><span>Lat: 53.130520 N&nbsp;</span></p></td></tr><tr><td style=\"width:83.5pt;\"><p><span>Remarks:&nbsp;&nbsp;</span></p></td><td style=\"width:102.5pt;\"><p style=\"text-align:center;\"><span>&nbsp;</span></p></td></tr></tbody></table>"
+                          },
+                          "changedBy": {
+                            "company": "TRICERA energy GmbH",
+                            "email": "manuel.kersic@tricera.energy",
+                            "name": "Manuel Kersic"
+                          },
+                          "changedOn": "2025-09-29T14:11:00.824Z"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "61",
+                  "guid": "2490a90a-b6b7-4a13-b03b-04c120b814c2",
+                  "heading": "LOCAL",
+                  "children": [
+                    {
+                      "id": "62",
+                      "guid": "a552a251-18f6-4b9f-9d8b-1640db38ecb2",
+                      "attachments": [
+                        "UNEXcreq-62_1_image003.jpg"
+                      ]
+                    },
+                    {
+                      "id": "185",
+                      "guid": "49d7a681-ffdc-432a-9835-cc674644486e",
+                      "text": "<p>Local Map</p>",
+                      "type": "2",
+                      "history": [
+                        {
+                          "affectedNodeId": "61",
+                          "changedBy": {
+                            "company": "TRICERA energy GmbH",
+                            "email": "manuel.kersic@tricera.energy",
+                            "name": "Manuel Kersic"
+                          },
+                          "changedOn": "2025-09-29T14:13:14.836Z",
+                          "docId": "UNEXcreq",
+                          "structureAction": "Create"
+                        },
+                        {
+                          "attributesChanged": {
+                            "text": null
+                          },
+                          "changedBy": {
+                            "company": "TRICERA energy GmbH",
+                            "email": "manuel.kersic@tricera.energy",
+                            "name": "Manuel Kersic"
+                          },
+                          "changedOn": "2025-09-29T14:13:21.596Z"
+                        },
+                        {
+                          "attributesChanged": {
+                            "type": null
+                          },
+                          "changedBy": {
+                            "company": "TRICERA energy GmbH",
+                            "email": "manuel.kersic@tricera.energy",
+                            "name": "Manuel Kersic"
+                          },
+                          "changedOn": "2025-09-29T14:13:26.244Z"
+                        }
+                      ]
+                    },
+                    {
+                      "id": "63",
+                      "guid": "cf8a2195-640f-4495-ba9f-2cfdb83c3634",
+                      "text": "<table style=\"width:186.0pt;\"><tbody><tr><td style=\"width:83.5pt;\"><p><span>Geographic coordinates (ETRS89)&nbsp;</span></p></td><td style=\"width:102.5pt;\"><p style=\"text-align:center;\"><u><span>Specific point for</span></u><span>&nbsp;<u>testing</u>&nbsp;</span></p><p style=\"text-align:center;\"><span>&nbsp;</span></p><p><span>Long: 1.845683 W&nbsp;</span></p><p><span>Lat: 53.123882 N&nbsp;</span></p></td></tr><tr><td style=\"width:83.5pt;\"><p><span>Main access road and exit:&nbsp;</span></p></td><td style=\"width:102.5pt;\"><p style=\"text-align:center;\"><span>B5054 Hulme End&nbsp;</span></p></td></tr><tr><td style=\"width:83.5pt;\"><p><span>Access to site by paved road:&nbsp;</span></p></td><td style=\"width:102.5pt;\"><p style=\"text-align:center;\"><span style=\"color:#595959;\">yes</span><span>&nbsp;</span></p></td></tr><tr><td style=\"width:83.5pt;\"><p><span>Access to site by unpaved road:&nbsp;</span></p></td><td style=\"width:102.5pt;\"><p style=\"text-align:center;\"><span style=\"color:#595959;\">no</span><span>&nbsp;</span></p></td></tr><tr><td style=\"width:83.5pt;\"><p><span>Remarks:&nbsp;</span></p></td><td style=\"width:102.5pt;\"><p style=\"text-align:center;\"><span>No mobile phone&nbsp;</span></p><p style=\"text-align:center;\"><span>signal in mine site or surrounding area&nbsp;</span></p></td></tr></tbody></table>",
+                      "history": [
+                        {
+                          "attributesChanged": {
+                            "text": "<p><span>Local Map</span></p><table style=\"width:186.0pt;\"><tbody><tr><td style=\"width:83.5pt;\"><p><span>Geographic coordinates (ETRS89)&nbsp;</span></p></td><td style=\"width:102.5pt;\"><p style=\"text-align:center;\"><u><span>Specific point for</span></u><span>&nbsp;<u>testing</u>&nbsp;</span></p><p style=\"text-align:center;\"><span>&nbsp;</span></p><p><span>Long: 1.845683 W&nbsp;</span></p><p><span>Lat: 53.123882 N&nbsp;</span></p></td></tr><tr><td style=\"width:83.5pt;\"><p><span>Main access road and exit:&nbsp;</span></p></td><td style=\"width:102.5pt;\"><p style=\"text-align:center;\"><span>B5054 Hulme End&nbsp;</span></p></td></tr><tr><td style=\"width:83.5pt;\"><p><span>Access to site by paved road:&nbsp;</span></p></td><td style=\"width:102.5pt;\"><p style=\"text-align:center;\"><span style=\"color:#595959;\">yes</span><span>&nbsp;</span></p></td></tr><tr><td style=\"width:83.5pt;\"><p><span>Access to site by unpaved road:&nbsp;</span></p></td><td style=\"width:102.5pt;\"><p style=\"text-align:center;\"><span style=\"color:#595959;\">no</span><span>&nbsp;</span></p></td></tr><tr><td style=\"width:83.5pt;\"><p><span>Remarks:&nbsp;</span></p></td><td style=\"width:102.5pt;\"><p style=\"text-align:center;\"><span>No mobile phone&nbsp;</span></p><p style=\"text-align:center;\"><span>signal in mine site or surrounding area&nbsp;</span></p></td></tr></tbody></table>"
+                          },
+                          "changedBy": {
+                            "company": "TRICERA energy GmbH",
+                            "email": "manuel.kersic@tricera.energy",
+                            "name": "Manuel Kersic"
+                          },
+                          "changedOn": "2025-09-29T14:13:13.128Z"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "64",
+                  "guid": "ae728c9e-3523-4d31-ad2e-32b82422199b",
+                  "heading": "LOCAL GENERAL FACILITIES",
+                  "children": [
+                    {
+                      "id": "65",
+                      "guid": "1254b82a-1d3d-4a3f-81c8-5c15b08d9bf2",
+                      "text": "<table style=\"width:451.9pt;\"><tbody><tr><td style=\"width:83.5pt;\"><p><span>Hospital at:&nbsp;</span></p></td><td style=\"width:102.5pt;\"><p style=\"text-align:center;\"><span>16 km&nbsp;</span></p></td><td rowspan=\"3\" style=\"width:265.9pt;\"><p><span>Lodging &amp; Food:&nbsp;&nbsp;</span></p><p><span style=\"color:#595959;\">-<span>&nbsp; </span></span><span style=\"color:#595959;\">small hotel / pub (10 rooms) 2km&nbsp;</span></p><p><span style=\"color:#595959;\">-<span>&nbsp; </span></span><span style=\"color:#595959;\">large 4* country hotel 13km</span><span>&nbsp;</span></p></td></tr><tr><td style=\"width:83.5pt;\"><p style=\"text-align:justify;\"><span>Emergency First Aid Services at:&nbsp;</span></p></td><td style=\"width:102.5pt;\"><p style=\"text-align:center;\"><span>16 km&nbsp;</span></p></td></tr><tr><td style=\"width:83.5pt;\"><p><span>Fire &amp; Rescue Services at:&nbsp;</span></p></td><td style=\"width:102.5pt;\"><p style=\"text-align:center;\"><span>16 km&nbsp;</span></p></td></tr><tr><td style=\"width:83.5pt;\"><p><span>Remarks:</span></p></td><td colspan=\"2\" style=\"width:368.4pt;\"><p>&nbsp;</p></td></tr></tbody></table>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "66",
+              "guid": "5c9a1cc9-9b1f-43f5-87d8-dbe4f09809b9",
+              "heading": "TEST SITE CHARACTERIZATION",
+              "children": [
+                {
+                  "id": "67",
+                  "guid": "f557e0a6-a6cd-45cc-80ac-286ad309c24f",
+                  "text": "<p><span>Type of mining exploitation:&nbsp;</span><span style=\"color:#595959;\">Underground.</span></p>"
+                },
+                {
+                  "id": "68",
+                  "guid": "5d03228b-8a10-4681-872d-4dee5d17d8c1",
+                  "text": "<p><span>Exploited ores: Formerly chalcopyrite (Cu)&nbsp;</span></p>"
+                },
+                {
+                  "id": "69",
+                  "guid": "ed124759-eb33-4f6d-b61c-8d6f8a1b6bc7",
+                  "text": "<p><span>Mineral deposit type: Formerly Cu + some Pb &amp; Zn</span></p>"
+                },
+                {
+                  "id": "70",
+                  "guid": "a57ddb7b-5996-4391-9a11-1e0718dc399a",
+                  "text": "<p><span>Host rocks: Limestone.&nbsp;</span></p>"
+                },
+                {
+                  "id": "71",
+                  "guid": "ae3ab6ca-5190-4f78-8ec1-7d555797cc86",
+                  "text": "<p><span>Mining period:&nbsp;</span><span style=\"color:#595959;\">1500 BC – 1880 AD</span></p>"
+                },
+                {
+                  "id": "72",
+                  "guid": "eb572c26-b6d3-447b-8bba-143828e62d57",
+                  "text": "<p><span>Current accessibility by:&nbsp;</span><span style=\"color:#595959;\">Adit</span><span>&nbsp;</span></p>"
+                },
+                {
+                  "id": "73",
+                  "guid": "be73ecb0-ecc8-4291-b1e4-0d793e94a7f7",
+                  "text": "<p><span>General mine description: Access adit (Deep Ecton) is level but wet in places (0.3m deep) to all flooded working for UNEXMIN use and the water level in these is close to floor level. One accessible level above Deep Ecton (Salts Level) access by different surface adit. Ladder link between them (37m) - prohibited.&nbsp;&nbsp;</span></p>"
+                },
+                {
+                  "id": "74",
+                  "guid": "b27fcf57-797b-461c-aab6-311e9c44b64c",
+                  "text": "<p><span>What are most important parts of the mine to explore:&nbsp;</span><span style=\"color:#595959;\">&nbsp;Three flooded shafts and the worked out mineral pipe.&nbsp;</span></p>"
+                },
+                {
+                  "id": "75",
+                  "guid": "a815c486-4e7b-466d-9f0e-d184bd3075b6",
+                  "text": "<p><span>Maximum depth of the mine: ~380m</span></p>"
+                },
+                {
+                  "id": "76",
+                  "guid": "94e2ca78-cb87-412b-9469-68f9d276b6bb",
+                  "text": "<p><span>Is the mine completely flooded?: No&nbsp;</span></p>"
+                },
+                {
+                  "id": "77",
+                  "guid": "7c5534fc-1b84-4c4a-9da7-9738e25eaf03",
+                  "text": "<p><span>Maximum know accessible depth: ~80m (Surface to top of water.)</span></p>"
+                },
+                {
+                  "id": "78",
+                  "guid": "863e0678-92ef-47b2-8171-c26b719f3260",
+                  "text": "<p><span>Water depth below the surface: ~300m&nbsp;</span></p>"
+                },
+                {
+                  "id": "79",
+                  "guid": "1a64d506-f440-481c-b4d5-0680dcde79f2",
+                  "text": "<p><span>Minimum diameter of tunnels: Entry &gt;0.6m</span></p>"
+                },
+                {
+                  "id": "80",
+                  "guid": "2e4aff65-ec41-4461-aa4e-88316c04dd66",
+                  "text": "<p><span>Water quality in the mine:&nbsp;</span><span style=\"color:#595959;\">Close to ph7 – clean.</span><span>&nbsp;</span></p>"
+                },
+                {
+                  "id": "81",
+                  "guid": "03c85f55-8d89-42f4-83ad-42606a0872a1",
+                  "text": "<p><span>Maximum original continuous shaft length: ~300m</span></p>"
+                },
+                {
+                  "id": "82",
+                  "guid": "87080885-f607-43df-9d18-362f524c1b31",
+                  "text": "<p><span>Known water temperature in the mine: 10<sup>o</sup>C&nbsp;</span></p>"
+                },
+                {
+                  "id": "83",
+                  "guid": "51c918b7-68a4-44b2-a4a3-e6d74183b4c4",
+                  "text": "<p><span>Maximum known continuous shaft length accessible for testing: ~300m</span></p>"
+                },
+                {
+                  "id": "84",
+                  "guid": "b8dcdc4f-5395-4b21-a4d9-09dc900c3db5",
+                  "text": "<p><span>Water temperature range in the mine:&nbsp; 10<sup>o</sup>&nbsp; ± 5<sup>o</sup>C estimated&nbsp;</span></p>"
+                },
+                {
+                  "id": "85",
+                  "guid": "92c9f5a0-d153-44fc-8b53-21fa00e68106",
+                  "text": "<p><span>Maximum original continuous gallery length:&nbsp; ~500m.</span></p>"
+                },
+                {
+                  "id": "86",
+                  "guid": "6e72d0cb-11dd-4c45-a6b5-cf3d2686cd6b",
+                  "text": "<p><span>Maximum known water flow velocity in galleries: Negligible&nbsp;</span></p>"
+                },
+                {
+                  "id": "87",
+                  "guid": "35b102cd-0998-49a3-8f66-6e698782f18e",
+                  "text": "<p><span>Maximum known and continuous gallery length accessible for testing: Unknown.</span></p>"
+                },
+                {
+                  "id": "88",
+                  "guid": "631cccd5-e7b3-42af-8939-afff2d4a8e47",
+                  "text": "<p><span>Presence of gases inside non-flooded galleries:&nbsp;</span><span style=\"color:#595959;\">None – Some prohibited areas O<sub>2</sub> deficient.</span><span>&nbsp;</span></p>"
+                },
+                {
+                  "id": "89",
+                  "guid": "722cb481-1d73-4948-9110-57c0f104a0f1",
+                  "text": "<p><span>How leveled are the galleries? Uneven floors.</span></p>"
+                },
+                {
+                  "id": "90",
+                  "guid": "1a4d8cbc-2ad0-4f58-b17c-b59dda8bf528",
+                  "text": "<p><span>Known living beings growing in the mine: None&nbsp;</span></p>"
+                },
+                {
+                  "id": "91",
+                  "guid": "32aa1fac-3d39-401a-9b99-437810449d6a",
+                  "text": "<p><span>Type of obstacles in the galleries and shafts: Uneven floors with some water up to 0.3m deep.</span></p>"
+                },
+                {
+                  "id": "92",
+                  "guid": "5d462a3c-cbe0-4a33-a02c-dc7f7af4aa71",
+                  "text": "<p><span>Possibility of soft obstacles in shafts and galleries which might not be detected by sensors:&nbsp;</span><span style=\"color:#595959;\">Some wooden structures &amp; wood/iron ladders&nbsp;</span><span>&nbsp;</span></p>"
+                },
+                {
+                  "id": "93",
+                  "guid": "fc7d93f0-0193-4101-8f4d-5d79f2de9801",
+                  "text": "<p><span>How hard it is to get from surface to water level? Walk of 300m. Entry level is main drainage level and entry with steep 1m slope.</span></p>"
+                },
+                {
+                  "id": "94",
+                  "guid": "81333eb8-e5b4-44ca-abb7-848498f06902",
+                  "text": "<p><span>Other remarks: The mine is a listed/protected ‘Ancient Monument’. All prohibited hazardous areas marked.&nbsp;</span></p>"
+                }
+              ]
+            },
+            {
+              "id": "95",
+              "guid": "ebe71773-49d0-4954-8482-0065ebd993c4",
+              "heading": "EXISTENT FACILITIES",
+              "children": [
+                {
+                  "id": "96",
+                  "guid": "46e03482-6049-48f6-b46b-cbee42633cb9",
+                  "text": "<p><span>Available electricity:&nbsp;</span><span style=\"color:#595959;\">Underground electricity to be installed 240V, 50Hz 1 phase. Lighting to be installed in working areas</span></p>"
+                },
+                {
+                  "id": "97",
+                  "guid": "45f23475-2e32-47db-ba26-0bd31e6bee87",
+                  "text": "<p><span>Available water:&nbsp;</span><span style=\"color:#595959;\">None.</span><span>&nbsp;</span></p>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "98",
+          "guid": "2c8d8cc2-c1a8-4825-b714-b50d3b252211",
+          "heading": "Idrija",
+          "children": [
+            {
+              "id": "99",
+              "guid": "1a8aa211-2354-4c11-a30a-5d3163134092",
+              "heading": "SITE LOCATION",
+              "children": [
+                {
+                  "id": "100",
+                  "guid": "b32815f9-76c7-48d0-a0c4-c679c42287cb",
+                  "heading": "REGIONAL",
+                  "children": [
+                    {
+                      "id": "101",
+                      "guid": "dacccadf-7178-4d2d-9635-fc59850fe1b7",
+                      "attachments": [
+                        "UNEXcreq-101_1_image004.jpg"
+                      ]
+                    },
+                    {
+                      "id": "186",
+                      "guid": "389cd115-5999-47d7-9b03-7e4f9358e6d1",
+                      "text": "<p>Regional Map</p>",
+                      "type": "2",
+                      "history": [
+                        {
+                          "affectedNodeId": "100",
+                          "changedBy": {
+                            "company": "TRICERA energy GmbH",
+                            "email": "manuel.kersic@tricera.energy",
+                            "name": "Manuel Kersic"
+                          },
+                          "changedOn": "2025-09-29T14:14:08.214Z",
+                          "docId": "UNEXcreq",
+                          "structureAction": "Create"
+                        },
+                        {
+                          "attributesChanged": {
+                            "text": null
+                          },
+                          "changedBy": {
+                            "company": "TRICERA energy GmbH",
+                            "email": "manuel.kersic@tricera.energy",
+                            "name": "Manuel Kersic"
+                          },
+                          "changedOn": "2025-09-29T14:14:10.148Z"
+                        },
+                        {
+                          "attributesChanged": {
+                            "type": null
+                          },
+                          "changedBy": {
+                            "company": "TRICERA energy GmbH",
+                            "email": "manuel.kersic@tricera.energy",
+                            "name": "Manuel Kersic"
+                          },
+                          "changedOn": "2025-09-29T14:14:12.802Z"
+                        }
+                      ]
+                    },
+                    {
+                      "id": "102",
+                      "guid": "995027a3-0bcf-4b92-b3ee-3068a182f2ab",
+                      "text": "<table style=\"width:451.9pt;\"><tbody><tr><td style=\"width:97.55pt;\"><p><span>Country: &nbsp;</span></p></td><td style=\"width:110.15pt;\"><p style=\"text-align:center;\"><span>Slovenia&nbsp;</span></p></td><td rowspan=\"6\" style=\"width:244.2pt;\"><p style=\"text-align:right;\">&nbsp;</p></td></tr><tr><td style=\"width:97.55pt;\"><p><span>NUTS2: &nbsp;</span></p></td><td style=\"width:110.15pt;\"><p style=\"text-align:center;\"><span>Osrednjeslovenska&nbsp;</span></p></td></tr><tr><td style=\"width:97.55pt;\"><p><span>NUTS3: &nbsp;</span></p></td><td style=\"width:110.15pt;\"><p style=\"text-align:center;\"><span>&nbsp;</span></p></td></tr><tr><td style=\"width:97.55pt;\"><p><span>Municipality: &nbsp;</span></p></td><td style=\"width:110.15pt;\"><p style=\"text-align:center;\"><span>Idrija&nbsp;</span></p></td></tr><tr><td style=\"width:97.55pt;\"><p><span>Geographic coordinates (ETRS89)&nbsp;</span></p></td><td style=\"width:110.15pt;\"><p style=\"text-align:center;\"><u><span>Main access point for</span></u><span>&nbsp;<u>mining site</u>.&nbsp;</span></p><p style=\"text-align:center;\"><span>&nbsp;</span></p><p style=\"text-align:center;\"><span>Long: 14˚ 15.460’ E&nbsp;</span></p><p style=\"text-align:center;\"><span>Lat: 45˚ 54.486’ N&nbsp;</span></p></td></tr><tr><td style=\"width:97.55pt;\"><p><span>Remarks: &nbsp;</span></p></td><td style=\"width:110.15pt;\"><p style=\"text-align:center;\"><span>Highway A1 from&nbsp;</span></p><p style=\"text-align:center;\"><span>Ljubljana towards Koper, exit Logatec, follow road&nbsp;</span></p><p style=\"text-align:center;\"><span>102 next 40 km towards&nbsp;</span></p><p style=\"text-align:center;\"><span>Idrija&nbsp;</span></p></td></tr></tbody></table>",
+                      "history": [
+                        {
+                          "attributesChanged": {
+                            "text": "<p><span>Regional Map</span></p><table style=\"width:451.9pt;\"><tbody><tr><td style=\"width:97.55pt;\"><p><span>Country:&nbsp;&nbsp;</span></p></td><td style=\"width:110.15pt;\"><p style=\"text-align:center;\"><span>Slovenia&nbsp;</span></p></td><td rowspan=\"6\" style=\"width:244.2pt;\"><p style=\"text-align:right;\">&nbsp;</p></td></tr><tr><td style=\"width:97.55pt;\"><p><span>NUTS2:&nbsp;&nbsp;</span></p></td><td style=\"width:110.15pt;\"><p style=\"text-align:center;\"><span>Osrednjeslovenska&nbsp;</span></p></td></tr><tr><td style=\"width:97.55pt;\"><p><span>NUTS3:&nbsp;&nbsp;</span></p></td><td style=\"width:110.15pt;\"><p style=\"text-align:center;\"><span>&nbsp;</span></p></td></tr><tr><td style=\"width:97.55pt;\"><p><span>Municipality:&nbsp;&nbsp;</span></p></td><td style=\"width:110.15pt;\"><p style=\"text-align:center;\"><span>Idrija&nbsp;</span></p></td></tr><tr><td style=\"width:97.55pt;\"><p><span>Geographic coordinates (ETRS89)&nbsp;</span></p></td><td style=\"width:110.15pt;\"><p style=\"text-align:center;\"><u><span>Main access point for</span></u><span>&nbsp;<u>mining site</u>.&nbsp;</span></p><p style=\"text-align:center;\"><span>&nbsp;</span></p><p style=\"text-align:center;\"><span>Long: 14˚ 15.460’ E&nbsp;</span></p><p style=\"text-align:center;\"><span>Lat: 45˚ 54.486’ N&nbsp;</span></p></td></tr><tr><td style=\"width:97.55pt;\"><p><span>Remarks:&nbsp;&nbsp;</span></p></td><td style=\"width:110.15pt;\"><p style=\"text-align:center;\"><span>Highway A1 from&nbsp;</span></p><p style=\"text-align:center;\"><span>Ljubljana towards Koper, exit Logatec, follow road&nbsp;</span></p><p style=\"text-align:center;\"><span>102 next 40 km towards&nbsp;</span></p><p style=\"text-align:center;\"><span>Idrija&nbsp;</span></p></td></tr></tbody></table>"
+                          },
+                          "changedBy": {
+                            "company": "TRICERA energy GmbH",
+                            "email": "manuel.kersic@tricera.energy",
+                            "name": "Manuel Kersic"
+                          },
+                          "changedOn": "2025-09-29T14:14:06.261Z"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "103",
+                  "guid": "969c4588-4b00-4706-9916-dc826e5fe033",
+                  "heading": "LOCAL",
+                  "children": [
+                    {
+                      "id": "104",
+                      "guid": "f2e54f48-d152-4113-8975-4bfe9081e825",
+                      "attachments": [
+                        "UNEXcreq-104_1_image005.jpg"
+                      ]
+                    },
+                    {
+                      "id": "187",
+                      "guid": "3f8a7b81-226b-46c1-815b-8ba1481fa0c4",
+                      "text": "<p>Local Map</p>",
+                      "type": "2",
+                      "history": [
+                        {
+                          "affectedNodeId": "103",
+                          "changedBy": {
+                            "company": "TRICERA energy GmbH",
+                            "email": "manuel.kersic@tricera.energy",
+                            "name": "Manuel Kersic"
+                          },
+                          "changedOn": "2025-09-29T14:14:21.233Z",
+                          "docId": "UNEXcreq",
+                          "structureAction": "Create"
+                        },
+                        {
+                          "attributesChanged": {
+                            "text": null
+                          },
+                          "changedBy": {
+                            "company": "TRICERA energy GmbH",
+                            "email": "manuel.kersic@tricera.energy",
+                            "name": "Manuel Kersic"
+                          },
+                          "changedOn": "2025-09-29T14:14:23.272Z"
+                        },
+                        {
+                          "attributesChanged": {
+                            "type": null
+                          },
+                          "changedBy": {
+                            "company": "TRICERA energy GmbH",
+                            "email": "manuel.kersic@tricera.energy",
+                            "name": "Manuel Kersic"
+                          },
+                          "changedOn": "2025-09-29T14:14:25.423Z"
+                        }
+                      ]
+                    },
+                    {
+                      "id": "105",
+                      "guid": "94f63a91-d59e-4bdf-8923-e8abc8158590",
+                      "text": "<table style=\"width:207.7pt;\"><tbody><tr><td style=\"width:97.55pt;\"><p><span>Geographic coordinates (ETRS89)&nbsp;</span></p></td><td style=\"width:110.15pt;\"><p style=\"text-align:center;\"><u><span>Specific point for testing</span></u><span>&nbsp;</span></p><p style=\"text-align:center;\"><span>&nbsp;</span></p><p style=\"text-align:center;\"><span>Long: 14˚ 1.490’ E&nbsp;</span></p><p style=\"text-align:center;\"><span>Lat: 46˚ 0.142’ N&nbsp;</span></p></td></tr><tr><td style=\"width:97.55pt;\"><p><span>Main access road and exit:&nbsp;</span></p></td><td style=\"width:110.15pt;\"><p style=\"text-align:center;\"><span>regional road 102&nbsp;</span></p><p style=\"text-align:center;\"><span>Ljubljana - Most na Soči&nbsp;</span></p></td></tr><tr><td style=\"width:97.55pt;\"><p><span>Access to site by paved road:&nbsp;</span></p></td><td style=\"width:110.15pt;\"><p style=\"text-align:center;\"><span>Yes&nbsp;</span></p></td></tr><tr><td style=\"width:97.55pt;\"><p style=\"text-align:justify;\"><span>Access to site by unpaved road:&nbsp;</span></p></td><td style=\"width:110.15pt;\"><p style=\"text-align:center;\"><span>No&nbsp;</span></p></td></tr><tr><td style=\"width:97.55pt;\"><p><span>Remarks:&nbsp;</span></p></td><td style=\"width:110.15pt;\"><p style=\"text-align:center;\"><span>&nbsp;</span></p></td></tr></tbody></table>",
+                      "history": [
+                        {
+                          "attributesChanged": {
+                            "text": "<p><span>Local Map</span></p><table style=\"width:207.7pt;\"><tbody><tr><td style=\"width:97.55pt;\"><p><span>Geographic coordinates (ETRS89)&nbsp;</span></p></td><td style=\"width:110.15pt;\"><p style=\"text-align:center;\"><u><span>Specific point for testing</span></u><span>&nbsp;</span></p><p style=\"text-align:center;\"><span>&nbsp;</span></p><p style=\"text-align:center;\"><span>Long: 14˚ 1.490’ E&nbsp;</span></p><p style=\"text-align:center;\"><span>Lat: 46˚ 0.142’ N&nbsp;</span></p></td></tr><tr><td style=\"width:97.55pt;\"><p><span>Main access road and exit:&nbsp;</span></p></td><td style=\"width:110.15pt;\"><p style=\"text-align:center;\"><span>regional road 102&nbsp;</span></p><p style=\"text-align:center;\"><span>Ljubljana - Most na Soči&nbsp;</span></p></td></tr><tr><td style=\"width:97.55pt;\"><p><span>Access to site by paved road:&nbsp;</span></p></td><td style=\"width:110.15pt;\"><p style=\"text-align:center;\"><span>Yes&nbsp;</span></p></td></tr><tr><td style=\"width:97.55pt;\"><p style=\"text-align:justify;\"><span>Access to site by unpaved road:&nbsp;</span></p></td><td style=\"width:110.15pt;\"><p style=\"text-align:center;\"><span>No&nbsp;</span></p></td></tr><tr><td style=\"width:97.55pt;\"><p><span>Remarks:&nbsp;</span></p></td><td style=\"width:110.15pt;\"><p style=\"text-align:center;\"><span>&nbsp;</span></p></td></tr></tbody></table>"
+                          },
+                          "changedBy": {
+                            "company": "TRICERA energy GmbH",
+                            "email": "manuel.kersic@tricera.energy",
+                            "name": "Manuel Kersic"
+                          },
+                          "changedOn": "2025-09-29T14:14:20.094Z"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "106",
+                  "guid": "71d37b82-a066-4342-849b-486270a38e98",
+                  "heading": "LOCAL GENERAL FACILITIES",
+                  "children": [
+                    {
+                      "id": "107",
+                      "guid": "368dbd61-2094-44e9-84c7-262a7493b779",
+                      "text": "<table style=\"width:451.9pt;\"><tbody><tr><td style=\"width:97.55pt;\"><p><span>Hospital at:&nbsp;</span></p></td><td style=\"width:110.15pt;\"><p style=\"text-align:center;\"><span>in town&nbsp;</span></p></td><td rowspan=\"3\" style=\"width:244.2pt;\"><p><span>Lodging &amp; Food:&nbsp;</span></p><p><span>-<span> </span></span><span>guesthouses, hotels, hostel&nbsp;</span></p><p><span>-<span> </span></span><span>Several restaurants&nbsp;</span></p><p><span>-<span> </span></span><span>supermarket&nbsp;</span></p></td></tr><tr><td style=\"width:97.55pt;\"><p><span>Emergency First Aid Services at:&nbsp;</span></p></td><td style=\"width:110.15pt;\"><p style=\"text-align:center;\"><span>in town&nbsp;</span></p></td></tr><tr><td style=\"width:97.55pt;\"><p><span>Fire &amp; Rescue Services at:&nbsp;</span></p></td><td style=\"width:110.15pt;\"><p style=\"text-align:center;\"><span>in town&nbsp;</span></p></td></tr><tr><td style=\"width:97.55pt;\"><p><span>Remarks:&nbsp;</span></p></td><td colspan=\"2\" style=\"width:354.35pt;\"><p>&nbsp;</p></td></tr></tbody></table>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "108",
+              "guid": "868dcd90-94d0-4fa3-b942-e46e2f70acd5",
+              "heading": "TEST SITE CHARACTERIZATION",
+              "children": [
+                {
+                  "id": "109",
+                  "guid": "6be5b70e-b0ff-4003-81ce-a86c8ae5d4aa",
+                  "text": "<p><span>Type of mining exploitation: underground</span></p>"
+                },
+                {
+                  "id": "110",
+                  "guid": "0c32a6c0-2c1e-417c-a14c-5baca4d33502",
+                  "text": "<p><span>Exploited ores: cinnabar ore, native mercury&nbsp;</span></p>"
+                },
+                {
+                  "id": "111",
+                  "guid": "95c97865-797b-43da-a988-4baa63da8e41",
+                  "text": "<p><span>Mineral deposit type: epithermal</span></p>"
+                },
+                {
+                  "id": "112",
+                  "guid": "3f66f3cb-d80e-4de6-8a62-972832753057",
+                  "text": "<p><span>Host rocks: different types of sedimentary rocks (sandstones, claystone, carbonates, tuff...)&nbsp;</span></p>"
+                },
+                {
+                  "id": "113",
+                  "guid": "5cfb1bd1-c28c-4ae7-84d8-5b7496b32e58",
+                  "text": "<p><span>Mining period:&nbsp; -1490 – 1995</span></p>"
+                },
+                {
+                  "id": "114",
+                  "guid": "b4fec076-333a-4637-8c23-adee816ed5b8",
+                  "text": "<p><span>Current accessibility by: Vertical shaft&nbsp;</span></p>"
+                },
+                {
+                  "id": "115",
+                  "guid": "3b38ce4b-f6c1-4f08-8d1d-a4e4cb716609",
+                  "text": "<p><span>General mine description: The Idrija Mercury Mine was one of the largest and oldest mercury mines in the world and is operated since 1490. During its 500-year tradition it was, due to the high price and the strategic importance of mercury, always the leading center of the technological development of mining technology in the world. The Hg mineralization is found in the complex stratigraphic sequence, including claystones, mudstones, sandstones, conglomerates, limestones or similar sedimentary rocks, which are geotechnically not very favorable for mine development. Therefore, narrow passages and a lot of supporting measures are found in this mine. Estimates are that during of mine lifetime it produced 12.7 Mt of cinnabar ore and 145 000 t of Hg, which means that 13% of total historic world Hg production comes from Idrija. The mine reached its depth of 460 m below the surface, and 700 km of tunnels were excavated. The production of mercury stopped in 1995. Today the Idrija heritage of mercury and the Idrija Ore deposit among it&nbsp; is listed on UNESCO World heritage list.&nbsp;</span></p>"
+                },
+                {
+                  "id": "116",
+                  "guid": "a0d3a93d-5090-4e1c-8933-8dc5faa13d24",
+                  "text": "<p><br></p><p><span>What are most important parts of the mine to explore: shaft and horizontal submerged tunnels&nbsp;</span></p>"
+                },
+                {
+                  "id": "117",
+                  "guid": "3560fefa-702a-4de6-bbb0-584216c5ae2f",
+                  "attachments": [
+                    "UNEXcreq-117_1_image006.jpg"
+                  ]
+                },
+                {
+                  "id": "118",
+                  "guid": "3734ed71-8306-451f-bb66-e63305cebb2e",
+                  "text": "<p><span>Maximum depth of the mine: cca&nbsp; m 381 m</span></p>"
+                },
+                {
+                  "id": "119",
+                  "guid": "1cc20413-13e6-4c37-9bae-0929e8cb25ea",
+                  "text": "<p><span>Is the mine completely flooded?: no, flooded part is level IX and below&nbsp;</span></p>"
+                },
+                {
+                  "id": "120",
+                  "guid": "643ea7f1-7735-4ca7-9fdd-49a6c77381e5",
+                  "text": "<p><span>Maximum know accessible depth: cca 270 m</span></p>"
+                },
+                {
+                  "id": "121",
+                  "guid": "8cfafd05-2ff6-42f8-8783-751ebe70b3b9",
+                  "text": "<p><span>Water depth below the surface: 206 m&nbsp;</span></p>"
+                },
+                {
+                  "id": "122",
+                  "guid": "0424ada5-9e6b-47d3-bb1e-020bf2d416a1",
+                  "text": "<p><span>Minimum diameter of tunnels: cca 2 m, but debris or collapsed rocks can reduce it</span></p>"
+                },
+                {
+                  "id": "123",
+                  "guid": "fd28e6d4-39c9-49e8-b348-c1058a192a28",
+                  "text": "<p><span>Water quality in the mine: Fe (7.2 mg/l), SO4 (4300 mg/l), Hg (90 ng/l)&nbsp;</span></p>"
+                },
+                {
+                  "id": "124",
+                  "guid": "645cb21f-c0e9-45d7-922c-3d81c444e534",
+                  "text": "<p><span>Maximum original continuous shaft length: 271 m</span></p>"
+                },
+                {
+                  "id": "125",
+                  "guid": "3d20ecaa-8ea2-46d9-a338-ac6238428ca7",
+                  "text": "<p><span>Known water temperature in the mine: 17 deg. C&nbsp;</span></p>"
+                },
+                {
+                  "id": "126",
+                  "guid": "253e22d6-dc5f-479f-905a-d0015116edb6",
+                  "text": "<p><span>Maximum known continuous shaft length accessible for testing: unknown</span></p>"
+                },
+                {
+                  "id": "127",
+                  "guid": "b96a13ea-a535-478f-9ae6-a708af319050",
+                  "text": "<p><span>Water temperature range in the mine: no fluctuations&nbsp;</span></p>"
+                },
+                {
+                  "id": "128",
+                  "guid": "96094793-d6d6-41a8-9de3-d5d4f5d8f206",
+                  "text": "<p><span>Maximum original continuous gallery length: not relevant for testing (collapsed)&nbsp;</span>, <span>Maximum known water flow velocity in galleries: Unknown (probably negligent).&nbsp;</span></p>"
+                },
+                {
+                  "id": "129",
+                  "guid": "cdb5cb34-c17c-4052-815f-ea86d2208ebd",
+                  "text": "<p><span>Maximum known and continuous gallery length accessible for testing: not relevant for testing (collapsed)</span></p>"
+                },
+                {
+                  "id": "130",
+                  "guid": "57892797-5671-4281-8c60-3a381f44c09d",
+                  "text": "<p><span>Presence of gases inside non-flooded galleries: Radon, CO2, mercury vapors.&nbsp;</span></p>"
+                },
+                {
+                  "id": "131",
+                  "guid": "5ae5b508-85f2-42d6-9782-c3f2d8d355c8",
+                  "text": "<p><span>How leveled are the galleries? Originally well leveled</span></p>"
+                },
+                {
+                  "id": "132",
+                  "guid": "0d43dbbd-1673-4afe-9578-2f29f02b412f",
+                  "text": "<p><span>Known living beings growing in the mine: None, except bacteria and fungus.&nbsp;</span></p>"
+                },
+                {
+                  "id": "133",
+                  "guid": "a411c5d4-2207-496a-9a12-68f38d89595e",
+                  "text": "<p><span>Type of obstacles in the galleries and shafts: Eventual wood&nbsp; and iron structures and mine galleries collapses.&nbsp;</span></p>"
+                },
+                {
+                  "id": "134",
+                  "guid": "e2911e5c-8ed1-43c5-8104-62d92c4b9a8a",
+                  "text": "<p><span>Narrow access passage (0.5 m), platforms (steel bars)</span></p>"
+                },
+                {
+                  "id": "135",
+                  "guid": "862b8790-4635-40b9-b21a-f3504deeb7ce",
+                  "text": "<p><span>Possibility of soft obstacles in shafts and galleries which might not be detected by sensors: Eventual wood residues steel bars (platforms) in the shaft&nbsp;</span></p>"
+                },
+                {
+                  "id": "136",
+                  "guid": "c78819fa-66b0-4307-8cd9-647b73909446",
+                  "text": "<p><span>Can the water level be reached from surface without special techniques?&nbsp;</span> <span>No. Elevator will be used to reach level III, after that descent by foot on stairs for the next 85 m.</span></p>"
+                },
+                {
+                  "id": "137",
+                  "guid": "a5f9f9ee-5a1c-4485-82d2-e40ad12c2ae7",
+                  "text": "<p><span>Other remarks: The testing robot will be transported separately with special winch, and finally assembled in the shaft.&nbsp;</span></p>"
+                },
+                {
+                  "id": "138",
+                  "guid": "47192e4e-e557-425b-af7b-e1adbf987096",
+                  "text": "<p><span style=\"color:#00B0F0;\">EXISTENT FACILITIES&nbsp;</span></p>"
+                },
+                {
+                  "id": "139",
+                  "guid": "6f0a0a0c-fd01-4565-adbc-8e3f3316ca40",
+                  "text": "<p><span>Available electricity:&nbsp;&nbsp;</span></p><p><span>1-phase 220V electricity access is on the III. level; 3phase 380 V electricity access is on the surface</span></p>",
+                  "history": [
+                    {
+                      "attributesChanged": {
+                        "text": "<p><span>Available electricity:&nbsp;&nbsp;</span></p>"
+                      },
+                      "changedBy": {
+                        "company": "TRICERA energy GmbH",
+                        "email": "manuel.kersic@tricera.energy",
+                        "name": "Manuel Kersic"
+                      },
+                      "changedOn": "2025-09-29T14:09:45.754Z"
+                    }
+                  ]
+                },
+                {
+                  "id": "141",
+                  "guid": "05cfb3f3-c7d1-45b2-b90b-8ddcabfaae38",
+                  "text": "<p><span>Available water: Drinking water available,&nbsp; wardrobes, offices, mining rescue service, showers and warm water&nbsp;</span></p>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "142",
+          "guid": "859c1ba7-3ea4-4d80-b8c9-fddb2454bb49",
+          "heading": "Urgeiriça",
+          "children": [
+            {
+              "id": "143",
+              "guid": "be33134d-8507-4fc7-b0c7-cf325842e9d9",
+              "heading": "SITE LOCATION",
+              "children": [
+                {
+                  "id": "144",
+                  "guid": "ce356f0c-59d3-4e78-8db5-edd3da4092c6",
+                  "heading": "REGIONAL",
+                  "children": [
+                    {
+                      "id": "145",
+                      "guid": "156b6b9e-07a8-495b-bec6-259a3e78cade",
+                      "attachments": [
+                        "UNEXcreq-145_1_image007.jpg"
+                      ]
+                    },
+                    {
+                      "id": "188",
+                      "guid": "18fbb0e9-ad07-4afa-a4d8-3061a62254c8",
+                      "text": "<p>Regional Map</p>",
+                      "type": "2",
+                      "history": [
+                        {
+                          "affectedNodeId": "144",
+                          "changedBy": {
+                            "company": "TRICERA energy GmbH",
+                            "email": "manuel.kersic@tricera.energy",
+                            "name": "Manuel Kersic"
+                          },
+                          "changedOn": "2025-09-29T14:14:36.957Z",
+                          "docId": "UNEXcreq",
+                          "structureAction": "Create"
+                        },
+                        {
+                          "attributesChanged": {
+                            "text": null
+                          },
+                          "changedBy": {
+                            "company": "TRICERA energy GmbH",
+                            "email": "manuel.kersic@tricera.energy",
+                            "name": "Manuel Kersic"
+                          },
+                          "changedOn": "2025-09-29T14:14:38.955Z"
+                        },
+                        {
+                          "attributesChanged": {
+                            "type": null
+                          },
+                          "changedBy": {
+                            "company": "TRICERA energy GmbH",
+                            "email": "manuel.kersic@tricera.energy",
+                            "name": "Manuel Kersic"
+                          },
+                          "changedOn": "2025-09-29T14:14:40.789Z"
+                        }
+                      ]
+                    },
+                    {
+                      "id": "146",
+                      "guid": "b7320b1f-ad8f-4017-9fe0-a7ef74c38213",
+                      "text": "<table style=\"width:207.7pt;\"><tbody><tr><td style=\"width:97.55pt;\"><p><span>Country:&nbsp;&nbsp;</span></p></td><td style=\"width:110.15pt;\"><p style=\"text-align:center;\"><span>Portugal&nbsp;</span></p></td></tr><tr><td style=\"width:97.55pt;\"><p><span>NUTS2:&nbsp;&nbsp;</span></p></td><td style=\"width:110.15pt;\"><p style=\"text-align:center;\"><span>Centro&nbsp;</span></p></td></tr><tr><td style=\"width:97.55pt;\"><p><span>NUTS3:&nbsp;&nbsp;</span></p></td><td style=\"width:110.15pt;\"><p style=\"text-align:center;\"><span>Dão-Lafões&nbsp;</span></p></td></tr><tr><td style=\"width:97.55pt;\"><p><span>Municipality:&nbsp;&nbsp;</span></p></td><td style=\"width:110.15pt;\"><p style=\"text-align:center;\"><span>Nelas&nbsp;</span></p></td></tr><tr><td style=\"width:97.55pt;\"><p><span>Geographic coordinates (ETRS89)&nbsp;</span></p></td><td style=\"width:110.15pt;\"><p style=\"text-align:center;\"><u><span>Main access point for</span></u><span>&nbsp;<u>mining site</u>.&nbsp;</span></p><p style=\"text-align:center;\"><span>&nbsp;</span></p><p style=\"text-align:center;\"><span>Long: 7˚ 53’ 20.44” W&nbsp;</span></p><p style=\"text-align:center;\"><span>Lat: 40˚ 30’ 43.02” N&nbsp;</span></p></td></tr><tr><td style=\"width:97.55pt;\"><p><span>Remarks:&nbsp;&nbsp;</span></p></td><td style=\"width:110.15pt;\"><p style=\"text-align:center;\"><span>&nbsp;</span></p></td></tr></tbody></table>",
+                      "history": [
+                        {
+                          "attributesChanged": {
+                            "text": "<p><span>Regional Map</span></p><table style=\"width:207.7pt;\"><tbody><tr><td style=\"width:97.55pt;\"><p><span>Country:&nbsp;&nbsp;</span></p></td><td style=\"width:110.15pt;\"><p style=\"text-align:center;\"><span>Portugal&nbsp;</span></p></td></tr><tr><td style=\"width:97.55pt;\"><p><span>NUTS2:&nbsp;&nbsp;</span></p></td><td style=\"width:110.15pt;\"><p style=\"text-align:center;\"><span>Centro&nbsp;</span></p></td></tr><tr><td style=\"width:97.55pt;\"><p><span>NUTS3:&nbsp;&nbsp;</span></p></td><td style=\"width:110.15pt;\"><p style=\"text-align:center;\"><span>Dão-Lafões&nbsp;</span></p></td></tr><tr><td style=\"width:97.55pt;\"><p><span>Municipality:&nbsp;&nbsp;</span></p></td><td style=\"width:110.15pt;\"><p style=\"text-align:center;\"><span>Nelas&nbsp;</span></p></td></tr><tr><td style=\"width:97.55pt;\"><p><span>Geographic coordinates (ETRS89)&nbsp;</span></p></td><td style=\"width:110.15pt;\"><p style=\"text-align:center;\"><u><span>Main access point for</span></u><span>&nbsp;<u>mining site</u>.&nbsp;</span></p><p style=\"text-align:center;\"><span>&nbsp;</span></p><p style=\"text-align:center;\"><span>Long: 7˚ 53’ 20.44” W&nbsp;</span></p><p style=\"text-align:center;\"><span>Lat: 40˚ 30’ 43.02” N&nbsp;</span></p></td></tr><tr><td style=\"width:97.55pt;\"><p><span>Remarks:&nbsp;&nbsp;</span></p></td><td style=\"width:110.15pt;\"><p style=\"text-align:center;\"><span>&nbsp;</span></p></td></tr></tbody></table>"
+                          },
+                          "changedBy": {
+                            "company": "TRICERA energy GmbH",
+                            "email": "manuel.kersic@tricera.energy",
+                            "name": "Manuel Kersic"
+                          },
+                          "changedOn": "2025-09-29T14:14:35.945Z"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "147",
+                  "guid": "d7c9b117-7401-42be-a988-67bc75689039",
+                  "heading": "LOCAL",
+                  "children": [
+                    {
+                      "id": "148",
+                      "guid": "8f71ee4d-186c-4b78-94f1-94bf687ca9f3",
+                      "attachments": [
+                        "UNEXcreq-148_1_image008.jpg"
+                      ]
+                    },
+                    {
+                      "id": "189",
+                      "guid": "ac072d7f-156d-493d-9827-0a8ef1b16c4b",
+                      "text": "<p>Local Map</p>",
+                      "type": "2",
+                      "history": [
+                        {
+                          "affectedNodeId": "147",
+                          "changedBy": {
+                            "company": "TRICERA energy GmbH",
+                            "email": "manuel.kersic@tricera.energy",
+                            "name": "Manuel Kersic"
+                          },
+                          "changedOn": "2025-09-29T14:14:51.964Z",
+                          "docId": "UNEXcreq",
+                          "structureAction": "Create"
+                        },
+                        {
+                          "attributesChanged": {
+                            "text": null
+                          },
+                          "changedBy": {
+                            "company": "TRICERA energy GmbH",
+                            "email": "manuel.kersic@tricera.energy",
+                            "name": "Manuel Kersic"
+                          },
+                          "changedOn": "2025-09-29T14:14:54.143Z"
+                        },
+                        {
+                          "attributesChanged": {
+                            "type": null
+                          },
+                          "changedBy": {
+                            "company": "TRICERA energy GmbH",
+                            "email": "manuel.kersic@tricera.energy",
+                            "name": "Manuel Kersic"
+                          },
+                          "changedOn": "2025-09-29T14:14:56.090Z"
+                        }
+                      ]
+                    },
+                    {
+                      "id": "149",
+                      "guid": "8a275289-4803-4dde-9a18-643aaa7afdb1",
+                      "text": "<table style=\"width:207.7pt;\"><tbody><tr><td style=\"width:97.55pt;\"><p><span>Geographic coordinates (ETRS89)&nbsp;</span></p></td><td style=\"width:110.15pt;\"><p style=\"text-align:center;\"><u><span>Specific point for testing</span></u><span>&nbsp;</span></p><p style=\"text-align:center;\"><span>&nbsp;</span></p><p style=\"text-align:center;\"><span>Long: 7˚ 53’ 46.12” W&nbsp;</span></p><p style=\"text-align:center;\"><span>Lat: 40˚ 30’ 46.65” N&nbsp;</span></p></td></tr><tr><td style=\"width:97.55pt;\"><p><span>Main access road and exit:&nbsp;</span></p></td><td style=\"width:110.15pt;\"><p style=\"text-align:center;\"><span>N234&nbsp;</span></p><p style=\"text-align:center;\"><span>Exit at: Urgeiriça&nbsp;</span></p></td></tr><tr><td style=\"width:97.55pt;\"><p><span>Access to site by paved road:&nbsp;</span></p></td><td style=\"width:110.15pt;\"><p style=\"text-align:center;\"><span>Yes&nbsp;</span></p></td></tr><tr><td style=\"width:97.55pt;\"><p style=\"text-align:justify;\"><span>Access to site by unpaved road:&nbsp;</span></p></td><td style=\"width:110.15pt;\"><p style=\"text-align:center;\"><span>No&nbsp;</span></p></td></tr><tr><td style=\"width:97.55pt;\"><p><span>Remarks:&nbsp;</span></p></td><td style=\"width:110.15pt;\"><p style=\"text-align:center;\"><span>&nbsp;</span></p></td></tr></tbody></table>",
+                      "history": [
+                        {
+                          "attributesChanged": {
+                            "text": "<p><span>Local Map</span></p><table style=\"width:207.7pt;\"><tbody><tr><td style=\"width:97.55pt;\"><p><span>Geographic coordinates (ETRS89)&nbsp;</span></p></td><td style=\"width:110.15pt;\"><p style=\"text-align:center;\"><u><span>Specific point for testing</span></u><span>&nbsp;</span></p><p style=\"text-align:center;\"><span>&nbsp;</span></p><p style=\"text-align:center;\"><span>Long: 7˚ 53’ 46.12” W&nbsp;</span></p><p style=\"text-align:center;\"><span>Lat: 40˚ 30’ 46.65” N&nbsp;</span></p></td></tr><tr><td style=\"width:97.55pt;\"><p><span>Main access road and exit:&nbsp;</span></p></td><td style=\"width:110.15pt;\"><p style=\"text-align:center;\"><span>N234&nbsp;</span></p><p style=\"text-align:center;\"><span>Exit at: Urgeiriça&nbsp;</span></p></td></tr><tr><td style=\"width:97.55pt;\"><p><span>Access to site by paved road:&nbsp;</span></p></td><td style=\"width:110.15pt;\"><p style=\"text-align:center;\"><span>Yes&nbsp;</span></p></td></tr><tr><td style=\"width:97.55pt;\"><p style=\"text-align:justify;\"><span>Access to site by unpaved road:&nbsp;</span></p></td><td style=\"width:110.15pt;\"><p style=\"text-align:center;\"><span>No&nbsp;</span></p></td></tr><tr><td style=\"width:97.55pt;\"><p><span>Remarks:&nbsp;</span></p></td><td style=\"width:110.15pt;\"><p style=\"text-align:center;\"><span>&nbsp;</span></p></td></tr></tbody></table>"
+                          },
+                          "changedBy": {
+                            "company": "TRICERA energy GmbH",
+                            "email": "manuel.kersic@tricera.energy",
+                            "name": "Manuel Kersic"
+                          },
+                          "changedOn": "2025-09-29T14:14:48.088Z"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "150",
+                  "guid": "2a280e9e-694b-409a-9627-c3ef973590be",
+                  "heading": "LOCAL GENERAL FACILITIES",
+                  "children": [
+                    {
+                      "id": "151",
+                      "guid": "f3a89e28-ada8-4fc1-9880-2ae5cb433fc2",
+                      "text": "<table style=\"width:451.9pt;\"><tbody><tr><td style=\"width:97.55pt;\"><p><span>Hospital at:&nbsp;</span></p></td><td style=\"width:110.15pt;\"><p style=\"text-align:center;\"><span>26 km&nbsp;</span></p></td><td rowspan=\"3\" style=\"width:244.2pt;\"><p><span>Lodging &amp; Food:&nbsp;</span></p><p><span>-<span> </span></span><span>4* Historic mining Hotel – 1km&nbsp;</span></p><p><span>-<span> </span></span><span>Several restaurants – 1 km&nbsp;</span></p></td></tr><tr><td style=\"width:97.55pt;\"><p><span>Emergency First Aid Services at:&nbsp;</span></p></td><td style=\"width:110.15pt;\"><p style=\"text-align:center;\"><span>1 km&nbsp;</span></p></td></tr><tr><td style=\"width:97.55pt;\"><p><span>Fire &amp; Rescue Services at:&nbsp;</span></p></td><td style=\"width:110.15pt;\"><p style=\"text-align:center;\"><span>1 km&nbsp;</span></p></td></tr><tr><td style=\"width:97.55pt;\"><p><span>Remarks:&nbsp;</span></p></td><td colspan=\"2\" style=\"width:354.35pt;\"><p>&nbsp;</p></td></tr></tbody></table>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "152",
+              "guid": "33aebb3e-db4d-4611-81dd-9fae4680389c",
+              "heading": "TEST SITE CHARACTERIZATION",
+              "children": [
+                {
+                  "id": "153",
+                  "guid": "1a7eca3f-f43f-4c59-80f5-cea608dfcd7b",
+                  "text": "<p><span>Type of mining exploitation: underground&nbsp;</span>&amp;<span>Exploited ores: radium, uranium&nbsp;</span></p>"
+                },
+                {
+                  "id": "154",
+                  "guid": "8ed7321a-7984-435d-b0b3-ebffc3fd5643",
+                  "text": "<p><span>Mineral deposit type: Quartz veins in shear zone&nbsp;</span>&amp;<span>Host rocks: Coarse grained granite.&nbsp;</span></p>"
+                },
+                {
+                  "id": "155",
+                  "guid": "e7e8e9c8-dd3f-4f64-8232-a4cdeba91b5f",
+                  "text": "<p><span>Mining period:&nbsp; 1913-1973 Underground exploration, 1973-1991 in situ leaching</span></p>"
+                },
+                {
+                  "id": "156",
+                  "guid": "20fde002-f3b6-4424-ac8d-20d0148dc07e",
+                  "text": "<p><span>Current accessibility by: Vertical shaft&nbsp;</span></p>"
+                },
+                {
+                  "id": "157",
+                  "guid": "aa7a43fb-64eb-4737-a4d9-ed3ed9fbd4e5",
+                  "text": "<p><span>General mine description: The mining infrastructures comprise 6 vertical shafts along strike the subvertical mineralized shear zone oriented N60E. The underground exploitation occurred in galleries 15-30 m wide that extend horizontally for 1600 m, and reached a depth of 500 m along 18 levels. These galleries are accessible by the main shaft (St. Bárbara shaft), through a 1x1 m wide hatch at surface. The shaft is 400 m deep, the water level is at 8-10 m below surface and the first 20 m of the shaft walls are secured with concrete. The first galleries are at 20 m below surface.&nbsp;</span></p>"
+                },
+                {
+                  "id": "158",
+                  "guid": "7a55b666-0b30-4a86-b545-c35add6fea32",
+                  "attachments": [
+                    "UNEXcreq-158_1_image009.jpg"
+                  ]
+                },
+                {
+                  "id": "159",
+                  "guid": "c31bec89-ccf4-41dd-9464-237e29409db6",
+                  "text": "<p><span>What are most important parts of the mine to explore: Galleries around main shaft, at levels 4, 6 10 and 15.&nbsp;</span></p>"
+                },
+                {
+                  "id": "160",
+                  "guid": "360be653-fedf-441a-9a87-0be4afae56a6",
+                  "text": "<p><span>Maximum depth of the mine:580 m</span></p>"
+                },
+                {
+                  "id": "161",
+                  "guid": "69d8af76-0612-40d3-b46f-8a7fca6da049",
+                  "text": "<p><span>Is the mine completely flooded?: yes&nbsp;</span></p>"
+                },
+                {
+                  "id": "162",
+                  "guid": "833b3ff4-2ee4-49aa-851f-16490f1bfe55",
+                  "text": "<p><span>Maximum know accessible depth: unknown</span></p>"
+                },
+                {
+                  "id": "163",
+                  "guid": "961e7f57-07d2-4c01-b719-48ea23e06cf9",
+                  "text": "<p><span>Water depth below the surface: 10 m&nbsp;</span></p>"
+                },
+                {
+                  "id": "164",
+                  "guid": "e6708260-f007-4961-a9ae-c615ba7a6429",
+                  "text": "<p><span>Minimum diameter of tunnels:?</span></p>"
+                },
+                {
+                  "id": "165",
+                  "guid": "4147419c-e138-41c4-a1ca-57495b55b120",
+                  "text": "<p><span>Water quality in the mine:&nbsp; Average of last 3 years: pH 6,43; conductivity 705 µs/cm; 37 mg/l SO<sub>4</sub>; 1,6 mg/l Fe; 4,0 mg/l Mn; 16 mg/l Tss; 0,046 bq/l Ra226; 15,77 ppb U;&nbsp;</span></p>"
+                },
+                {
+                  "id": "166",
+                  "guid": "3c192df7-4ef2-44f0-a7ad-8db4f202453d",
+                  "text": "<p><span>Maximum original continuous shaft length: 400 m</span></p>"
+                },
+                {
+                  "id": "167",
+                  "guid": "d2ee79e0-eaa4-44a8-8f40-e240c3e4408a",
+                  "text": "<p><span>Known water temperature in the mine:&nbsp;&nbsp;</span></p>"
+                },
+                {
+                  "id": "168",
+                  "guid": "beee1895-bdff-4dc0-8d75-acb3f6a09508",
+                  "text": "<p><span>Maximum known continuous shaft length accessible for testing: unknown</span></p>"
+                },
+                {
+                  "id": "169",
+                  "guid": "c9c85ade-4c92-44f0-8ae1-feeb4b1543be",
+                  "text": "<p><span>Water temperature range in the mine:&nbsp;</span></p>"
+                },
+                {
+                  "id": "170",
+                  "guid": "9e37df9a-ec3b-48d2-91c4-1f00d556e9b8",
+                  "text": "<p><span>Not measured. Dependent on thermal gradient.&nbsp;</span></p>"
+                },
+                {
+                  "id": "171",
+                  "guid": "974cf0f4-d0e8-4f24-b3ae-368974826d97",
+                  "text": "<p><span>Maximum original continuous gallery length: 1600 m</span></p>"
+                },
+                {
+                  "id": "172",
+                  "guid": "79d0f722-cae1-4c50-a4e6-3d205905d2dd",
+                  "text": "<p><span>Maximum known water flow velocity in galleries: Unknown (probably negligent).&nbsp;</span></p>"
+                },
+                {
+                  "id": "173",
+                  "guid": "72c629c4-6a6f-4dac-86c5-d1cb9e6325a8",
+                  "text": "<p><span>Maximum known and continuous gallery length accessible for testing: unknown</span></p>"
+                },
+                {
+                  "id": "174",
+                  "guid": "635ba0d1-0e7a-477e-a19a-b49f58ed4f4d",
+                  "text": "<p><span>Presence of gases inside non-flooded galleries: Radon and eventually sulfidic.&nbsp;</span></p>"
+                },
+                {
+                  "id": "175",
+                  "guid": "3167fc4b-5749-4caa-b296-849850b8401a",
+                  "text": "<p><span>How leveled are the galleries? Originally well leveled</span></p>"
+                },
+                {
+                  "id": "176",
+                  "guid": "e73fee76-6f64-4a54-99ea-c70e386e1446",
+                  "text": "<p><span>Known living beings growing in the mine: Unknown.&nbsp;</span></p>"
+                },
+                {
+                  "id": "177",
+                  "guid": "6386c17a-99e7-41f1-a5ff-db79b4b26fd2",
+                  "text": "<p><span>Type of obstacles in the galleries and shafts: Eventual wood structures and mine galleries collapses</span></p>"
+                },
+                {
+                  "id": "178",
+                  "guid": "63f49e99-1bbc-4e46-8a66-24c61d132af1",
+                  "text": "<p><span>Possibility of soft obstacles in shafts and galleries which might not be detected by sensors: Eventual wood residues.&nbsp;</span></p>"
+                },
+                {
+                  "id": "179",
+                  "guid": "5ea77c98-a96e-463d-9bb4-8ecb9b62c1bb",
+                  "text": "<p><span>Can the water level be reached from surface without special techniques? Easy from the main (vertical) shaft using an electrical hoist</span></p>"
+                },
+                {
+                  "id": "180",
+                  "guid": "82fd88b1-9911-47c6-8ec0-6110d29076bf",
+                  "text": "<p><span>Other remarks:&nbsp;</span></p>"
+                },
+                {
+                  "id": "181",
+                  "guid": "5ac65482-e6f5-4ece-b255-b1951ebb6ad4",
+                  "heading": "EXISTENT FACILITIES",
+                  "children": [
+                    {
+                      "id": "182",
+                      "guid": "96f2990a-73ee-41e4-a351-ff3f4d154f7c",
+                      "text": "<p><span>Available electricity: 1-phase 220 V and 3-phase, 380 V</span></p>"
+                    },
+                    {
+                      "id": "183",
+                      "guid": "7c30077d-ed33-4af6-9045-2c23d004dcbd",
+                      "text": "<p><span>Available water: Drinking water available&nbsp;</span></p>"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "attributes": {
