@@ -9,7 +9,7 @@
     "email": "manuel.kersic@tricera.energy",
     "company": "TRICERA energy GmbH"
   },
-  "lastChangedOn": "2025-09-29T15:17:21.095Z",
+  "lastChangedOn": "2025-09-30T15:51:09.926Z",
   "lastChangedBy": {
     "name": "Manuel Kersic",
     "email": "manuel.kersic@tricera.energy",
@@ -3319,6 +3319,65 @@
           "columnId": "status",
           "width": 150
         }
+      ]
+    },
+    "Requirements to Copy": {
+      "columns": [
+        {
+          "columnId": "id",
+          "width": 165
+        },
+        {
+          "columnId": "type",
+          "width": 150
+        },
+        {
+          "columnId": "reqType",
+          "width": 150
+        },
+        {
+          "columnId": "pcReq",
+          "width": 150
+        },
+        {
+          "columnId": "description",
+          "width": 600
+        },
+        {
+          "columnId": "links",
+          "width": 300
+        },
+        {
+          "columnId": "priority",
+          "width": 150
+        },
+        {
+          "columnId": "difficulty",
+          "width": 150
+        },
+        {
+          "columnId": "compliance",
+          "width": 150
+        },
+        {
+          "columnId": "status",
+          "width": 150
+        }
+      ],
+      "filter": [
+        [
+          {
+            "attributeId": "type",
+            "criterion": "attribute",
+            "value": "1"
+          },
+          {
+            "criterion": "link",
+            "linkCategory": "inlink",
+            "linkTypeId": "satisfaction",
+            "not": true
+          }
+        ]
       ]
     },
     "Work Remaining": {
