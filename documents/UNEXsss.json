@@ -1,0 +1,734 @@
+{
+  "id": "UNEXsss",
+  "guid": "c3ce1c8a-4f27-4d8a-a5f5-0b9360726529",
+  "name": "UNEX System/Subsystem Specification",
+  "lastId": 70,
+  "createdOn": "2025-09-30T15:46:25.358Z",
+  "createdBy": {
+    "name": "Manuel Kersic",
+    "email": "manuel.kersic@tricera.energy",
+    "company": "TRICERA energy GmbH"
+  },
+  "lastChangedOn": "2025-09-30T15:46:25.358Z",
+  "lastChangedBy": {
+    "name": "Manuel Kersic",
+    "email": "manuel.kersic@tricera.energy",
+    "company": "TRICERA energy GmbH"
+  },
+  "data": [
+    {
+      "id": "1",
+      "guid": "eedad8cd-09d5-4560-a4e6-28dff65d6144",
+      "heading": "Scope",
+      "instructions": "<p>This section shall be divided into the following paragraphs.</p>",
+      "children": [
+        {
+          "id": "2",
+          "guid": "f1ba09e2-883c-45e2-afe4-00173a8c6be8"
+        },
+        {
+          "id": "3",
+          "guid": "b90c9da3-de25-41a4-96bd-05ec33d8f851",
+          "heading": "Identification",
+          "instructions": "<p>This paragraph shall contain a full identification of the system to which this document applies, including, as applicable, identification number(s), title(s), abbrevia­tion(s), version number(s), and release number(s).</p>",
+          "children": [
+            {
+              "id": "4",
+              "guid": "d510b3d6-f57b-4f7c-809c-50aa11bff55e"
+            }
+          ]
+        },
+        {
+          "id": "5",
+          "guid": "53ea51dd-ef80-4ffb-9f68-bdb899f1bcf5",
+          "heading": "System overview",
+          "instructions": "<p>This paragraph shall briefly state the purpose of the system to which this document applies. &nbsp;It shall describe the general nature of the system; summarize the history of system development, operation, and maintenance; identify the project sponsor, acquirer, user, developer, and support agencies; identify current and planned operating sites; and list other relevant documents.</p>",
+          "children": [
+            {
+              "id": "6",
+              "guid": "049593cf-8887-45fe-8bae-a774d34e54e0"
+            }
+          ]
+        },
+        {
+          "id": "7",
+          "guid": "3d22b18b-0c59-4eed-8e1a-e621838f720d",
+          "heading": "Document overview",
+          "instructions": "<p>This paragraph shall summarize the purpose and contents of this document and shall describe any security or privacy considerations associated with its use.</p>",
+          "children": [
+            {
+              "id": "8",
+              "guid": "36fb0ab7-ba4d-4367-be15-516f06f6d30b"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "guid": "6ec01453-6f3e-416f-9ef0-b573c9a185f9",
+      "heading": "Referenced documents",
+      "instructions": "<p>This section shall list the number, title, revision, and date of all documents referenced in this specification. &nbsp;This section shall also identify the source for all documents not available through normal Government stocking activities.</p>",
+      "children": [
+        {
+          "id": "10",
+          "guid": "6a4d4d3f-c0ec-41a6-8235-5a587bd33f43"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "guid": "272af608-4e43-47ec-85a5-c0673bb8f295",
+      "heading": "Requirements",
+      "instructions": "<p>This section shall be divided into the following paragraphs to specify the system requirements, that is, those characteristics of the system that are conditions for its acceptance. &nbsp; Each requirement shall be assigned a project-unique identifier to support testing and traceability and shall be stated in such a way that an objective test can be defined for it. &nbsp;Each requirement shall be annotated with associated qualification method(s) (see section 4) and, for subsystems, traceability to system requirements (see section 5.a), if not provided in those sections. &nbsp;The degree of detail to be provided shall be guided by the following rule: &nbsp;Include those characteristics of the system that are conditions for system acceptance; defer to design descriptions those characteristics that the acquirer is willing to leave up to the developer. &nbsp;If there are no requirements in a given paragraph, the paragraph shall so state. &nbsp;If a given requirement fits into more than one paragraph, it may be stated once and referenced from the other paragraphs.&nbsp;</p>",
+      "children": [
+        {
+          "id": "12",
+          "guid": "32d74b6b-2450-47ec-ac3f-7631edc25faa"
+        },
+        {
+          "id": "13",
+          "guid": "8c7f845d-abe3-4f22-b44d-c285269be834",
+          "heading": "Required states and modes",
+          "instructions": "<p>If the system is required to operate in more than one state or mode having requirements distinct from other states or modes, this paragraph shall identify and define each state and mode. &nbsp;Examples of states and modes include: &nbsp;idle, ready, active, post-use analysis, training, degraded, emergency, backup, wartime, peacetime. &nbsp;The distinction between states and modes is arbitrary. &nbsp;A system may be described in terms of states only, modes only, states within modes, modes within states, or any other scheme that is useful. &nbsp;If no states or modes are required, this paragraph shall so state, without the need to create artificial distinctions. If states and/or modes are required, each requirement or group of requirements in this specification shall be correlated to the states and modes. &nbsp;The correlation may be indicated by a table or other method in this paragraph, in an appendix referenced from this paragraph, or by annotation of the requirements in the paragraphs where they appear.</p>",
+          "children": [
+            {
+              "id": "14",
+              "guid": "26c76822-6172-4126-bfa3-4ce4f4728db8"
+            }
+          ]
+        },
+        {
+          "id": "15",
+          "guid": "101971d4-5731-42c0-bbe2-7649e8a9df7d",
+          "heading": "System capability requirements",
+          "instructions": "<p>This paragraph shall be divided into subparagraphs to itemize the requirements associated with each capability of the system. &nbsp;A \"capability\" is defined as a group of related requirements. &nbsp;The word \"capability\" may be replaced with \"function,\" \"subject,\" \"object,\" or other term useful for presenting the requirements. &nbsp;</p>",
+          "children": [
+            {
+              "id": "16",
+              "guid": "5d1c161a-a0a3-45b7-af6b-a67ad57ce0a6"
+            },
+            {
+              "id": "17",
+              "guid": "d2fa83b5-1e47-489c-8961-6eadd9d193dd",
+              "heading": "3.2.x (System capability)",
+              "instructions": "<p>This paragraph shall identify a required system capability and shall itemize the requirements associated with the capability. &nbsp;If the capability can be more clearly specified by dividing it into constituent capabilities, the constituent capabilities shall be specified in subparagraphs. &nbsp;The requirements shall specify required behavior of the system and shall include applicable parameters, such as response times, throughput times, other timing constraints, sequencing, accuracy, capacities (how much/how many), priorities, continuous operation require­ments, and allowable devia­tions based on operating conditions. &nbsp;The requirements shall include, as applicable, required behavior under unexpected, unallowed, or \"out of bounds\" conditions, requirements for error handling, and any provisions to be incorporated into the system to provide continuity of operations in the event of emer­gencies. &nbsp;Paragraph 3.3.x of this DID provides a list of topics to be considered when specifying requirements regarding inputs the system must accept and outputs it must produce.</p>",
+              "children": [
+                {
+                  "id": "18",
+                  "guid": "b1f3c4a9-f888-4608-b877-e71d01c62815"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "19",
+          "guid": "ae04a55f-3ffa-4b55-9d94-20049383639b",
+          "heading": "System external interface requirements",
+          "instructions": "<p>This paragraph shall be divided into subpara­graphs to specify the requirements, if any, for the system's external interfaces. &nbsp;This paragraph may reference one or more Interface Requirements Specifications (IRSs) or other documents containing these requirements.</p>",
+          "children": [
+            {
+              "id": "20",
+              "guid": "2e816808-4308-40b1-ba36-e4a4d7ff8ff9"
+            },
+            {
+              "id": "21",
+              "guid": "302aee45-b27a-4be5-baac-b99064301d13",
+              "heading": "Interface identification and diagrams",
+              "instructions": "<p>This paragraph shall identify the required external interfaces of the system. &nbsp;The identification of each interface shall include a project-unique identifier and shall designate the interfacing entities (systems, configuration items, users, etc.) by name, number, version, and documentation references, as applicable. &nbsp;The identification shall state which entities have fixed interface characteristics (and therefore impose interface requirements on interfacing entities) and which are being developed or modified (thus having interface requirements imposed on them). &nbsp;One or more interface diagrams shall be provided to depict the interfaces. &nbsp;</p>",
+              "children": [
+                {
+                  "id": "22",
+                  "guid": "d82209ef-251e-43ef-9362-0a2a81c18705"
+                }
+              ]
+            },
+            {
+              "id": "23",
+              "guid": "63c95a9e-e974-43ee-a95a-94459c12c3e5",
+              "heading": "3.3.x (Project‑unique identifier of interface)",
+              "instructions": "<p>This paragraph (beginning with 3.3.2) shall identify a system external interface by project‑unique identifier, shall briefly identify the interfacing entities, and shall be divided into subparagraphs as needed to state the requirements imposed on the system to achieve the interface. &nbsp;Interface characteristics of the other entities involved in the interface shall be stated as assumptions or as \"When [the entity not covered] does this, the system shall...,\" not as requirements on the other entities. &nbsp;This paragraph may reference other documents (such as data dictionaries, standards for communication protocols, and standards for user interfaces) in place of stating the information here. &nbsp;The requirements shall include the following, as applicable, presented in any order suited to the requirements, and shall note any differences in these characteristics from the point of view of the interfacing entities (such as different expectations about the size, frequency, or other characteristics of data elements):</p><ol><li>Priority that the system must assign the interface</li><li>Requirements on the type of interface (such as real-time data transfer, storage-and-retrieval of data, etc.) to be implemented</li><li>Required characteristics of individual data elements that the system must provide, store, send, access, receive, etc., such as:<ol><li>Names/identifiers<ol><li>Project-unique identifier</li><li>Non-technical (natural-language) name</li><li>DoD standard data element name</li><li>Technical name (e.g., variable or field name in code or database)</li><li>Abbreviation or synonymous names</li></ol></li><li>Data type (alphanumeric, integer, etc.)</li><li>Size and format (such as length and punctuation of a character string)</li><li>Units of measurement (such as meters, dollars, nanoseconds)</li><li>Range or enumeration of possible values (such as 0-99)</li><li>Accuracy (how correct) and precision (number of significant digits)</li><li>Priority, timing, frequency, volume, sequencing, and other constraints, such as whether the data element may be updated and whether business rules apply</li><li>Security and privacy constraints</li><li>Sources (setting/sending entities) and recipients (using/receiving entities)</li></ol></li><li>Required characteristics of data element assemblies (records, messages, files, arrays, displays, reports, etc.) that the system must provide, store, send, access, receive, etc., such as:<ol><li>Names/identifiers<ol><li>Project-unique identifier</li><li>Non-technical (natural language) name</li><li>Technical name (e.g., record or data structure name in code or database)</li><li>Abbreviations or synonymous names</li></ol></li><li>Data elements in the assembly and their structure (number, order, grouping)</li><li>Medium (such as disk) and structure of data elements/assemblies on the medium</li><li>Visual and auditory characteristics of displays and other outputs (such as colors, layouts, fonts, icons and other display elements, beeps, lights)</li><li>Relationships among assemblies, such as sorting/access characteristics</li><li>Priority, timing, frequency, volume, sequencing, and other constraints, such as whether the assembly may be updated and whether business rules apply</li><li>Security and privacy constraints</li><li>Sources (setting/sending entities) and recipients (using/receiving entities)</li></ol></li><li>Required characteristics of communication methods that the system must use for the interface, such as:<ol><li>Project-unique identifier(s)</li><li>Communication links/bands/frequencies/media and their characteristics</li><li>Message formatting</li><li>Flow control (such as sequence numbering and buffer allocation)</li><li>Data transfer rate, whether periodic/aperiodic, and interval between transfers</li><li>Routing, addressing, and naming conventions</li><li>Transmission services, including priority and grade</li><li>Safety/security/privacy considerations, such as encryption, user authentication, compartmentalization, and auditing</li></ol></li><li>Required characteristics of protocols the system must use for the interface, such as:<ol><li>Project-unique identifier(s)</li><li>Priority/layer of the protocol</li><li>Packeting, including fragmentation and reassembly, routing, and addressing</li><li>Legality checks, error control, and recovery procedures</li><li>Synchronization, including connection establishment, maintenance, termination</li><li>Status, identification, and any other reporting features</li></ol></li><li>Other required characteristics, such as physical compatibility of the interfacing entities (dimensions, tolerances, loads, plug compatibility, etc.), voltages, etc.</li></ol>",
+              "children": [
+                {
+                  "id": "24",
+                  "guid": "f6751f5b-c016-4bde-baa4-a098240aec54"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "25",
+          "guid": "591c7be1-9a43-4178-a278-e6e8de1414ff",
+          "heading": "System internal interface requirements",
+          "instructions": "<p>This paragraph shall specify the requirements, if any, imposed on interfaces internal to the system. &nbsp;If all internal interfaces are left to the design or to requirement specifications for system components, this fact shall be so stated. &nbsp;If such requirements are to be imposed, paragraph 3.3 of this DID provides a list of topics to be considered.</p>",
+          "children": [
+            {
+              "id": "26",
+              "guid": "841784d5-deca-4245-adf4-0dc71efbe00d"
+            }
+          ]
+        },
+        {
+          "id": "27",
+          "guid": "19a11246-ed9f-4dbc-9032-72d264fcef5c",
+          "heading": "System internal data requirements",
+          "instructions": "<p>This paragraph shall specify the requirements, if any, imposed on data internal to the system. &nbsp;Included shall be requirements, if any, on databases and data files to be included in the system. &nbsp;If all decisions about internal data are left to the design or to requirements specifications for system components, this fact shall be so stated. &nbsp;If such requirements are to be imposed, paragraphs 3.3.x.c and 3.3.x.d of this DID provide a list of topics to be considered.</p>",
+          "children": [
+            {
+              "id": "28",
+              "guid": "b6fa17d5-93ae-48c0-8bb0-26730ce4f0b5"
+            }
+          ]
+        },
+        {
+          "id": "29",
+          "guid": "62079277-7681-4079-a0ae-093e7bee2e7a",
+          "heading": "Adaptation requirements",
+          "instructions": "<p>This paragraph shall specify the requirements, if any, concerning installation-dependent data that the system is required to provide (such as site-dependent latitude and longitude or site-dependent state tax codes) and operational parameters that the system is required to use that may vary according to operational needs (such as parameters indicating operation-dependent targeting constants or data recording).</p>",
+          "children": [
+            {
+              "id": "30",
+              "guid": "8cf74682-e334-4b8a-b1b4-ab300eb1903d"
+            }
+          ]
+        },
+        {
+          "id": "31",
+          "guid": "443156af-c611-4671-a51e-fecddd64a0d2",
+          "heading": "Safety requirements",
+          "instructions": "<p>This paragraph shall specify the system requirements, if any, concerned with preventing or minimizing unintended hazards to personnel, property, and the physical environment. &nbsp;Examples include restricting the use of dangerous materials; classifying explosives for purposes of shipping, handling, and storing; abort/escape provisions from enclosures; gas detection and warning devices; grounding of electrical systems; decontamina­tion; and explosion proofing. &nbsp;This paragraph shall include the system requirements, if any, for nuclear components, including, as applicable, requirements for component design, prevention of inadvertent detonation, and compliance with nuclear safety rules.</p>",
+          "children": [
+            {
+              "id": "32",
+              "guid": "05c56b9c-2c1d-4dd8-b9b5-fcb8ccb6ad06"
+            }
+          ]
+        },
+        {
+          "id": "33",
+          "guid": "7e0c2581-6cb3-4f31-bf5f-8a70d0efa2a9",
+          "heading": "Security and privacy requirements",
+          "instructions": "<p>This paragraph shall specify the system require­ments, if any, concerned with maintaining security and privacy. &nbsp;The requirements shall include, as applicable, the security/privacy environment in which the system must operate, the type and degree of security or privacy to be provided, the security/privacy risks the system must withstand, required safeguards to reduce those risks, the security/privacy policy that must be met, the security/privacy accountability the system must provide, and the criteria that must be met for security/privacy certification/accreditation.</p>",
+          "children": [
+            {
+              "id": "34",
+              "guid": "bfa18e06-562d-4304-8904-0b265fef6e92"
+            }
+          ]
+        },
+        {
+          "id": "35",
+          "guid": "a57d4767-ffce-418a-9af8-1ac0fbe9c4b4",
+          "heading": "System environment requirements",
+          "instructions": "<p>This paragraph shall specify the requirements, if any, regarding the environment in which the system must operate. &nbsp;Examples for a software system are the computer hardware and operating system on which the software must run. &nbsp;(Additional requirements concerning computer resources are given in the next paragraph). &nbsp;Examples for a hardware-software system include the environmental conditions that the system must with­stand dur­ing transportation, storage, and operation, such as conditions in the natural environment (wind, rain, tempera­ture, geograph­ic location), the induced environment (motion, shock, noise, electromag­netic radiation), and environments due to enemy action (explosions, radiation).&nbsp;</p>",
+          "children": [
+            {
+              "id": "36",
+              "guid": "7448f74e-960c-49b1-b2f1-0a467b8b0d4a",
+              "text": "<p><span>&nbsp;</span></p>"
+            }
+          ]
+        },
+        {
+          "id": "37",
+          "guid": "098cd608-850d-4280-8041-9ba7f9294704",
+          "heading": "Computer resource requirements",
+          "instructions": "<p>This paragraph shall be divided into the following subparagraphs. &nbsp;Depending upon the nature of the system, the computer resources covered in these subparagraphs may constitute the environment of the system (as for a software system) or components of the system (as for a hardware-software system). &nbsp;</p>",
+          "children": [
+            {
+              "id": "38",
+              "guid": "921c3cea-bafe-47b3-9058-f211e3d58153"
+            },
+            {
+              "id": "39",
+              "guid": "ce3529a5-9952-42ba-96c1-d5f4c1225d2e",
+              "heading": "Computer hardware requirements",
+              "instructions": "<p>This paragraph shall specify the requirements, if any, regarding computer hardware that must be used by, or incorporated into, the system. &nbsp;The requirements shall include, as applicable, number of each type of equipment, type, size, capacity, and other required character­istics of proces­sors, memory, input/output devices, auxiliary storage, communications/network equipment, and other required equip­ment.</p>",
+              "children": [
+                {
+                  "id": "40",
+                  "guid": "ad437b0c-119c-4f2a-8ee7-dfc10bee37ed"
+                }
+              ]
+            },
+            {
+              "id": "41",
+              "guid": "73ca2215-a328-45aa-aeac-acc89440b728",
+              "heading": "Computer hardware resource utilization requirements",
+              "instructions": "<p>This paragraph shall specify the requirements, if any, on the system's computer hardware resource utilization, such as maximum allowable use of processor capacity, memory capacity, input/output device capacity, auxiliary storage device capacity, and communications/network equipment capacity. &nbsp;The requirements (stated, for example, as percentages of the capacity of each computer hardware resource) shall include the conditions, if any, under which the resource utilization is to be measured.</p>",
+              "children": [
+                {
+                  "id": "42",
+                  "guid": "648f6b52-48c7-49de-9f0e-d1fccaa64547"
+                }
+              ]
+            },
+            {
+              "id": "43",
+              "guid": "ad83926c-ec4d-47dd-ac5b-c767125eb3b3",
+              "heading": "Computer software requirements",
+              "instructions": "<p>This paragraph shall specify the requirements, if any, regarding computer software that must be used by, or incorporated into, the system. &nbsp;Examples include operating systems, database management systems, communications/ network software, utility software, input and equipment simulators, test software, and manufacturing software. &nbsp;The correct nomencla­ture, version, and documen­ta­tion references of each such software item shall be provided. &nbsp;</p>",
+              "children": [
+                {
+                  "id": "44",
+                  "guid": "73365aee-f2a6-4a24-89ef-4d6e28157ede"
+                }
+              ]
+            },
+            {
+              "id": "45",
+              "guid": "2d9032a7-3f02-4566-b06d-d61960b3edcf",
+              "heading": "Computer communications requirements",
+              "instructions": "<p>This paragraph shall specify the additional requirements, if any, concerning the computer communica­tions that must be used by, or incorporated into, the system. &nbsp;Examples include geographic locations to be linked; configuration and network topology; transmission techniques; data transfer rates; gateways; required system use times; type and volume of data to be transmitted/receiv­ed; time boundaries for transmis­sion/reception/response; peak volumes of data; and diagnostic features.</p>",
+              "children": [
+                {
+                  "id": "46",
+                  "guid": "558063fd-4cdf-4794-aefb-849ee0e29c7a"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "47",
+          "guid": "5da3aa4a-8b2b-48f6-8d8a-eedb43a58d8f",
+          "heading": "System quality factors",
+          "instructions": "<p>This paragraph shall specify the requirements, if any, pertaining to system quality factors. &nbsp;Examples include quantitative requirements concerning system functionality (the ability to perform all required functions), reliability (the ability to perform with correct, consistent results -- such as mean time between failure for equipment), maintainability (the ability to be easily serviced, repaired, or corrected), availability (the ability to be accessed and operated when needed), flexibility (the ability to be easily adapted to changing requirements), portability of software (the ability to be easily modified for a new environment), reusability (the ability to be used in multiple applications), testability (the ability to be easily and thoroughly tested), usability (the ability to be easily learned and used), and other attributes.</p>",
+          "children": [
+            {
+              "id": "48",
+              "guid": "8a99c391-12bd-4897-91d2-ce6f271ad8ec"
+            }
+          ]
+        },
+        {
+          "id": "49",
+          "guid": "05e4c781-5ff0-4d42-b66b-741885378799",
+          "heading": "Design and construction constraints",
+          "instructions": "<p>This paragraph shall specify the requirements, if any, that constrain the design and construction of the system. &nbsp;For hardware-software systems, this paragraph shall include the physical requirements imposed on the system. &nbsp;These requirements may be specified by reference to appropriate commercial or military standards and specifications. &nbsp;Examples include requirements concerning:</p><ol><li>Use of a particular system architecture or requirements on the architecture, such as required subsystems; use of standard, military, or existing components; or use of Government/acquirer-furnished property (equipment, information, or software)</li><li>Use of particular design or construction standards; use of particular data standards; use of a particular programming language; workmanship requirements and production techniques</li><li>Physical characteristics of the system (such as weight limits, dimensional limits, color, protective coatings); interchangeability of parts; ability to be transported from one location to another; ability to be carried or set up by one, or a given number of, persons</li><li>Materials that can and cannot be used; requirements on the handling of toxic materials; limits on the electromagnetic radiation that the system is permitted to generate</li><li>Use of nameplates, part marking, serial and lot number marking, and other identifying markings</li><li>Flexibility and expandability that must be provided to support anticipated areas of growth or changes in technology, threat, or mission</li></ol>",
+          "children": [
+            {
+              "id": "50",
+              "guid": "881e8bc5-c069-40bc-9a1a-cd34ed3fc37e"
+            }
+          ]
+        },
+        {
+          "id": "51",
+          "guid": "ff25e6b5-5dbd-4565-844c-c1b28e069890",
+          "heading": "Personnel-related requirements",
+          "instructions": "<p>This paragraph shall specify the system require­ments, if any, included to accommodate the number, skill levels, duty cycles, training needs, or other information about the personnel who will use or support the system. &nbsp;Examples include requirements for the number of work stations to be provided and for built-in help and training features. &nbsp;Also included shall be the human factors engineering require­ments, if any, imposed on the system. &nbsp;These requirements shall include, as applicable, considerations for the capabilities and limitations of humans, foreseeable human errors under both normal and extreme conditions, and specific areas where the effects of human error would be particularly serious. &nbsp;Examples include requirements for adjustable-height work stations, color and duration of error messages, physical placement of critical indicators or buttons, and use of auditory signals.</p>",
+          "children": [
+            {
+              "id": "52",
+              "guid": "d7ab13ce-0253-43df-b66a-d44a8e2e74d2"
+            }
+          ]
+        },
+        {
+          "id": "53",
+          "guid": "89dd595c-7e46-49b1-80b9-d210341d6aeb",
+          "heading": "Training-related requirements",
+          "instructions": "<p>This paragraph shall specify the system requirements, if any, pertaining to training. &nbsp;Examples include training devices and training materials to be included in the system.</p>",
+          "children": [
+            {
+              "id": "54",
+              "guid": "406261db-b314-4f6a-a596-6ce21f1df807"
+            }
+          ]
+        },
+        {
+          "id": "55",
+          "guid": "87852426-d8e0-444d-b433-729146204bff",
+          "heading": "Logistics-related requirements",
+          "instructions": "<p>This paragraph shall specify the system requirements, if any, concerned with logistics considerations. &nbsp;These considerations may include: &nbsp;system maintenance, software support, system transportation modes, supply‑system requirements, impact on existing facilities, and impact on existing equipment.</p>",
+          "children": [
+            {
+              "id": "56",
+              "guid": "a2da263f-9e55-4b0f-9406-ae7a1ec6fc7a"
+            }
+          ]
+        },
+        {
+          "id": "57",
+          "guid": "00492380-7ba9-4044-a982-2d90884bc510",
+          "heading": "Other requirements",
+          "instructions": "<p>This paragraph shall specify additional system requirements, if any, not covered in the previous paragraphs. &nbsp;Examples include requirements for system documenta­tion, such as specifications, drawings, technical manuals, test plans and procedures, and installation instruction data, if not covered in other contractual documents. &nbsp;</p>",
+          "children": [
+            {
+              "id": "58",
+              "guid": "f37ef8fa-3365-4173-8a72-99ec3967d203"
+            }
+          ]
+        },
+        {
+          "id": "59",
+          "guid": "ad294038-c476-4759-95c2-600bf75fb0ae",
+          "heading": "Packaging requirements",
+          "instructions": "<p>This section shall specify the require­ments, if any, for packaging, labeling, and handling the system and its components for delivery. &nbsp;Applicable military specifications and standards may be referenced if appropriate. &nbsp;</p>",
+          "children": [
+            {
+              "id": "60",
+              "guid": "48904481-b2cd-41f6-90ce-d01f57b2c0c5"
+            }
+          ]
+        },
+        {
+          "id": "61",
+          "guid": "85060499-286e-4248-9c35-383f4f6a3150",
+          "heading": "Precedence and criticality of requirements",
+          "instructions": "<p>This paragraph shall specify, if applicable, the order of precedence, criticality, or assigned weights indicating the relative importance of the requirements in this specification. &nbsp;Examples include identifying those requirements deemed critical to safety, to security, or to privacy for purposes of singling them out for special treatment. &nbsp;If all requirements have equal weight, this paragraph shall so state.</p>",
+          "children": [
+            {
+              "id": "62",
+              "guid": "34fa8575-efca-4952-8b0c-1722de4e531f"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "63",
+      "guid": "7f36797d-6e20-4a55-b265-59f146d7e907",
+      "heading": "Qualification provisions",
+      "instructions": "<p>This section shall define a set of qualification methods and shall specify for each requirement in Section 3 the method(s) to be used to ensure that the require­ment has been met. &nbsp;A table may be used to present this information, or each requirement in Section 3 may be annotated with the method(s) to be used. &nbsp;Qualification methods may include:</p><ol><li>Demonstration: &nbsp;The operation of the system, or a part of the system, that relies on observable functional operation not requiring the use of instrumentation, special test equipment, or subsequent analysis.</li><li>Test: &nbsp;The operation of the system, or a part of the system, using instrumentation or other special test equipment to collect data for later analysis.</li><li>Analysis: &nbsp;The processing of accumulated data obtained from other qualification methods. &nbsp;Examples are reduction, interpolation, or extrapolation of test results.</li><li>Inspection: &nbsp;The visual examination of system components, documentation, etc.</li><li>Special qualification methods. &nbsp;Any special qualification methods for the system, such as special tools, techniques, procedures, facilities, acceptance limits, use of standard samples, preproduction or periodic production samples, pilot models, or pilot lots.&nbsp;</li></ol>",
+      "children": [
+        {
+          "id": "64",
+          "guid": "947fed3c-b07b-47e3-9012-26d7ea3313c1",
+          "text": "<p>The 'Verification Method' attribute of each requirement specifies the Qualification Methods to be used to ensure that the require­ment has been met.</p>"
+        }
+      ]
+    },
+    {
+      "id": "65",
+      "guid": "6f8132ae-89f6-4b2b-bb92-1d9864868381",
+      "heading": "Requirements traceability",
+      "instructions": "<p>For system-level specifications, this paragraph does not apply. &nbsp;For subsystem-level specifications, this paragraph shall contain:</p><ol><li>Traceability from each subsystem requirement in this specification to the system requirements it addresses. &nbsp;(Alternatively, this traceability may be provided by annotating each requirement in Section 3.) Note: &nbsp;Each level of system refinement may result in requirements not directly traceable to higher-level requirements. &nbsp;For example, a system architectural design that creates two subsystems may result in requirements about how the subsystems will interface, even though these interfaces are not covered in system requirements. &nbsp;Such requirements may be traced to a general requirement such as \"system implementation\" or to the system design decisions that resulted in their generation.</li><li>Traceability from each system requirement that has been allocated to the subsystem covered by this specification to the subsystem requirements that address it. &nbsp;All system requirements allocated to the subsystem shall be accounted for. &nbsp;Those that trace to subsystem requirements contained in IRSs shall reference those IRSs.</li></ol>",
+      "children": [
+        {
+          "id": "66",
+          "guid": "5018f931-a99f-4b65-a86f-1d80de90fc8a"
+        }
+      ]
+    },
+    {
+      "id": "67",
+      "guid": "68b15ebe-d7c6-465f-b766-d19a9dc7570b",
+      "heading": "Notes",
+      "instructions": "<p>This section shall contain any general information that aids in understanding this document (e.g., background information, glossary, rationale). &nbsp;This section shall contain an alphabetical listing of all acronyms, abbreviations, and their meanings as used in this document and a list of any terms and definitions needed to under­stand this document.</p>",
+      "children": [
+        {
+          "id": "68",
+          "guid": "365ff60a-163e-400a-a576-5e33b3c9b3e3"
+        }
+      ]
+    },
+    {
+      "id": "69",
+      "guid": "d0c37838-09d5-425f-8896-6c470a58125a",
+      "heading": "Appendixes",
+      "instructions": "<p>Appendixes may be used to provide information published separately for convenience in document maintenance (e.g., charts, classified data). &nbsp;As applicable, each appendix shall be refer­enced in the main body of the document where the data would normally have been provided. &nbsp;Appendixes may be bound as separate documents for ease in handling. Appendixes shall be Numbered 7.1, 7.2, etc. (opposing to the requirement to letter alphabeti­cally (A, B, etc.) in mil-std-498).</p>",
+      "children": [
+        {
+          "id": "70",
+          "guid": "df7ca672-5478-4002-ba25-7cad8755fb6b"
+        }
+      ]
+    }
+  ],
+  "attributes": {
+    "assignedTo": {
+      "name": "Assigned to",
+      "type": "string"
+    },
+    "compliance": {
+      "name": "Compliance",
+      "type": "enum",
+      "values": [
+        {
+          "key": "cmpl_COMLY",
+          "label": "Comply"
+        },
+        {
+          "key": "cmpl_PART",
+          "label": "Partial Comply"
+        },
+        {
+          "key": "cmpl_NO",
+          "label": "Non-Comply"
+        }
+      ]
+    },
+    "deadline": {
+      "name": "Deadline",
+      "type": "date"
+    },
+    "difficulty": {
+      "name": "Difficulty",
+      "type": "enum",
+      "values": [
+        {
+          "key": "dif_EASY",
+          "label": "Easy"
+        },
+        {
+          "key": "dif_NOM",
+          "label": "Nominal"
+        },
+        {
+          "key": "dif_HARD",
+          "label": "Difficult"
+        }
+      ]
+    },
+    "instructions": {
+      "help": true,
+      "name": "Instructions",
+      "type": "xhtml"
+    },
+    "priority": {
+      "name": "Priority",
+      "type": "enum",
+      "values": [
+        {
+          "key": "pri_LOW",
+          "label": "Low"
+        },
+        {
+          "key": "pri_MED",
+          "label": "Medium"
+        },
+        {
+          "key": "pri_HI",
+          "label": "High"
+        }
+      ]
+    },
+    "rationale": {
+      "name": "Rationale",
+      "type": "xhtml"
+    },
+    "reqType": {
+      "multiValued": true,
+      "name": "Requirement Type",
+      "type": "enum",
+      "values": [
+        {
+          "key": "reqT_FUNC",
+          "label": "Functional Requirement"
+        },
+        {
+          "key": "reqT_NONFUNC",
+          "label": "Non Functional Requirement"
+        },
+        {
+          "key": "reqT_INT",
+          "label": "Interface Requirement"
+        },
+        {
+          "key": "reqT_SAF",
+          "label": "Safety Requirement"
+        },
+        {
+          "key": "reqT_SEC",
+          "label": "Security Requirement"
+        },
+        {
+          "key": "reqT_QUAL",
+          "label": "Quality Requirement"
+        },
+        {
+          "key": "reqT_REG",
+          "label": "Regulatory Requirement"
+        }
+      ]
+    },
+    "status": {
+      "name": "Status",
+      "type": "enum",
+      "values": [
+        {
+          "key": "sts_DRAFT",
+          "label": "Draft"
+        },
+        {
+          "key": "sts_RDY",
+          "label": "Ready"
+        },
+        {
+          "key": "sts_REV",
+          "label": "Reviewed"
+        },
+        {
+          "key": "sts_APPR",
+          "label": "Approved"
+        },
+        {
+          "key": "sts_REL",
+          "label": "Released"
+        }
+      ]
+    },
+    "tbd_tbr": {
+      "name": "TBD/TBR",
+      "type": "enum",
+      "values": [
+        {
+          "key": "tbd_TBD",
+          "label": "TBD"
+        },
+        {
+          "key": "tbd_TBR",
+          "label": "TBR"
+        }
+      ]
+    },
+    "type": {
+      "name": "Type",
+      "type": "enum",
+      "values": [
+        {
+          "key": "REQ",
+          "label": "Requirement"
+        },
+        {
+          "key": "FIG",
+          "label": "Figure Caption"
+        },
+        {
+          "key": "SEC",
+          "label": "Section"
+        },
+        {
+          "key": "INF",
+          "label": "Information"
+        }
+      ]
+    },
+    "verMethod": {
+      "name": "Verification Method",
+      "type": "enum",
+      "values": [
+        {
+          "key": "verMtd_ANA",
+          "label": "Analysis"
+        },
+        {
+          "key": "verMtd_INSPECT",
+          "label": "Inspection"
+        },
+        {
+          "key": "verMtd_DEMO",
+          "label": "Demonstration"
+        },
+        {
+          "key": "verMtd_TEST",
+          "label": "Test"
+        }
+      ]
+    }
+  },
+  "templateColumns": {
+  },
+  "views": {
+    "Primary": {
+      "columns": [
+        {
+          "columnId": "id",
+          "width": 65
+        },
+        {
+          "columnId": "description",
+          "width": 500
+        }
+      ],
+      "default": true
+    },
+    "Requirements Prioritization": {
+      "columns": [
+        {
+          "columnId": "id",
+          "width": 65
+        },
+        {
+          "columnId": "type",
+          "width": 83
+        },
+        {
+          "columnId": "reqType",
+          "width": 100
+        },
+        {
+          "columnId": "description",
+          "width": 500
+        },
+        {
+          "columnId": "priority",
+          "width": 150
+        },
+        {
+          "columnId": "difficulty",
+          "width": 150
+        },
+        {
+          "columnId": "compliance",
+          "width": 150
+        },
+        {
+          "columnId": "status",
+          "width": 117
+        }
+      ],
+      "sort": {
+        "columnId": "id",
+        "descending": false
+      }
+    },
+    "Work Remaining": {
+      "columns": [
+        {
+          "columnId": "id",
+          "width": 65
+        },
+        {
+          "columnId": "type",
+          "width": 83
+        },
+        {
+          "columnId": "reqType",
+          "width": 100
+        },
+        {
+          "columnId": "description",
+          "width": 500
+        },
+        {
+          "columnId": "status",
+          "width": 117
+        },
+        {
+          "columnId": "tbd_tbr",
+          "width": 80
+        },
+        {
+          "columnId": "assignedTo",
+          "width": 108
+        },
+        {
+          "columnId": "deadline",
+          "width": 103
+        }
+      ],
+      "sort": {
+        "columnId": "status",
+        "descending": false
+      }
+    }
+  },
+  "metadata": {
+    "format": "2.20"
+  }
+}
