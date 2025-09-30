@@ -2,14 +2,14 @@
   "id": "UNEXsss",
   "guid": "c3ce1c8a-4f27-4d8a-a5f5-0b9360726529",
   "name": "UNEX System/Subsystem Specification",
-  "lastId": 70,
+  "lastId": 75,
   "createdOn": "2025-09-30T15:46:25.358Z",
   "createdBy": {
     "name": "Manuel Kersic",
     "email": "manuel.kersic@tricera.energy",
     "company": "TRICERA energy GmbH"
   },
-  "lastChangedOn": "2025-09-30T15:46:25.358Z",
+  "lastChangedOn": "2025-09-30T16:02:36.417Z",
   "lastChangedBy": {
     "name": "Manuel Kersic",
     "email": "manuel.kersic@tricera.energy",
@@ -224,6 +224,191 @@
           "heading": "System environment requirements",
           "instructions": "<p>This paragraph shall specify the requirements, if any, regarding the environment in which the system must operate. &nbsp;Examples for a software system are the computer hardware and operating system on which the software must run. &nbsp;(Additional requirements concerning computer resources are given in the next paragraph). &nbsp;Examples for a hardware-software system include the environmental conditions that the system must with­stand dur­ing transportation, storage, and operation, such as conditions in the natural environment (wind, rain, tempera­ture, geograph­ic location), the induced environment (motion, shock, noise, electromag­netic radiation), and environments due to enemy action (explosions, radiation).&nbsp;</p>",
           "children": [
+            {
+              "id": "71",
+              "guid": "34d2f729-ead8-4290-91ea-ea902c7ca916",
+              "text": "<p>The water quality variations are high. Water might also be acidic; hence the external equipment of the robot must be made of acid resistant materials.</p>",
+              "links": {
+                "satisfaction": [
+                  "UNEXcreq-24"
+                ]
+              },
+              "history": [
+                {
+                  "affectedNodeId": "24",
+                  "changedBy": {
+                    "company": "TRICERA energy GmbH",
+                    "email": "manuel.kersic@tricera.energy",
+                    "name": "Manuel Kersic"
+                  },
+                  "changedOn": "2025-09-30T15:58:14.695Z",
+                  "docId": "UNEXcreq",
+                  "structureAction": "Copy"
+                },
+                {
+                  "addedLink": {
+                    "target": [
+                      "UNEXcreq-24"
+                    ],
+                    "type": "satisfaction"
+                  },
+                  "changedBy": {
+                    "company": "TRICERA energy GmbH",
+                    "email": "manuel.kersic@tricera.energy",
+                    "name": "Manuel Kersic"
+                  },
+                  "changedOn": "2025-09-30T15:59:46.349Z"
+                }
+              ]
+            },
+            {
+              "id": "72",
+              "guid": "f59e67fd-0221-446a-b00e-9baffe11183a",
+              "text": "<p>Water temperature variation: +4… 40°C.</p>",
+              "links": {
+                "satisfaction": [
+                  "UNEXcreq-25"
+                ]
+              },
+              "history": [
+                {
+                  "affectedNodeId": "25",
+                  "changedBy": {
+                    "company": "TRICERA energy GmbH",
+                    "email": "manuel.kersic@tricera.energy",
+                    "name": "Manuel Kersic"
+                  },
+                  "changedOn": "2025-09-30T16:02:36.417Z",
+                  "docId": "UNEXcreq",
+                  "structureAction": "Copy"
+                },
+                {
+                  "addedLink": {
+                    "target": [
+                      "UNEXcreq-25"
+                    ],
+                    "type": "satisfaction"
+                  },
+                  "changedBy": {
+                    "company": "TRICERA energy GmbH",
+                    "email": "manuel.kersic@tricera.energy",
+                    "name": "Manuel Kersic"
+                  },
+                  "changedOn": "2025-09-30T16:02:36.417Z"
+                }
+              ]
+            },
+            {
+              "id": "73",
+              "guid": "4de17933-f4e3-42f3-aaa7-5855dbfcb4c8",
+              "text": "<p>Local water flow velocity can be high.</p>",
+              "links": {
+                "satisfaction": [
+                  "UNEXcreq-26"
+                ]
+              },
+              "history": [
+                {
+                  "affectedNodeId": "26",
+                  "changedBy": {
+                    "company": "TRICERA energy GmbH",
+                    "email": "manuel.kersic@tricera.energy",
+                    "name": "Manuel Kersic"
+                  },
+                  "changedOn": "2025-09-30T16:02:36.417Z",
+                  "docId": "UNEXcreq",
+                  "structureAction": "Copy"
+                },
+                {
+                  "addedLink": {
+                    "target": [
+                      "UNEXcreq-26"
+                    ],
+                    "type": "satisfaction"
+                  },
+                  "changedBy": {
+                    "company": "TRICERA energy GmbH",
+                    "email": "manuel.kersic@tricera.energy",
+                    "name": "Manuel Kersic"
+                  },
+                  "changedOn": "2025-09-30T16:02:36.417Z"
+                }
+              ]
+            },
+            {
+              "id": "74",
+              "guid": "ee2872ea-568c-4809-8661-eb20fbf2ab54",
+              "text": "<p>Maximum depth: 500 m.</p>",
+              "links": {
+                "satisfaction": [
+                  "UNEXcreq-27"
+                ]
+              },
+              "history": [
+                {
+                  "affectedNodeId": "27",
+                  "changedBy": {
+                    "company": "TRICERA energy GmbH",
+                    "email": "manuel.kersic@tricera.energy",
+                    "name": "Manuel Kersic"
+                  },
+                  "changedOn": "2025-09-30T16:02:36.417Z",
+                  "docId": "UNEXcreq",
+                  "structureAction": "Copy"
+                },
+                {
+                  "addedLink": {
+                    "target": [
+                      "UNEXcreq-27"
+                    ],
+                    "type": "satisfaction"
+                  },
+                  "changedBy": {
+                    "company": "TRICERA energy GmbH",
+                    "email": "manuel.kersic@tricera.energy",
+                    "name": "Manuel Kersic"
+                  },
+                  "changedOn": "2025-09-30T16:02:36.417Z"
+                }
+              ]
+            },
+            {
+              "id": "75",
+              "guid": "76ba0a4f-3459-4581-927d-00479524008d",
+              "text": "<p><span>Maximum Manhattan distance from any point of the mine to entrance at water surface is under 2.5 km.&nbsp;</span></p>",
+              "links": {
+                "satisfaction": [
+                  "UNEXcreq-32"
+                ]
+              },
+              "history": [
+                {
+                  "affectedNodeId": "32",
+                  "changedBy": {
+                    "company": "TRICERA energy GmbH",
+                    "email": "manuel.kersic@tricera.energy",
+                    "name": "Manuel Kersic"
+                  },
+                  "changedOn": "2025-09-30T16:02:36.417Z",
+                  "docId": "UNEXcreq",
+                  "structureAction": "Copy"
+                },
+                {
+                  "addedLink": {
+                    "target": [
+                      "UNEXcreq-32"
+                    ],
+                    "type": "satisfaction"
+                  },
+                  "changedBy": {
+                    "company": "TRICERA energy GmbH",
+                    "email": "manuel.kersic@tricera.energy",
+                    "name": "Manuel Kersic"
+                  },
+                  "changedOn": "2025-09-30T16:02:36.417Z"
+                }
+              ]
+            },
             {
               "id": "36",
               "guid": "7448f74e-960c-49b1-b2f1-0a467b8b0d4a",
