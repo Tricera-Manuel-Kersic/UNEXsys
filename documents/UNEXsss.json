@@ -2,14 +2,14 @@
   "id": "UNEXsss",
   "guid": "c3ce1c8a-4f27-4d8a-a5f5-0b9360726529",
   "name": "UNEX System/Subsystem Specification",
-  "lastId": 75,
+  "lastId": 106,
   "createdOn": "2025-09-30T15:46:25.358Z",
   "createdBy": {
     "name": "Manuel Kersic",
     "email": "manuel.kersic@tricera.energy",
     "company": "TRICERA energy GmbH"
   },
-  "lastChangedOn": "2025-09-30T16:02:36.417Z",
+  "lastChangedOn": "2025-10-01T15:12:22.402Z",
   "lastChangedBy": {
     "name": "Manuel Kersic",
     "email": "manuel.kersic@tricera.energy",
@@ -109,6 +109,690 @@
               "guid": "5d1c161a-a0a3-45b7-af6b-a67ad57ce0a6"
             },
             {
+              "id": "81",
+              "guid": "c5099257-5fa0-4e59-8ec8-9f49c77becf4",
+              "heading": "Environmental Sensors",
+              "history": [
+                {
+                  "affectedNodeId": "15",
+                  "changedBy": {
+                    "company": "TRICERA energy GmbH",
+                    "email": "manuel.kersic@tricera.energy",
+                    "name": "Manuel Kersic"
+                  },
+                  "changedOn": "2025-10-01T14:19:36.254Z",
+                  "docId": "UNEXsss",
+                  "structureAction": "Create"
+                },
+                {
+                  "attributesChanged": {
+                    "heading": null
+                  },
+                  "changedBy": {
+                    "company": "TRICERA energy GmbH",
+                    "email": "manuel.kersic@tricera.energy",
+                    "name": "Manuel Kersic"
+                  },
+                  "changedOn": "2025-10-01T14:20:19.237Z"
+                }
+              ],
+              "children": [
+                {
+                  "id": "90",
+                  "guid": "2d05ff70-2682-4cee-bb3b-ce03459a73ce",
+                  "text": "<p>Water inside the mine is not always transparent and any contact with the underwater walls result in increased turbidity of water due to silt.</p>",
+                  "links": {
+                    "satisfaction": [
+                      "UNEXcreq-23"
+                    ]
+                  },
+                  "history": [
+                    {
+                      "affectedNodeId": "23",
+                      "changedBy": {
+                        "company": "TRICERA energy GmbH",
+                        "email": "manuel.kersic@tricera.energy",
+                        "name": "Manuel Kersic"
+                      },
+                      "changedOn": "2025-10-01T15:00:01.165Z",
+                      "docId": "UNEXcreq",
+                      "structureAction": "Copy"
+                    },
+                    {
+                      "addedLink": {
+                        "target": [
+                          "UNEXcreq-23"
+                        ],
+                        "type": "satisfaction"
+                      },
+                      "changedBy": {
+                        "company": "TRICERA energy GmbH",
+                        "email": "manuel.kersic@tricera.energy",
+                        "name": "Manuel Kersic"
+                      },
+                      "changedOn": "2025-10-01T15:00:01.165Z"
+                    }
+                  ]
+                },
+                {
+                  "id": "91",
+                  "guid": "09f656c9-992e-424b-9eda-2eedd83879ca",
+                  "text": "<p>The vision system should be able to map the wall surfaces 360 degrees perpendicular to the motion direction and be capable of navigating in turbid water (have complementary sensors for range information).&nbsp;</p>",
+                  "links": {
+                    "satisfaction": [
+                      "UNEXcreq-44"
+                    ]
+                  },
+                  "history": [
+                    {
+                      "affectedNodeId": "44",
+                      "changedBy": {
+                        "company": "TRICERA energy GmbH",
+                        "email": "manuel.kersic@tricera.energy",
+                        "name": "Manuel Kersic"
+                      },
+                      "changedOn": "2025-10-01T15:00:01.165Z",
+                      "docId": "UNEXcreq",
+                      "structureAction": "Copy"
+                    },
+                    {
+                      "addedLink": {
+                        "target": [
+                          "UNEXcreq-44"
+                        ],
+                        "type": "satisfaction"
+                      },
+                      "changedBy": {
+                        "company": "TRICERA energy GmbH",
+                        "email": "manuel.kersic@tricera.energy",
+                        "name": "Manuel Kersic"
+                      },
+                      "changedOn": "2025-10-01T15:00:01.165Z"
+                    }
+                  ]
+                },
+                {
+                  "id": "92",
+                  "guid": "8e6df2e0-a704-4d79-a163-8448988961fd",
+                  "text": "<p>The vision system should be able to map the wall surfaces 360 degree and take images also in turbid water.</p>",
+                  "links": {
+                    "satisfaction": [
+                      "UNEXcreq-45"
+                    ]
+                  },
+                  "history": [
+                    {
+                      "affectedNodeId": "45",
+                      "changedBy": {
+                        "company": "TRICERA energy GmbH",
+                        "email": "manuel.kersic@tricera.energy",
+                        "name": "Manuel Kersic"
+                      },
+                      "changedOn": "2025-10-01T15:00:01.165Z",
+                      "docId": "UNEXcreq",
+                      "structureAction": "Copy"
+                    },
+                    {
+                      "addedLink": {
+                        "target": [
+                          "UNEXcreq-45"
+                        ],
+                        "type": "satisfaction"
+                      },
+                      "changedBy": {
+                        "company": "TRICERA energy GmbH",
+                        "email": "manuel.kersic@tricera.energy",
+                        "name": "Manuel Kersic"
+                      },
+                      "changedOn": "2025-10-01T15:00:01.165Z"
+                    }
+                  ]
+                },
+                {
+                  "id": "93",
+                  "guid": "4ccc4e93-6418-445c-b782-6af352615506",
+                  "text": "<p>The robot should be equipped with certain sensors in order to analyse walls and water. These sensors can include for example:</p><ul><li>Hyperspectral / LIBS for mineral and geochemistry mapping.•Gamma ray for lithology mapping</li><li>Video and Camera (stereo).</li><li>Thermal sensor</li><li>Pressure sensor.</li><li>pH and Eh</li><li>Fiber optic sensors for water quality</li></ul>",
+                  "links": {
+                    "satisfaction": [
+                      "UNEXcreq-49"
+                    ]
+                  },
+                  "history": [
+                    {
+                      "affectedNodeId": "49",
+                      "changedBy": {
+                        "company": "TRICERA energy GmbH",
+                        "email": "manuel.kersic@tricera.energy",
+                        "name": "Manuel Kersic"
+                      },
+                      "changedOn": "2025-10-01T15:00:01.165Z",
+                      "docId": "UNEXcreq",
+                      "structureAction": "Copy"
+                    },
+                    {
+                      "addedLink": {
+                        "target": [
+                          "UNEXcreq-49"
+                        ],
+                        "type": "satisfaction"
+                      },
+                      "changedBy": {
+                        "company": "TRICERA energy GmbH",
+                        "email": "manuel.kersic@tricera.energy",
+                        "name": "Manuel Kersic"
+                      },
+                      "changedOn": "2025-10-01T15:00:01.165Z"
+                    }
+                  ]
+                },
+                {
+                  "id": "94",
+                  "guid": "a3058a24-10a0-422a-a318-f03feae7a8e0",
+                  "text": "<p>Robot must have a water sampling system</p>",
+                  "links": {
+                    "satisfaction": [
+                      "UNEXcreq-50"
+                    ]
+                  },
+                  "history": [
+                    {
+                      "affectedNodeId": "50",
+                      "changedBy": {
+                        "company": "TRICERA energy GmbH",
+                        "email": "manuel.kersic@tricera.energy",
+                        "name": "Manuel Kersic"
+                      },
+                      "changedOn": "2025-10-01T15:00:01.165Z",
+                      "docId": "UNEXcreq",
+                      "structureAction": "Copy"
+                    },
+                    {
+                      "addedLink": {
+                        "target": [
+                          "UNEXcreq-50"
+                        ],
+                        "type": "satisfaction"
+                      },
+                      "changedBy": {
+                        "company": "TRICERA energy GmbH",
+                        "email": "manuel.kersic@tricera.energy",
+                        "name": "Manuel Kersic"
+                      },
+                      "changedOn": "2025-10-01T15:00:01.165Z"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "82",
+              "guid": "3befaf20-21ac-4fc5-a22a-61d43d92d80f",
+              "heading": "Motion and Navigation",
+              "history": [
+                {
+                  "affectedNodeId": "15",
+                  "changedBy": {
+                    "company": "TRICERA energy GmbH",
+                    "email": "manuel.kersic@tricera.energy",
+                    "name": "Manuel Kersic"
+                  },
+                  "changedOn": "2025-10-01T14:20:38.169Z",
+                  "docId": "UNEXsss",
+                  "structureAction": "Create"
+                },
+                {
+                  "attributesChanged": {
+                    "heading": null
+                  },
+                  "changedBy": {
+                    "company": "TRICERA energy GmbH",
+                    "email": "manuel.kersic@tricera.energy",
+                    "name": "Manuel Kersic"
+                  },
+                  "changedOn": "2025-10-01T14:21:03.486Z"
+                }
+              ],
+              "children": [
+                {
+                  "id": "84",
+                  "guid": "b8084f73-1467-4fd4-816d-d1272d10b9e4",
+                  "text": "<p>The walls and cavities of mines can be unstable; therefore the robot operation must be contactless and be able to reverse out of dead ends channels.</p>",
+                  "links": {
+                    "satisfaction": [
+                      "UNEXcreq-28"
+                    ]
+                  },
+                  "history": [
+                    {
+                      "affectedNodeId": "28",
+                      "changedBy": {
+                        "company": "TRICERA energy GmbH",
+                        "email": "manuel.kersic@tricera.energy",
+                        "name": "Manuel Kersic"
+                      },
+                      "changedOn": "2025-10-01T14:22:33.375Z",
+                      "docId": "UNEXcreq",
+                      "structureAction": "Copy"
+                    },
+                    {
+                      "addedLink": {
+                        "target": [
+                          "UNEXcreq-28"
+                        ],
+                        "type": "satisfaction"
+                      },
+                      "changedBy": {
+                        "company": "TRICERA energy GmbH",
+                        "email": "manuel.kersic@tricera.energy",
+                        "name": "Manuel Kersic"
+                      },
+                      "changedOn": "2025-10-01T14:23:52.385Z"
+                    }
+                  ]
+                },
+                {
+                  "id": "85",
+                  "guid": "f0e4f0bb-3e09-48c0-a77f-cf8fc682d32c",
+                  "text": "<p>The robot must possess high manoeuvrability while driving through constrained spots.</p>",
+                  "links": {
+                    "satisfaction": [
+                      "UNEXcreq-40"
+                    ]
+                  },
+                  "history": [
+                    {
+                      "affectedNodeId": "40",
+                      "changedBy": {
+                        "company": "TRICERA energy GmbH",
+                        "email": "manuel.kersic@tricera.energy",
+                        "name": "Manuel Kersic"
+                      },
+                      "changedOn": "2025-10-01T14:22:33.375Z",
+                      "docId": "UNEXcreq",
+                      "structureAction": "Copy"
+                    },
+                    {
+                      "addedLink": {
+                        "target": [
+                          "UNEXcreq-40"
+                        ],
+                        "type": "satisfaction"
+                      },
+                      "changedBy": {
+                        "company": "TRICERA energy GmbH",
+                        "email": "manuel.kersic@tricera.energy",
+                        "name": "Manuel Kersic"
+                      },
+                      "changedOn": "2025-10-01T14:24:04.873Z"
+                    }
+                  ]
+                },
+                {
+                  "id": "86",
+                  "guid": "000ad1a3-db80-48e1-8ff6-46254cd11d62",
+                  "text": "<p>Due to the lack of absolute positioning systems, robot navigation must be environment based (based on perception). Varying water turbidity and extreme environment conditions require multiple navigation sensor systems providing information to be fused. These can include, multibeam sonar, sector scan sonar, vision based systems with structured light and INS coupled with DVL with fluid current measurement capability.</p>",
+                  "links": {
+                    "satisfaction": [
+                      "UNEXcreq-46"
+                    ]
+                  },
+                  "history": [
+                    {
+                      "affectedNodeId": "46",
+                      "changedBy": {
+                        "company": "TRICERA energy GmbH",
+                        "email": "manuel.kersic@tricera.energy",
+                        "name": "Manuel Kersic"
+                      },
+                      "changedOn": "2025-10-01T14:22:33.375Z",
+                      "docId": "UNEXcreq",
+                      "structureAction": "Copy"
+                    },
+                    {
+                      "addedLink": {
+                        "target": [
+                          "UNEXcreq-46"
+                        ],
+                        "type": "satisfaction"
+                      },
+                      "changedBy": {
+                        "company": "TRICERA energy GmbH",
+                        "email": "manuel.kersic@tricera.energy",
+                        "name": "Manuel Kersic"
+                      },
+                      "changedOn": "2025-10-01T14:24:16.234Z"
+                    }
+                  ]
+                },
+                {
+                  "id": "87",
+                  "guid": "8feb9c80-efd4-499a-8eee-857d2c5ccef1",
+                  "text": "<p>The robot must have the key functionalities:</p><ul><li>Create an online map of the environment for navigation purposes</li><li>Record time stamped and synchronous mapping and application sensor data for mission post-processing</li><li>Use previous information about the map: both historical information from the mine or from previous surveys, incrementally.</li><li>The robot's perception system should be able to perceive thin obstacles such as ropes or cables.</li><li>Be able to move lateral and vertical to avoid obstacles</li><li>Has specific survey manoeuvres to move close (parallel and at a known distance) of mine walls; to move in tunnels and galleries avoiding obstacles; to do scanning motion to map tunnels and galleries with multibeam; to reverse direction or move back in closed small tunnels.</li></ul>",
+                  "links": {
+                    "satisfaction": [
+                      "UNEXcreq-52"
+                    ]
+                  },
+                  "history": [
+                    {
+                      "affectedNodeId": "52",
+                      "changedBy": {
+                        "company": "TRICERA energy GmbH",
+                        "email": "manuel.kersic@tricera.energy",
+                        "name": "Manuel Kersic"
+                      },
+                      "changedOn": "2025-10-01T14:22:33.375Z",
+                      "docId": "UNEXcreq",
+                      "structureAction": "Copy"
+                    },
+                    {
+                      "addedLink": {
+                        "target": [
+                          "UNEXcreq-52"
+                        ],
+                        "type": "satisfaction"
+                      },
+                      "changedBy": {
+                        "company": "TRICERA energy GmbH",
+                        "email": "manuel.kersic@tricera.energy",
+                        "name": "Manuel Kersic"
+                      },
+                      "changedOn": "2025-10-01T14:24:33.422Z"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "83",
+              "guid": "de2023b4-1fee-4cab-bb26-730209697f2d",
+              "heading": "Propulsion",
+              "history": [
+                {
+                  "affectedNodeId": "15",
+                  "changedBy": {
+                    "company": "TRICERA energy GmbH",
+                    "email": "manuel.kersic@tricera.energy",
+                    "name": "Manuel Kersic"
+                  },
+                  "changedOn": "2025-10-01T14:21:06.205Z",
+                  "docId": "UNEXsss",
+                  "structureAction": "Create"
+                },
+                {
+                  "attributesChanged": {
+                    "heading": null
+                  },
+                  "changedBy": {
+                    "company": "TRICERA energy GmbH",
+                    "email": "manuel.kersic@tricera.energy",
+                    "name": "Manuel Kersic"
+                  },
+                  "changedOn": "2025-10-01T14:21:11.510Z"
+                }
+              ],
+              "children": [
+                {
+                  "id": "88",
+                  "guid": "a10820dd-c6d9-4dcf-a654-2e01050bd64c",
+                  "text": "<p>The power unit should be capable of supporting the robot for 5 hours of driving autonomously.</p>",
+                  "links": {
+                    "satisfaction": [
+                      "UNEXcreq-41"
+                    ]
+                  },
+                  "history": [
+                    {
+                      "affectedNodeId": "41",
+                      "changedBy": {
+                        "company": "TRICERA energy GmbH",
+                        "email": "manuel.kersic@tricera.energy",
+                        "name": "Manuel Kersic"
+                      },
+                      "changedOn": "2025-10-01T14:25:01.466Z",
+                      "docId": "UNEXcreq",
+                      "structureAction": "Copy"
+                    },
+                    {
+                      "addedLink": {
+                        "target": [
+                          "UNEXcreq-41"
+                        ],
+                        "type": "satisfaction"
+                      },
+                      "changedBy": {
+                        "company": "TRICERA energy GmbH",
+                        "email": "manuel.kersic@tricera.energy",
+                        "name": "Manuel Kersic"
+                      },
+                      "changedOn": "2025-10-01T14:25:01.466Z"
+                    }
+                  ]
+                },
+                {
+                  "id": "89",
+                  "guid": "0626b54e-8c3e-4e44-82a4-c96b437dcc8d",
+                  "text": "<p>The propulsion unit must provide enough thrust in order to drive the robot with 0.5 m/s velocity under 50 bar pressure.</p>",
+                  "links": {
+                    "satisfaction": [
+                      "UNEXcreq-43"
+                    ]
+                  },
+                  "history": [
+                    {
+                      "affectedNodeId": "43",
+                      "changedBy": {
+                        "company": "TRICERA energy GmbH",
+                        "email": "manuel.kersic@tricera.energy",
+                        "name": "Manuel Kersic"
+                      },
+                      "changedOn": "2025-10-01T14:25:01.466Z",
+                      "docId": "UNEXcreq",
+                      "structureAction": "Copy"
+                    },
+                    {
+                      "addedLink": {
+                        "target": [
+                          "UNEXcreq-43"
+                        ],
+                        "type": "satisfaction"
+                      },
+                      "changedBy": {
+                        "company": "TRICERA energy GmbH",
+                        "email": "manuel.kersic@tricera.energy",
+                        "name": "Manuel Kersic"
+                      },
+                      "changedOn": "2025-10-01T14:25:01.466Z"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "101",
+              "guid": "b01bdfc2-ae79-41bb-8d62-8d3f8d513543",
+              "heading": "Power",
+              "history": [
+                {
+                  "affectedNodeId": "15",
+                  "changedBy": {
+                    "company": "TRICERA energy GmbH",
+                    "email": "manuel.kersic@tricera.energy",
+                    "name": "Manuel Kersic"
+                  },
+                  "changedOn": "2025-10-01T15:05:48.864Z",
+                  "docId": "UNEXsss",
+                  "structureAction": "Create"
+                },
+                {
+                  "attributesChanged": {
+                    "heading": null
+                  },
+                  "changedBy": {
+                    "company": "TRICERA energy GmbH",
+                    "email": "manuel.kersic@tricera.energy",
+                    "name": "Manuel Kersic"
+                  },
+                  "changedOn": "2025-10-01T15:06:07.474Z"
+                }
+              ],
+              "children": [
+                {
+                  "id": "102",
+                  "guid": "0d40b17b-1a97-48b5-a36e-98dc84b6072b",
+                  "text": "<p>Distance covered with single charge 1 – 5 km.</p>",
+                  "links": {
+                    "satisfaction": [
+                      "UNEXcreq-42"
+                    ]
+                  },
+                  "history": [
+                    {
+                      "affectedNodeId": "42",
+                      "changedBy": {
+                        "company": "TRICERA energy GmbH",
+                        "email": "manuel.kersic@tricera.energy",
+                        "name": "Manuel Kersic"
+                      },
+                      "changedOn": "2025-10-01T15:06:49.204Z",
+                      "docId": "UNEXcreq",
+                      "structureAction": "Copy"
+                    },
+                    {
+                      "addedLink": {
+                        "target": [
+                          "UNEXcreq-42"
+                        ],
+                        "type": "satisfaction"
+                      },
+                      "changedBy": {
+                        "company": "TRICERA energy GmbH",
+                        "email": "manuel.kersic@tricera.energy",
+                        "name": "Manuel Kersic"
+                      },
+                      "changedOn": "2025-10-01T15:06:49.204Z"
+                    }
+                  ]
+                },
+                {
+                  "id": "103",
+                  "guid": "ae29b220-26d0-4118-bff8-ef071976df13",
+                  "text": "<p>The robot batteries can be loaded or charged while the robot is in water.&nbsp;</p>",
+                  "links": {
+                    "satisfaction": [
+                      "UNEXcreq-51"
+                    ]
+                  },
+                  "history": [
+                    {
+                      "affectedNodeId": "51",
+                      "changedBy": {
+                        "company": "TRICERA energy GmbH",
+                        "email": "manuel.kersic@tricera.energy",
+                        "name": "Manuel Kersic"
+                      },
+                      "changedOn": "2025-10-01T15:06:49.204Z",
+                      "docId": "UNEXcreq",
+                      "structureAction": "Copy"
+                    },
+                    {
+                      "addedLink": {
+                        "target": [
+                          "UNEXcreq-51"
+                        ],
+                        "type": "satisfaction"
+                      },
+                      "changedBy": {
+                        "company": "TRICERA energy GmbH",
+                        "email": "manuel.kersic@tricera.energy",
+                        "name": "Manuel Kersic"
+                      },
+                      "changedOn": "2025-10-01T15:06:49.204Z"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "106",
+              "guid": "337d08a2-30f3-4e41-8184-00e3ceb06cc5",
+              "heading": "Robot controller",
+              "history": [
+                {
+                  "affectedNodeId": "15",
+                  "changedBy": {
+                    "company": "TRICERA energy GmbH",
+                    "email": "manuel.kersic@tricera.energy",
+                    "name": "Manuel Kersic"
+                  },
+                  "changedOn": "2025-10-01T15:11:45.925Z",
+                  "docId": "UNEXsss",
+                  "structureAction": "Create"
+                },
+                {
+                  "attributesChanged": {
+                    "heading": null
+                  },
+                  "changedBy": {
+                    "company": "TRICERA energy GmbH",
+                    "email": "manuel.kersic@tricera.energy",
+                    "name": "Manuel Kersic"
+                  },
+                  "changedOn": "2025-10-01T15:11:59.615Z"
+                }
+              ],
+              "children": [
+                {
+                  "id": "105",
+                  "guid": "65b3d8e4-485a-497d-b51d-5a438a827a7b",
+                  "text": "<p>The robot controller unit must provide autonomous operation, power monitoring, and fault detection for safety purposes.</p>",
+                  "links": {
+                    "satisfaction": [
+                      "UNEXcreq-48"
+                    ]
+                  },
+                  "history": [
+                    {
+                      "affectedNodeId": "48",
+                      "changedBy": {
+                        "company": "TRICERA energy GmbH",
+                        "email": "manuel.kersic@tricera.energy",
+                        "name": "Manuel Kersic"
+                      },
+                      "changedOn": "2025-10-01T15:10:40.780Z",
+                      "docId": "UNEXcreq",
+                      "structureAction": "Copy"
+                    },
+                    {
+                      "addedLink": {
+                        "target": [
+                          "UNEXcreq-48"
+                        ],
+                        "type": "satisfaction"
+                      },
+                      "changedBy": {
+                        "company": "TRICERA energy GmbH",
+                        "email": "manuel.kersic@tricera.energy",
+                        "name": "Manuel Kersic"
+                      },
+                      "changedOn": "2025-10-01T15:10:40.780Z"
+                    },
+                    {
+                      "affectedNodeId": "15",
+                      "changedBy": {
+                        "company": "TRICERA energy GmbH",
+                        "email": "manuel.kersic@tricera.energy",
+                        "name": "Manuel Kersic"
+                      },
+                      "changedOn": "2025-10-01T15:12:22.402Z",
+                      "docId": "UNEXsss",
+                      "structureAction": "Cut"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
               "id": "17",
               "guid": "d2fa83b5-1e47-489c-8961-6eadd9d193dd",
               "heading": "3.2.x (System capability)",
@@ -165,6 +849,140 @@
           "instructions": "<p>This paragraph shall specify the requirements, if any, imposed on interfaces internal to the system. &nbsp;If all internal interfaces are left to the design or to requirement specifications for system components, this fact shall be so stated. &nbsp;If such requirements are to be imposed, paragraph 3.3 of this DID provides a list of topics to be considered.</p>",
           "children": [
             {
+              "id": "95",
+              "guid": "17a408d3-40ea-4513-a259-f11122216e93",
+              "heading": "Interface identification and diagrams",
+              "history": [
+                {
+                  "affectedNodeId": "25",
+                  "changedBy": {
+                    "company": "TRICERA energy GmbH",
+                    "email": "manuel.kersic@tricera.energy",
+                    "name": "Manuel Kersic"
+                  },
+                  "changedOn": "2025-10-01T15:02:37.579Z",
+                  "docId": "UNEXsss",
+                  "structureAction": "Create"
+                },
+                {
+                  "attributesChanged": {
+                    "heading": null
+                  },
+                  "changedBy": {
+                    "company": "TRICERA energy GmbH",
+                    "email": "manuel.kersic@tricera.energy",
+                    "name": "Manuel Kersic"
+                  },
+                  "changedOn": "2025-10-01T15:02:54.802Z"
+                }
+              ]
+            },
+            {
+              "id": "96",
+              "guid": "6aa30c37-0710-4ba0-8a00-9f4d2dec7ba4",
+              "heading": "Communication interfaces",
+              "history": [
+                {
+                  "affectedNodeId": "25",
+                  "changedBy": {
+                    "company": "TRICERA energy GmbH",
+                    "email": "manuel.kersic@tricera.energy",
+                    "name": "Manuel Kersic"
+                  },
+                  "changedOn": "2025-10-01T15:02:58.792Z",
+                  "docId": "UNEXsss",
+                  "structureAction": "Create"
+                },
+                {
+                  "attributesChanged": {
+                    "heading": null
+                  },
+                  "changedBy": {
+                    "company": "TRICERA energy GmbH",
+                    "email": "manuel.kersic@tricera.energy",
+                    "name": "Manuel Kersic"
+                  },
+                  "changedOn": "2025-10-01T15:03:07.261Z"
+                }
+              ],
+              "children": [
+                {
+                  "id": "97",
+                  "guid": "ca55910c-ef3e-4fd0-87bc-0ab86ade085d",
+                  "text": "<p>The robot must be capable of constant communication with a base station during the mission while the robot is up to 500 meters underwater.&nbsp;</p>",
+                  "links": {
+                    "satisfaction": [
+                      "UNEXcreq-47"
+                    ]
+                  },
+                  "history": [
+                    {
+                      "affectedNodeId": "47",
+                      "changedBy": {
+                        "company": "TRICERA energy GmbH",
+                        "email": "manuel.kersic@tricera.energy",
+                        "name": "Manuel Kersic"
+                      },
+                      "changedOn": "2025-10-01T15:03:29.341Z",
+                      "docId": "UNEXcreq",
+                      "structureAction": "Copy"
+                    },
+                    {
+                      "addedLink": {
+                        "target": [
+                          "UNEXcreq-47"
+                        ],
+                        "type": "satisfaction"
+                      },
+                      "changedBy": {
+                        "company": "TRICERA energy GmbH",
+                        "email": "manuel.kersic@tricera.energy",
+                        "name": "Manuel Kersic"
+                      },
+                      "changedOn": "2025-10-01T15:03:29.341Z"
+                    }
+                  ]
+                },
+                {
+                  "id": "98",
+                  "guid": "50573a4d-d7a8-497c-a43d-b4a3b68e1184",
+                  "text": "<p>The robot system should have a wireless communication for easy setup and parametrization.</p>",
+                  "links": {
+                    "satisfaction": [
+                      "UNEXcreq-54"
+                    ]
+                  },
+                  "history": [
+                    {
+                      "affectedNodeId": "54",
+                      "changedBy": {
+                        "company": "TRICERA energy GmbH",
+                        "email": "manuel.kersic@tricera.energy",
+                        "name": "Manuel Kersic"
+                      },
+                      "changedOn": "2025-10-01T15:03:29.341Z",
+                      "docId": "UNEXcreq",
+                      "structureAction": "Copy"
+                    },
+                    {
+                      "addedLink": {
+                        "target": [
+                          "UNEXcreq-54"
+                        ],
+                        "type": "satisfaction"
+                      },
+                      "changedBy": {
+                        "company": "TRICERA energy GmbH",
+                        "email": "manuel.kersic@tricera.energy",
+                        "name": "Manuel Kersic"
+                      },
+                      "changedOn": "2025-10-01T15:03:29.341Z"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
               "id": "26",
               "guid": "841784d5-deca-4245-adf4-0dc71efbe00d"
             }
@@ -188,6 +1006,43 @@
           "heading": "Adaptation requirements",
           "instructions": "<p>This paragraph shall specify the requirements, if any, concerning installation-dependent data that the system is required to provide (such as site-dependent latitude and longitude or site-dependent state tax codes) and operational parameters that the system is required to use that may vary according to operational needs (such as parameters indicating operation-dependent targeting constants or data recording).</p>",
           "children": [
+            {
+              "id": "104",
+              "guid": "3cb86f0a-80e7-44d9-b2b0-c5ea1c5d1ebd",
+              "text": "<p>The mission design system should allow the operator to specify the type of mission and the parametrization of the robot exploration methods.</p>",
+              "links": {
+                "satisfaction": [
+                  "UNEXcreq-53"
+                ]
+              },
+              "history": [
+                {
+                  "affectedNodeId": "53",
+                  "changedBy": {
+                    "company": "TRICERA energy GmbH",
+                    "email": "manuel.kersic@tricera.energy",
+                    "name": "Manuel Kersic"
+                  },
+                  "changedOn": "2025-10-01T15:08:01.039Z",
+                  "docId": "UNEXcreq",
+                  "structureAction": "Copy"
+                },
+                {
+                  "addedLink": {
+                    "target": [
+                      "UNEXcreq-53"
+                    ],
+                    "type": "satisfaction"
+                  },
+                  "changedBy": {
+                    "company": "TRICERA energy GmbH",
+                    "email": "manuel.kersic@tricera.energy",
+                    "name": "Manuel Kersic"
+                  },
+                  "changedOn": "2025-10-01T15:08:01.039Z"
+                }
+              ]
+            },
             {
               "id": "30",
               "guid": "8cf74682-e334-4b8a-b1b4-ab300eb1903d"
@@ -495,8 +1350,244 @@
           "instructions": "<p>This paragraph shall specify the requirements, if any, that constrain the design and construction of the system. &nbsp;For hardware-software systems, this paragraph shall include the physical requirements imposed on the system. &nbsp;These requirements may be specified by reference to appropriate commercial or military standards and specifications. &nbsp;Examples include requirements concerning:</p><ol><li>Use of a particular system architecture or requirements on the architecture, such as required subsystems; use of standard, military, or existing components; or use of Government/acquirer-furnished property (equipment, information, or software)</li><li>Use of particular design or construction standards; use of particular data standards; use of a particular programming language; workmanship requirements and production techniques</li><li>Physical characteristics of the system (such as weight limits, dimensional limits, color, protective coatings); interchangeability of parts; ability to be transported from one location to another; ability to be carried or set up by one, or a given number of, persons</li><li>Materials that can and cannot be used; requirements on the handling of toxic materials; limits on the electromagnetic radiation that the system is permitted to generate</li><li>Use of nameplates, part marking, serial and lot number marking, and other identifying markings</li><li>Flexibility and expandability that must be provided to support anticipated areas of growth or changes in technology, threat, or mission</li></ol>",
           "children": [
             {
+              "id": "76",
+              "guid": "8406a715-1fcb-491a-991c-ed23ac241e6f",
+              "text": "<p>Mine tunnels and other openings are narrow which must be considered both in designing manoeuvrability of the robot but also in hauling robot itself and support equipment inside the mine.</p>",
+              "links": {
+                "satisfaction": [
+                  "UNEXcreq-22"
+                ]
+              },
+              "history": [
+                {
+                  "affectedNodeId": "22",
+                  "changedBy": {
+                    "company": "TRICERA energy GmbH",
+                    "email": "manuel.kersic@tricera.energy",
+                    "name": "Manuel Kersic"
+                  },
+                  "changedOn": "2025-10-01T14:17:53.636Z",
+                  "docId": "UNEXcreq",
+                  "structureAction": "Copy"
+                },
+                {
+                  "addedLink": {
+                    "target": [
+                      "UNEXcreq-22"
+                    ],
+                    "type": "satisfaction"
+                  },
+                  "changedBy": {
+                    "company": "TRICERA energy GmbH",
+                    "email": "manuel.kersic@tricera.energy",
+                    "name": "Manuel Kersic"
+                  },
+                  "changedOn": "2025-10-01T14:17:53.636Z"
+                }
+              ]
+            },
+            {
+              "id": "77",
+              "guid": "cf06692b-2583-48d6-817b-413d2bb29efd",
+              "text": "<p><span>There is also a possibility of having at some locations wider underground spaces (either in galleries or at junctions). In these locations the width can exceed over 10m.&nbsp;</span></p>",
+              "links": {
+                "satisfaction": [
+                  "UNEXcreq-31"
+                ]
+              },
+              "history": [
+                {
+                  "affectedNodeId": "31",
+                  "changedBy": {
+                    "company": "TRICERA energy GmbH",
+                    "email": "manuel.kersic@tricera.energy",
+                    "name": "Manuel Kersic"
+                  },
+                  "changedOn": "2025-10-01T14:17:53.636Z",
+                  "docId": "UNEXcreq",
+                  "structureAction": "Copy"
+                },
+                {
+                  "addedLink": {
+                    "target": [
+                      "UNEXcreq-31"
+                    ],
+                    "type": "satisfaction"
+                  },
+                  "changedBy": {
+                    "company": "TRICERA energy GmbH",
+                    "email": "manuel.kersic@tricera.energy",
+                    "name": "Manuel Kersic"
+                  },
+                  "changedOn": "2025-10-01T14:17:53.636Z"
+                }
+              ]
+            },
+            {
+              "id": "78",
+              "guid": "227f9751-e29a-4edd-8c9f-1a0a238f6946",
+              "text": "<p>Revolution shape if possible without external protuberances (such as spherical or cylindrical shape) allowing manoeuvrability in tight spaces.</p>",
+              "links": {
+                "satisfaction": [
+                  "UNEXcreq-35"
+                ]
+              },
+              "history": [
+                {
+                  "affectedNodeId": "35",
+                  "changedBy": {
+                    "company": "TRICERA energy GmbH",
+                    "email": "manuel.kersic@tricera.energy",
+                    "name": "Manuel Kersic"
+                  },
+                  "changedOn": "2025-10-01T14:17:53.636Z",
+                  "docId": "UNEXcreq",
+                  "structureAction": "Copy"
+                },
+                {
+                  "addedLink": {
+                    "target": [
+                      "UNEXcreq-35"
+                    ],
+                    "type": "satisfaction"
+                  },
+                  "changedBy": {
+                    "company": "TRICERA energy GmbH",
+                    "email": "manuel.kersic@tricera.energy",
+                    "name": "Manuel Kersic"
+                  },
+                  "changedOn": "2025-10-01T14:17:53.636Z"
+                }
+              ]
+            },
+            {
+              "id": "79",
+              "guid": "ee5b2dbb-a71d-4f2e-8d1d-0f73314a1d45",
+              "text": "<p>The robot body should be streamlined to reduce drag and reduce probability of getting stuck.</p>",
+              "links": {
+                "satisfaction": [
+                  "UNEXcreq-36"
+                ]
+              },
+              "history": [
+                {
+                  "affectedNodeId": "36",
+                  "changedBy": {
+                    "company": "TRICERA energy GmbH",
+                    "email": "manuel.kersic@tricera.energy",
+                    "name": "Manuel Kersic"
+                  },
+                  "changedOn": "2025-10-01T14:17:53.636Z",
+                  "docId": "UNEXcreq",
+                  "structureAction": "Copy"
+                },
+                {
+                  "addedLink": {
+                    "target": [
+                      "UNEXcreq-36"
+                    ],
+                    "type": "satisfaction"
+                  },
+                  "changedBy": {
+                    "company": "TRICERA energy GmbH",
+                    "email": "manuel.kersic@tricera.energy",
+                    "name": "Manuel Kersic"
+                  },
+                  "changedOn": "2025-10-01T14:17:53.636Z"
+                }
+              ]
+            },
+            {
+              "id": "80",
+              "guid": "7ae9a38b-f3f5-4d34-8bcf-a09522b82521",
+              "text": "<p>Maximum diameter 600 mm to be able to navigate through narrow channels.</p>",
+              "links": {
+                "satisfaction": [
+                  "UNEXcreq-37"
+                ]
+              },
+              "history": [
+                {
+                  "affectedNodeId": "37",
+                  "changedBy": {
+                    "company": "TRICERA energy GmbH",
+                    "email": "manuel.kersic@tricera.energy",
+                    "name": "Manuel Kersic"
+                  },
+                  "changedOn": "2025-10-01T14:17:53.636Z",
+                  "docId": "UNEXcreq",
+                  "structureAction": "Copy"
+                },
+                {
+                  "addedLink": {
+                    "target": [
+                      "UNEXcreq-37"
+                    ],
+                    "type": "satisfaction"
+                  },
+                  "changedBy": {
+                    "company": "TRICERA energy GmbH",
+                    "email": "manuel.kersic@tricera.energy",
+                    "name": "Manuel Kersic"
+                  },
+                  "changedOn": "2025-10-01T14:17:53.636Z"
+                }
+              ]
+            },
+            {
+              "id": "99",
+              "guid": "3fa78487-72c8-463a-88e4-aff9f59435b8",
+              "text": "<p>Modular design (can be adapted to different missions or scenarios).</p>",
+              "links": {
+                "satisfaction": [
+                  "UNEXcreq-38"
+                ]
+              },
+              "history": [
+                {
+                  "affectedNodeId": "38",
+                  "changedBy": {
+                    "company": "TRICERA energy GmbH",
+                    "email": "manuel.kersic@tricera.energy",
+                    "name": "Manuel Kersic"
+                  },
+                  "changedOn": "2025-10-01T15:04:24.563Z",
+                  "docId": "UNEXcreq",
+                  "structureAction": "Copy"
+                },
+                {
+                  "addedLink": {
+                    "target": [
+                      "UNEXcreq-38"
+                    ],
+                    "type": "satisfaction"
+                  },
+                  "changedBy": {
+                    "company": "TRICERA energy GmbH",
+                    "email": "manuel.kersic@tricera.energy",
+                    "name": "Manuel Kersic"
+                  },
+                  "changedOn": "2025-10-01T15:04:24.563Z"
+                }
+              ]
+            },
+            {
               "id": "50",
-              "guid": "881e8bc5-c069-40bc-9a1a-cd34ed3fc37e"
+              "guid": "881e8bc5-c069-40bc-9a1a-cd34ed3fc37e",
+              "deleted": true,
+              "history": [
+                {
+                  "attributesChanged": {
+                    "deleted": null
+                  },
+                  "changedBy": {
+                    "company": "TRICERA energy GmbH",
+                    "email": "manuel.kersic@tricera.energy",
+                    "name": "Manuel Kersic"
+                  },
+                  "changedOn": "2025-10-01T14:18:08.421Z"
+                }
+              ]
             }
           ]
         },
@@ -530,6 +1621,43 @@
           "heading": "Logistics-related requirements",
           "instructions": "<p>This paragraph shall specify the system requirements, if any, concerned with logistics considerations. &nbsp;These considerations may include: &nbsp;system maintenance, software support, system transportation modes, supply‑system requirements, impact on existing facilities, and impact on existing equipment.</p>",
           "children": [
+            {
+              "id": "100",
+              "guid": "7fc99b81-5518-4013-8bb0-efb41100abae",
+              "text": "<p>Easy transportation, hauling and deployment</p>",
+              "links": {
+                "satisfaction": [
+                  "UNEXcreq-39"
+                ]
+              },
+              "history": [
+                {
+                  "affectedNodeId": "39",
+                  "changedBy": {
+                    "company": "TRICERA energy GmbH",
+                    "email": "manuel.kersic@tricera.energy",
+                    "name": "Manuel Kersic"
+                  },
+                  "changedOn": "2025-10-01T15:05:05.341Z",
+                  "docId": "UNEXcreq",
+                  "structureAction": "Copy"
+                },
+                {
+                  "addedLink": {
+                    "target": [
+                      "UNEXcreq-39"
+                    ],
+                    "type": "satisfaction"
+                  },
+                  "changedBy": {
+                    "company": "TRICERA energy GmbH",
+                    "email": "manuel.kersic@tricera.energy",
+                    "name": "Manuel Kersic"
+                  },
+                  "changedOn": "2025-10-01T15:05:05.341Z"
+                }
+              ]
+            },
             {
               "id": "56",
               "guid": "a2da263f-9e55-4b0f-9406-ae7a1ec6fc7a"
