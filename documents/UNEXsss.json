@@ -9,7 +9,7 @@
     "email": "manuel.kersic@tricera.energy",
     "company": "TRICERA energy GmbH"
   },
-  "lastChangedOn": "2025-10-01T16:12:40.618Z",
+  "lastChangedOn": "2025-10-07T13:19:17.419Z",
   "lastChangedBy": {
     "name": "Manuel Kersic",
     "email": "manuel.kersic@tricera.energy",
@@ -284,6 +284,9 @@
                   "id": "91",
                   "guid": "09f656c9-992e-424b-9eda-2eedd83879ca",
                   "text": "<p>The vision system should be able to map the wall surfaces 360 degrees perpendicular to the motion direction and be capable of navigating in turbid water (have complementary sensors for range information).&nbsp;</p>",
+                  "reqType": [
+
+                  ],
                   "status": "sts_DRAFT",
                   "type": "REQ",
                   "links": {
@@ -338,6 +341,17 @@
                         "name": "Manuel Kersic"
                       },
                       "changedOn": "2025-10-01T15:25:02.002Z"
+                    },
+                    {
+                      "attributesChanged": {
+                        "reqType": null
+                      },
+                      "changedBy": {
+                        "company": "TRICERA energy GmbH",
+                        "email": "manuel.kersic@tricera.energy",
+                        "name": "Manuel Kersic"
+                      },
+                      "changedOn": "2025-10-07T13:19:17.419Z"
                     }
                   ]
                 },
